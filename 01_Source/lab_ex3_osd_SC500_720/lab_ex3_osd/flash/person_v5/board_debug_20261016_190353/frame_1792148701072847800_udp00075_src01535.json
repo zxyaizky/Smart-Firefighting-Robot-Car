@@ -1,0 +1,30 @@
+{
+  "frame_id": 75,
+  "metadata": {
+    "version": 2,
+    "sync_id": 0,
+    "bbox_valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sync_valid": false,
+    "bbox_source_valid": true,
+    "source_frame_id": 1535,
+    "bbox_source_frame_id": 1525,
+    "bbox_result_id": 99
+  },
+  "peer": [
+    "192.168.137.2",
+    6002
+  ],
+  "received_at": 1792148701.0668461,
+  "width": 160,
+  "height": 120,
+  "channel_order": "RGB",
+  "bytes": 57600,
+  "raw_file": "frame_1792148701072847800_udp00075_src01535.rgb",
+  "png_file": "frame_1792148701072847800_udp00075_src01535.png"
+}

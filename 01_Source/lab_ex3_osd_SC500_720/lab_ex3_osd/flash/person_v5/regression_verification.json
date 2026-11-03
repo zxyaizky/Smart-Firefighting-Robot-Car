@@ -1,0 +1,67 @@
+{
+  "result": "PASS_WITH_KNOWN_FAILURE",
+  "checks": [
+    {
+      "test": "tb_u33_bridge",
+      "result": "PASS",
+      "marker": "U33_BRIDGE_PASS"
+    },
+    {
+      "test": "tb_u33_ddr_boot",
+      "result": "PASS",
+      "marker": "U33_DDR_BOOT_PASS"
+    },
+    {
+      "test": "tb_npu_result_overlay",
+      "result": "PASS",
+      "marker": "NPU_OVERLAY_PASS"
+    },
+    {
+      "test": "tb_npu_bbox_threshold",
+      "result": "PASS",
+      "marker": "NPU_BBOX_THRESHOLD_PASS"
+    },
+    {
+      "test": "integer_boundaries",
+      "result": "PASS",
+      "marker": "\"result\": \"PASS\""
+    },
+    {
+      "test": "rgb_continuous",
+      "result": "PASS",
+      "mode": 0,
+      "completed_inferences": 2,
+      "full_57600_byte_ping_snapshots": 2,
+      "stream_bytes_checked": 86400,
+      "physical_reads_checked": 228480,
+      "halo_responses_checked": 233280,
+      "case": "continuous"
+    },
+    {
+      "test": "rgb_reset",
+      "result": "PASS",
+      "mode": 1,
+      "completed_inferences": 1,
+      "full_57600_byte_ping_snapshots": 2,
+      "stream_bytes_checked": 149973,
+      "physical_reads_checked": 117600,
+      "halo_responses_checked": 120528,
+      "case": "reset"
+    },
+    {
+      "test": "rgb_slow_npu",
+      "result": "FAIL",
+      "known_existing": true,
+      "video_clock_hz": 71428571.42857143,
+      "npu_clock_hz": 20000000,
+      "expected_rgb_bytes": 43200,
+      "actual_rgb_bytes": 765,
+      "cause": "256-token FIFO overflows during PING clear at slow 20MHz NPU clock; inference stalls. Unchanged input RTL; normal 100MHz checks listed separately."
+    },
+    {
+      "test": "rgb_edges",
+      "result": "PASS",
+      "marker": "\"result\": \"PASS\""
+    }
+  ]
+}

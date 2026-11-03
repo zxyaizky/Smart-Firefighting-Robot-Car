@@ -1,0 +1,491 @@
+{
+  "recipe": "safety-grid-person-v1-rtl-integer-ste-v2",
+  "activation_ranges": {
+    "L0": 5.143793964385987,
+    "L1": 5.660056114196777,
+    "L2": 4.496184182167053,
+    "L3": 4.462947607040405,
+    "L4": 4.4614115238189695,
+    "L5": 3.9338520526885987,
+    "L6": 4.431845426559448,
+    "L7": 4.153207790851593,
+    "L8": 4.394265460968017,
+    "L9": 4.7480652809143065,
+    "L10": 6.049394130706787,
+    "L11": 1.0
+  },
+  "activation_scales": {
+    "L0": 0.022188915140488572,
+    "L1": 0.02441592833575081,
+    "L2": 0.019395304315230427,
+    "L3": 0.019251930853899788,
+    "L4": 0.01924530461255242,
+    "L5": 0.016969557874342976,
+    "L6": 0.019117764585158407,
+    "L7": 0.017915798313477463,
+    "L8": 0.01895565492966596,
+    "L9": 0.020481850231395052,
+    "L10": 0.02609542566187242
+  },
+  "input_scale": 0.00392156862745098,
+  "final_target_scale": 0.003952205882352941,
+  "layers": [
+    {
+      "layer": 0,
+      "cin": 3,
+      "cout": 8,
+      "kernel": 3,
+      "pool": true,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        120,
+        160
+      ],
+      "output_hw": [
+        60,
+        80
+      ],
+      "weight_start": 66260,
+      "bias_start": 66836,
+      "shift_addr": 66852,
+      "end_exclusive": 66853,
+      "weight_count": 216,
+      "weight_min": -72,
+      "weight_max": 68,
+      "bias_min": -3267,
+      "bias_max": 3288,
+      "shift": 6,
+      "input_scale": 0.00392156862745098,
+      "weight_scale": 0.08840895876288415,
+      "accumulator_scale": 0.00034670179907013394,
+      "output_scale": 0.022188915140488572,
+      "activation_range": 5.143793964385987,
+      "target_scale": 0.022188915140488572,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -81969,
+        80976
+      ]
+    },
+    {
+      "layer": 1,
+      "cin": 8,
+      "cout": 16,
+      "kernel": 3,
+      "pool": true,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        60,
+        80
+      ],
+      "output_hw": [
+        30,
+        40
+      ],
+      "weight_start": 66853,
+      "bias_start": 67429,
+      "shift_addr": 67445,
+      "end_exclusive": 67446,
+      "weight_count": 1152,
+      "weight_min": -77,
+      "weight_max": 91,
+      "bias_min": -7407,
+      "bias_max": 9670,
+      "shift": 7,
+      "input_scale": 0.022188915140488572,
+      "weight_scale": 0.008596609564520293,
+      "accumulator_scale": 0.0001907494401230532,
+      "output_scale": 0.02441592833575081,
+      "activation_range": 5.660056114196777,
+      "target_scale": 0.02441592833575081,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -232245,
+        195908
+      ]
+    },
+    {
+      "layer": 2,
+      "cin": 16,
+      "cout": 32,
+      "kernel": 3,
+      "pool": true,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        30,
+        40
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 67446,
+      "bias_start": 68598,
+      "shift_addr": 68630,
+      "end_exclusive": 68631,
+      "weight_count": 4608,
+      "weight_min": -95,
+      "weight_max": 105,
+      "bias_min": -10601,
+      "bias_max": 27691,
+      "shift": 8,
+      "input_scale": 0.02441592833575081,
+      "weight_scale": 0.0031030115439204366,
+      "accumulator_scale": 7.576290748136886e-05,
+      "output_scale": 0.019395304315230427,
+      "activation_range": 4.496184182167053,
+      "target_scale": 0.019395304315230427,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -543814,
+        479419
+      ]
+    },
+    {
+      "layer": 3,
+      "cin": 32,
+      "cout": 64,
+      "kernel": 3,
+      "pool": false,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 68631,
+      "bias_start": 73239,
+      "shift_addr": 73303,
+      "end_exclusive": 73304,
+      "weight_count": 18432,
+      "weight_min": -70,
+      "weight_max": 60,
+      "bias_min": -25477,
+      "bias_max": 40566,
+      "shift": 8,
+      "input_scale": 0.019395304315230427,
+      "weight_scale": 0.003877374320906735,
+      "accumulator_scale": 7.520285489804605e-05,
+      "output_scale": 0.019251930853899788,
+      "activation_range": 4.462947607040405,
+      "target_scale": 0.019251930853899788,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -576370,
+        525932
+      ]
+    },
+    {
+      "layer": 4,
+      "cin": 64,
+      "cout": 16,
+      "kernel": 1,
+      "pool": false,
+      "activation": "relu",
+      "padding": 0,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 73304,
+      "bias_start": 73560,
+      "shift_addr": 73576,
+      "end_exclusive": 73577,
+      "weight_count": 1024,
+      "weight_min": -78,
+      "weight_max": 61,
+      "bias_min": -6224,
+      "bias_max": 10555,
+      "shift": 7,
+      "input_scale": 0.019251930853899788,
+      "weight_scale": 0.007809811048386826,
+      "accumulator_scale": 0.00015035394228556578,
+      "output_scale": 0.01924530461255242,
+      "activation_range": 4.4614115238189695,
+      "target_scale": 0.01924530461255242,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -199975,
+        187321
+      ]
+    },
+    {
+      "layer": 5,
+      "cin": 16,
+      "cout": 64,
+      "kernel": 3,
+      "pool": false,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 73577,
+      "bias_start": 75881,
+      "shift_addr": 75945,
+      "end_exclusive": 75946,
+      "weight_count": 9216,
+      "weight_min": -66,
+      "weight_max": 67,
+      "bias_min": -12388,
+      "bias_max": 12176,
+      "shift": 7,
+      "input_scale": 0.01924530461255242,
+      "weight_scale": 0.0068886761504847755,
+      "accumulator_scale": 0.0001325746708933045,
+      "output_scale": 0.016969557874342976,
+      "activation_range": 3.9338520526885987,
+      "target_scale": 0.016969557874342976,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -335535,
+        336139
+      ]
+    },
+    {
+      "layer": 6,
+      "cin": 64,
+      "cout": 16,
+      "kernel": 1,
+      "pool": false,
+      "activation": "relu",
+      "padding": 0,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 75946,
+      "bias_start": 76202,
+      "shift_addr": 76218,
+      "end_exclusive": 76219,
+      "weight_count": 1024,
+      "weight_min": -66,
+      "weight_max": 64,
+      "bias_min": -5399,
+      "bias_max": 6051,
+      "shift": 7,
+      "input_scale": 0.016969557874342976,
+      "weight_scale": 0.00880149836121366,
+      "accumulator_scale": 0.00014935753582155005,
+      "output_scale": 0.019117764585158407,
+      "activation_range": 4.431845426559448,
+      "target_scale": 0.019117764585158407,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -169297,
+        177946
+      ]
+    },
+    {
+      "layer": 7,
+      "cin": 16,
+      "cout": 64,
+      "kernel": 3,
+      "pool": false,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 76219,
+      "bias_start": 78523,
+      "shift_addr": 78587,
+      "end_exclusive": 78588,
+      "weight_count": 9216,
+      "weight_min": -66,
+      "weight_max": 55,
+      "bias_min": -7456,
+      "bias_max": 10142,
+      "shift": 7,
+      "input_scale": 0.019117764585158407,
+      "weight_scale": 0.007321314879706315,
+      "accumulator_scale": 0.00013996717432404268,
+      "output_scale": 0.017915798313477463,
+      "activation_range": 4.153207790851593,
+      "target_scale": 0.017915798313477463,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -302293,
+        285833
+      ]
+    },
+    {
+      "layer": 8,
+      "cin": 64,
+      "cout": 16,
+      "kernel": 1,
+      "pool": false,
+      "activation": "relu",
+      "padding": 0,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 78588,
+      "bias_start": 78844,
+      "shift_addr": 78860,
+      "end_exclusive": 78861,
+      "weight_count": 1024,
+      "weight_min": -62,
+      "weight_max": 66,
+      "bias_min": -6310,
+      "bias_max": 11302,
+      "shift": 7,
+      "input_scale": 0.017915798313477463,
+      "weight_scale": 0.008265947826986381,
+      "accumulator_scale": 0.00014809105413801532,
+      "output_scale": 0.01895565492966596,
+      "activation_range": 4.394265460968017,
+      "target_scale": 0.01895565492966596,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -191075,
+        179585
+      ]
+    },
+    {
+      "layer": 9,
+      "cin": 16,
+      "cout": 64,
+      "kernel": 3,
+      "pool": false,
+      "activation": "relu",
+      "padding": 1,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 78861,
+      "bias_start": 81165,
+      "shift_addr": 81229,
+      "end_exclusive": 81230,
+      "weight_count": 9216,
+      "weight_min": -85,
+      "weight_max": 95,
+      "bias_min": -40668,
+      "bias_max": 24035,
+      "shift": 8,
+      "input_scale": 0.01895565492966596,
+      "weight_scale": 0.004220757750826857,
+      "accumulator_scale": 8.000722746638692e-05,
+      "output_scale": 0.020481850231395052,
+      "activation_range": 4.7480652809143065,
+      "target_scale": 0.020481850231395052,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -490094,
+        515487
+      ]
+    },
+    {
+      "layer": 10,
+      "cin": 64,
+      "cout": 32,
+      "kernel": 1,
+      "pool": false,
+      "activation": "relu",
+      "padding": 0,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 81230,
+      "bias_start": 81742,
+      "shift_addr": 81774,
+      "end_exclusive": 81775,
+      "weight_count": 2048,
+      "weight_min": -91,
+      "weight_max": 76,
+      "bias_min": -2003,
+      "bias_max": 17600,
+      "shift": 7,
+      "input_scale": 0.020481850231395052,
+      "weight_scale": 0.00995371563995136,
+      "accumulator_scale": 0.0002038705129833783,
+      "output_scale": 0.026095425661872423,
+      "activation_range": 6.049394130706787,
+      "target_scale": 0.02609542566187242,
+      "hardsigmoid_bias_offset": 0,
+      "accumulator_bounds": [
+        -244582,
+        235147
+      ]
+    },
+    {
+      "layer": 11,
+      "cin": 32,
+      "cout": 6,
+      "kernel": 1,
+      "pool": false,
+      "activation": "hardsigmoid",
+      "padding": 0,
+      "input_hw": [
+        15,
+        20
+      ],
+      "output_hw": [
+        15,
+        20
+      ],
+      "weight_start": 81775,
+      "bias_start": 81903,
+      "shift_addr": 81919,
+      "end_exclusive": 81920,
+      "weight_count": 192,
+      "weight_min": -117,
+      "weight_max": 21,
+      "bias_min": 3043,
+      "bias_max": 12556,
+      "shift": 4,
+      "input_scale": 0.026095425661872423,
+      "weight_scale": 0.00946575353273371,
+      "accumulator_scale": 0.0002470128676470588,
+      "output_scale": 0.003952205882352941,
+      "activation_range": 1.0,
+      "target_scale": 0.003952205882352941,
+      "hardsigmoid_bias_offset": 12142,
+      "accumulator_bounds": [
+        -71557,
+        47413
+      ]
+    }
+  ],
+  "roundtrip": "PASS: every weight, bias, shift and padded lane"
+}

@@ -1,0 +1,53 @@
+{
+  "format": "person-v11-deployment-manifest-v1",
+  "files": [
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\npu_params.bin",
+      "size_bytes": 327680,
+      "sha256": "e423fc5327ac94488efae26d029a7a1163cf203eede1685557e1fe7da3239dc1",
+      "purpose": "raw parameter data; U33 offset 0x200000"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\npu_params.hex",
+      "size_bytes": 819200,
+      "sha256": "32c4991d28cac9e0f62f34a5e98d40b39a1d2c691ba891008f2cccc4e91d4c50",
+      "purpose": "HEX32 parameter memory, not Intel HEX"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\npu_desc.hex",
+      "size_bytes": 2560,
+      "sha256": "0f953f089dde14c7cc7306abf325c66539207c48701b37d37f9f945f51001947",
+      "purpose": "descriptor audit/simulation; no Flash address"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\parameters128.hex",
+      "size_bytes": 696320,
+      "sha256": "b56ade96cad40fc398a0971cad2f019de80887d4e219fc66f05f5d09bdc80bf9",
+      "purpose": "simulation loader input"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\npu_model_config.vh",
+      "size_bytes": 4489,
+      "sha256": "b5aaaf9b57025fd9722383ec407efbddf95a6feedb9fc563819f6210e6b52d1e",
+      "purpose": "descriptor ROM for active RTL"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\deployment.json",
+      "size_bytes": 13030,
+      "sha256": "5da6ed01850f28e58a760d4093975d680f1ef154d151887a40abad434e98dd22",
+      "purpose": "deployment addresses and contract"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\quant_config.json",
+      "size_bytes": 12166,
+      "sha256": "a2a0a2a978ebc11d05c118e55345c1dc1a8e4a778a1e45cb6ed9088d9cc071bf",
+      "purpose": "saved QAT scales and integer parameters"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\compiler_checks.json",
+      "size_bytes": 1105,
+      "sha256": "dae33299121e037f8c5a1c0eed1d027553a83716227ac9fd7b816b7660c54beb",
+      "purpose": "compiler and exported-file reverse decoding checks"
+    }
+  ]
+}

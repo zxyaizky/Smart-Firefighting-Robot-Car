@@ -1,0 +1,13 @@
+{
+  "original_bytes": 327680,
+  "size_bytes": 327680,
+  "beats128": 20480,
+  "crc32": "b5bf7d07",
+  "sha256": "da227f75e0460dda6d0e226fec3cc9e6f6ded712442defefdb15ff4f05a013bf",
+  "physical_native_base_halfwords": "0x1800000",
+  "physical_base_bytes": "0x3000000",
+  "logical_npu_base_halfwords": "0xc00000",
+  "reservation_bytes": 8388608,
+  "byte_order": "file byte 0 = data[7:0]; CRC32 includes final zero padding",
+  "descriptor_offsets_preserved": true
+}

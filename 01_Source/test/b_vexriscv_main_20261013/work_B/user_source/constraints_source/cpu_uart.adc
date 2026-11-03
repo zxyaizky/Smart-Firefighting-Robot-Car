@@ -1,0 +1,4 @@
+# CPU console on the board USB-UART: schematic FPGA_TXD/H1 and FPGA_RXD/J1.
+# Original pin.adc and all existing signal assignments remain unchanged.
+set_pin_assignment { O_cpu_uart_tx } { LOCATION = H1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_cpu_uart_rx } { LOCATION = J1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }

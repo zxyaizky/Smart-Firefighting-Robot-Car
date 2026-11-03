@@ -1,0 +1,14 @@
+# B-board rescue-only additions. Existing CPU/DDR/video/ESP constraints stay intact.
+# E11 is the active-low automatic switch, independently debounced for 20 ms.
+set_pin_assignment { I_car_auto_switch_n } { LOCATION = E11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+# B GPIOB_2..7: J0 base, J1 shoulder, J2 elbow, J3 wrist, J4 rotation, J5 gripper.
+set_pin_assignment { O_arm_pwm[0] } { LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { O_arm_pwm[1] } { LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { O_arm_pwm[2] } { LOCATION = E17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { O_arm_pwm[3] } { LOCATION = F13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { O_arm_pwm[4] } { LOCATION = F14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { O_arm_pwm[5] } { LOCATION = F18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+# Voice TX, B GPIOA_11/P6 (3.3 V bank). Connect to voice RX, share GND.
+set_pin_assignment { O_voice_uart_tx } { LOCATION = P6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+# Pump control: J1 pin 37 = GPIOA_32 = A5; high active, drive-module IN/SIG only.
+set_pin_assignment { pump_ctrl_out } { LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }

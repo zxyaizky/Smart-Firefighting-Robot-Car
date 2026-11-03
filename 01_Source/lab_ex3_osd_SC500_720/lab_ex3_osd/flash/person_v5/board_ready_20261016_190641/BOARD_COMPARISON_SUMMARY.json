@@ -1,0 +1,30 @@
+{
+  "capture": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\board_ready_20261016_190641",
+  "frames": 300,
+  "pc_positive_at_64_32": 300,
+  "pc_positive_at_128_128": 300,
+  "pc_obj_range": [
+    181,
+    212
+  ],
+  "pc_person_range": [
+    227,
+    255
+  ],
+  "fpga_published_results": 44,
+  "fpga_positive_results": 0,
+  "matched_results": 42,
+  "matched_decision_disagreements": 42,
+  "source_id_image_hash_conflicts": [],
+  "timing_source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display_Runs\\phy_1\\final_timing.rpt",
+  "timing_report_generated": "2026-10-16 18:04:29",
+  "npu_setup_wns_ns": 0.111,
+  "npu_hold_wns_ns": 0.026,
+  "global_setup_wns_ns": -0.006,
+  "global_negative_domain": "hard MCU core clock, not NPU clock",
+  "synthesis_log": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display_Runs\\syn_1\\run.log",
+  "log_includes_expected_v5_header": true,
+  "local_bitstream_sha256": "e78dc2095365e6f2cc003d5201f07c68fa5a47eb412dde508c181ef39a08417c",
+  "new_rtl_applied": false,
+  "conclusion": "For this scene, threshold sensitivity or low PC-model confidence does not explain missing boxes. Source-matched FPGA decisions disagree with PC V5 on 42/42 results. Exact hardware fault is not localized: current UDP contains neither hardware winner scores nor the actual NPU input checksum."
+}

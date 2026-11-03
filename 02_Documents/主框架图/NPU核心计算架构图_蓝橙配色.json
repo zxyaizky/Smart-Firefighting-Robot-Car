@@ -1,0 +1,1573 @@
+{
+  "title": "NPU 核心计算架构图",
+  "pageWidth": 28.2,
+  "pageHeight": 18.4,
+  "layout": {
+    "engine": "manual",
+    "checkCollisions": false
+  },
+  "pages": [
+    {
+      "name": "NPU核心计算架构图",
+      "nodes": [
+        {
+          "id": "page_white_background",
+          "text": "",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 28.2,
+          "h": 18.4,
+          "shape": "roundrect",
+          "fill": "#FFFFFF",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 0
+        },
+        {
+          "id": "compute_boundary",
+          "text": "",
+          "x": 4.700000000000001,
+          "y": 3.3000000000000007,
+          "w": 19.4,
+          "h": 12.5,
+          "shape": "roundrect",
+          "fill": "#CBE5FE",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 1
+        },
+        {
+          "id": "pe_boundary",
+          "text": "",
+          "x": 9.3,
+          "y": 4.45,
+          "w": 8.85,
+          "h": 9.1,
+          "shape": "roundrect",
+          "fill": "#E8F3FE",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 2
+        },
+        {
+          "id": "feature_in",
+          "text": "",
+          "x": 0.8500000000000001,
+          "y": 10.049999999999999,
+          "w": 2.8,
+          "h": 1.3,
+          "shape": "roundrect",
+          "fill": "#FFFFFF",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "param_dma",
+          "text": "",
+          "x": 0.8500000000000001,
+          "y": 13.525,
+          "w": 2.8,
+          "h": 1.15,
+          "shape": "roundrect",
+          "fill": "#FFFFFF",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "weight_buffer",
+          "text": "",
+          "x": 5.199999999999999,
+          "y": 13.525,
+          "w": 3.2,
+          "h": 1.15,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "bias_buffer",
+          "text": "",
+          "x": 19.15,
+          "y": 13.525,
+          "w": 3.7,
+          "h": 1.15,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "window",
+          "text": "",
+          "x": 5.199999999999999,
+          "y": 10.049999999999999,
+          "w": 3.2,
+          "h": 1.3,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "window_hold",
+          "text": "",
+          "x": 10.0,
+          "y": 10.85,
+          "w": 3.0,
+          "h": 1.1,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "round_select",
+          "text": "",
+          "x": 14.3,
+          "y": 10.85,
+          "w": 3.0,
+          "h": 1.1,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "mac0",
+          "text": "",
+          "x": 10.0,
+          "y": 8.675,
+          "w": 3.0,
+          "h": 1.25,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "mac1",
+          "text": "",
+          "x": 14.3,
+          "y": 8.675,
+          "w": 3.0,
+          "h": 1.25,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "collect",
+          "text": "",
+          "x": 10.0,
+          "y": 6.7,
+          "w": 7.3,
+          "h": 1.0,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "psum",
+          "text": "",
+          "x": 10.0,
+          "y": 4.7749999999999995,
+          "w": 7.3,
+          "h": 1.15,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "activation",
+          "text": "",
+          "x": 19.15,
+          "y": 10.0,
+          "w": 3.7,
+          "h": 1.4,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "pool",
+          "text": "",
+          "x": 19.15,
+          "y": 6.825,
+          "w": 3.7,
+          "h": 1.25,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "output_select",
+          "text": "",
+          "x": 19.15,
+          "y": 4.6499999999999995,
+          "w": 3.7,
+          "h": 1.3,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "feature_out",
+          "text": "",
+          "x": 24.900000000000002,
+          "y": 4.6499999999999995,
+          "w": 2.4,
+          "h": 1.3,
+          "shape": "roundrect",
+          "fill": "#FFFFFF",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        },
+        {
+          "id": "global_control",
+          "text": "",
+          "x": 4.700000000000001,
+          "y": 1.5,
+          "w": 19.4,
+          "h": 1.0,
+          "shape": "roundrect",
+          "fill": "#FFCB99",
+          "line": "#000000",
+          "fontSize": 15,
+          "zOrder": 5
+        }
+      ],
+      "labels": [
+        {
+          "id": "title",
+          "x": 0.8499999999999996,
+          "y": 17.025000000000002,
+          "w": 26.5,
+          "h": 0.65,
+          "text": "NPU 核心计算架构图",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 29,
+          "bold": true
+        },
+        {
+          "id": "subtitle",
+          "x": 0.9499999999999993,
+          "y": 16.54,
+          "w": 26.3,
+          "h": 0.36,
+          "text": "conv_engine_top / pe_array  ·  8 位特征 × 8 位有符号权重  ·  32 位跨通道累加",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "id": "engine_title",
+          "x": 5.200000000000001,
+          "y": 15.219999999999999,
+          "w": 18.4,
+          "h": 0.42,
+          "text": "卷积计算引擎  ·  conv_engine_top",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 19,
+          "bold": true
+        },
+        {
+          "id": "pe_title",
+          "x": 9.600000000000001,
+          "y": 12.825000000000001,
+          "w": 4.6,
+          "h": 0.45,
+          "text": "PE 阵列  ·  pe_array",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 17,
+          "bold": true
+        },
+        {
+          "id": "feature_in_title",
+          "x": 0.9500000000000002,
+          "y": 10.73,
+          "w": 2.5999999999999996,
+          "h": 0.4,
+          "text": "输入特征缓存",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "feature_in_detail",
+          "x": 0.9500000000000002,
+          "y": 10.125,
+          "w": 2.5999999999999996,
+          "h": 0.61,
+          "text": "PING / PONG\n8 位像素 + valid",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "param_dma_title",
+          "x": 0.9500000000000002,
+          "y": 14.13,
+          "w": 2.5999999999999996,
+          "h": 0.4,
+          "text": "参数 DMA 接口",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "param_dma_detail",
+          "x": 0.9500000000000002,
+          "y": 13.525,
+          "w": 2.5999999999999996,
+          "h": 0.61,
+          "text": "权重 / Bias 装载\n更新使能与地址",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "weight_buffer_title",
+          "x": 5.3,
+          "y": 14.13,
+          "w": 3.0,
+          "h": 0.4,
+          "text": "片上权重缓存",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "weight_buffer_detail",
+          "x": 5.3,
+          "y": 13.525,
+          "w": 3.0,
+          "h": 0.61,
+          "text": "weight_buffer\n16 × 9 × 8 位输出",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "bias_buffer_title",
+          "x": 19.25,
+          "y": 14.13,
+          "w": 3.5,
+          "h": 0.4,
+          "text": "片上偏置缓存",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "bias_buffer_detail",
+          "x": 19.25,
+          "y": 13.525,
+          "w": 3.5,
+          "h": 0.61,
+          "text": "bias_buffer\n每次输出两通道 Bias（64 位）",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "weight_dma_label",
+          "x": 3.655,
+          "y": 14.29,
+          "w": 1.55,
+          "h": 0.28,
+          "text": "144 bit / 写地址",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "bias_dma_label",
+          "x": 15.100000000000001,
+          "y": 15.025,
+          "w": 4.0,
+          "h": 0.27,
+          "text": "32 位 Bias 写入 / 更新",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "window_title",
+          "x": 5.3,
+          "y": 10.73,
+          "w": 3.0,
+          "h": 0.4,
+          "text": "卷积窗口生成",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "window_detail",
+          "x": 5.3,
+          "y": 10.125,
+          "w": 3.0,
+          "h": 0.61,
+          "text": "line_buffer_conv\n1×1 / 3×3、零填充与坐标",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "pixel_label",
+          "x": 3.655,
+          "y": 10.91,
+          "w": 1.55,
+          "h": 0.28,
+          "text": "pixel[7:0]",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "pixel_ready_label",
+          "x": 2.1,
+          "y": 9.07,
+          "w": 2.8,
+          "h": 0.3,
+          "text": "pixel_in_ready 读信用",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "window_hold_title",
+          "x": 10.1,
+          "y": 11.430000000000001,
+          "w": 2.8,
+          "h": 0.4,
+          "text": "窗口保持 / 弹性缓冲",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 14,
+          "bold": true
+        },
+        {
+          "id": "window_hold_detail",
+          "x": 10.1,
+          "y": 10.825000000000001,
+          "w": 2.8,
+          "h": 0.61,
+          "text": "当前窗口 + 1 个待处理窗口\n72 位窗口，x/y 与 Cin 标志",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "round_select_title",
+          "x": 14.4,
+          "y": 11.430000000000001,
+          "w": 2.8,
+          "h": 0.4,
+          "text": "轮次调度 / 权重选通",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 14,
+          "bold": true
+        },
+        {
+          "id": "round_select_detail",
+          "x": 14.4,
+          "y": 10.825000000000001,
+          "w": 2.8,
+          "h": 0.61,
+          "text": "每轮选择 2 个输出通道\n最多 8 轮；裁剪无效通道",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "mac0_title",
+          "x": 10.1,
+          "y": 9.330000000000002,
+          "w": 2.8,
+          "h": 0.4,
+          "text": "物理 MAC 树 0",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "mac0_detail",
+          "x": 10.1,
+          "y": 8.725000000000001,
+          "w": 2.8,
+          "h": 0.61,
+          "text": "mac_tree_3x3\n9 项点积 / 4 级流水\n20 位有符号输出",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "mac1_title",
+          "x": 14.4,
+          "y": 9.330000000000002,
+          "w": 2.8,
+          "h": 0.4,
+          "text": "物理 MAC 树 1",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "mac1_detail",
+          "x": 14.4,
+          "y": 8.725000000000001,
+          "w": 2.8,
+          "h": 0.61,
+          "text": "mac_tree_3x3\n9 项点积 / 4 级流水\n20 位有符号输出",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "collect_title",
+          "x": 10.100000000000001,
+          "y": 7.23,
+          "w": 7.1,
+          "h": 0.4,
+          "text": "带轮次标记的结果收集 / 原子提交",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "collect_detail",
+          "x": 10.100000000000001,
+          "y": 6.625,
+          "w": 7.1,
+          "h": 0.61,
+          "text": "两路 MAC 结果 → 16 × 20 位结果寄存器；提交时保留同一窗口的坐标与 Cin 标志",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "psum_title",
+          "x": 10.100000000000001,
+          "y": 5.38,
+          "w": 7.1,
+          "h": 0.4,
+          "text": "16 个逻辑通道的部分和累加",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 17,
+          "bold": true
+        },
+        {
+          "id": "psum_detail",
+          "x": 10.100000000000001,
+          "y": 4.775,
+          "w": 7.1,
+          "h": 0.61,
+          "text": "channel_accumulator：2 行 Tile 的 32 位 PSUM RAM\n首 Cin 初始化 → 后续 Cin 累加 → 末 Cin 输出最终和",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "window_bus_label",
+          "x": 8.425,
+          "y": 11.629999999999999,
+          "w": 1.45,
+          "h": 0.28,
+          "text": "72 bit 窗口",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "hold_round_label",
+          "x": 13.0,
+          "y": 11.629999999999999,
+          "w": 1.3,
+          "h": 0.28,
+          "text": "握手 / 广播",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "weights_select_label",
+          "x": 9.549999999999999,
+          "y": 14.24,
+          "w": 5.3,
+          "h": 0.3,
+          "text": "16 × 9 × 8 位权重总线",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "mac_feed_label",
+          "x": 11.05,
+          "y": 10.355,
+          "w": 4.0,
+          "h": 0.25,
+          "text": "共享窗口 / 各 72 位权重",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "mac0_width",
+          "x": 11.594999999999999,
+          "y": 8.02,
+          "w": 1.05,
+          "h": 0.26,
+          "text": "20 bit",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "mac1_width",
+          "x": 15.905,
+          "y": 8.02,
+          "w": 1.05,
+          "h": 0.26,
+          "text": "20 bit",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "commit_label",
+          "x": 13.799999999999999,
+          "y": 6.16,
+          "w": 2.6,
+          "h": 0.28,
+          "text": "16 路同时提交",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "activation_title",
+          "x": 19.25,
+          "y": 10.73,
+          "w": 3.5,
+          "h": 0.4,
+          "text": "偏置 + 激活 + 量化",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "activation_detail",
+          "x": 19.25,
+          "y": 10.125,
+          "w": 3.5,
+          "h": 0.61,
+          "text": "activation_quant_fused\n2 路算术单元复用 16 通道\n移位 / 饱和至 uint8",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "pool_title",
+          "x": 19.25,
+          "y": 7.48,
+          "w": 3.5,
+          "h": 0.4,
+          "text": "可选 2×2 最大池化",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 16,
+          "bold": true
+        },
+        {
+          "id": "pool_detail",
+          "x": 19.25,
+          "y": 6.875,
+          "w": 3.5,
+          "h": 0.61,
+          "text": "line_buffer_pool\n当前 Tile 坐标按行序直接传递",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "output_select_title",
+          "x": 19.25,
+          "y": 5.33,
+          "w": 3.5,
+          "h": 0.4,
+          "text": "输出选择与尾通道屏蔽",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "output_select_detail",
+          "x": 19.25,
+          "y": 4.725,
+          "w": 3.5,
+          "h": 0.61,
+          "text": "cfg_pool_en 选择池化 / 直通\ni_oc_block_size 屏蔽无效通道",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "feature_out_title",
+          "x": 25.0,
+          "y": 5.33,
+          "w": 2.1999999999999997,
+          "h": 0.4,
+          "text": "输出特征写回",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 15,
+          "bold": true
+        },
+        {
+          "id": "feature_out_detail",
+          "x": 25.0,
+          "y": 4.725,
+          "w": 2.1999999999999997,
+          "h": 0.61,
+          "text": "PING / PONG\n16 × 8 = 128 位",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "psum_bus",
+          "x": 17.974999999999998,
+          "y": 8.45,
+          "w": 1.35,
+          "h": 0.6,
+          "text": "16 × 32 bit\n累加结果",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "bias_pair_label",
+          "x": 21.05,
+          "y": 12.225,
+          "w": 2.4,
+          "h": 0.55,
+          "text": "64 位 Bias pair\n偏置索引反馈",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "quant_width",
+          "x": 21.025,
+          "y": 8.825000000000001,
+          "w": 1.85,
+          "h": 0.45,
+          "text": "128 bit\n16 × uint8",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "bypass_label",
+          "x": 22.78,
+          "y": 7.7,
+          "w": 0.8,
+          "h": 0.6,
+          "text": "不池化\n直通",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "output_data_label",
+          "x": 22.82,
+          "y": 4.699999999999999,
+          "w": 2.1,
+          "h": 0.3,
+          "text": "128 bit / valid / x,y",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 10,
+          "bold": false
+        },
+        {
+          "id": "global_control_title",
+          "x": 4.800000000000001,
+          "y": 2.03,
+          "w": 19.2,
+          "h": 0.4,
+          "text": "层 / Tile 调度与流水排空控制",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 17,
+          "bold": true
+        },
+        {
+          "id": "global_control_detail",
+          "x": 4.800000000000001,
+          "y": 1.425,
+          "w": 19.2,
+          "h": 0.61,
+          "text": "来自 npu_sequencer / BCU：kernel_size、padding、首末 Cin、Tile 坐标、激活类型与量化移位；返回 ready / done / error",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "id": "control_bus_label",
+          "x": 4.8,
+          "y": 6.85,
+          "w": 1.8,
+          "h": 0.7,
+          "text": "层参数 / Tile\n控制扇出概括",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "id": "footer",
+          "x": 0.9499999999999993,
+          "y": 0.4,
+          "w": 26.3,
+          "h": 0.5,
+          "text": "基于当前综合路径绘制：仅 2 个物理 MAC 树；16 路累加器仍独立。当前池化重排为坐标直通，未画入仿真参考分支及未启用的整帧 / AXI 缓存。",
+          "fontName": "Microsoft YaHei",
+          "fontSize": 11,
+          "bold": false
+        }
+      ],
+      "lines": [
+        {
+          "id": "dma_weights_0",
+          "x1": 3.65,
+          "y1": 14.1,
+          "x2": 5.2,
+          "y2": 14.1,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "dma_bias_0",
+          "x1": 3.65,
+          "y1": 14.35,
+          "x2": 4.25,
+          "y2": 14.35,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "dma_bias_1",
+          "x1": 4.25,
+          "y1": 14.35,
+          "x2": 4.25,
+          "y2": 14.95,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "dma_bias_2",
+          "x1": 4.25,
+          "y1": 14.95,
+          "x2": 21.0,
+          "y2": 14.95,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "dma_bias_3",
+          "x1": 21.0,
+          "y1": 14.95,
+          "x2": 21.0,
+          "y2": 14.675,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "pixel_read_0",
+          "x1": 3.65,
+          "y1": 10.7,
+          "x2": 5.2,
+          "y2": 10.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "pixel_ready_0",
+          "x1": 4.7,
+          "y1": 9.5,
+          "x2": 2.25,
+          "y2": 9.5,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 2,
+          "endArrow": 0
+        },
+        {
+          "id": "pixel_ready_1",
+          "x1": 2.25,
+          "y1": 9.5,
+          "x2": 2.25,
+          "y2": 10.05,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 2,
+          "endArrow": 13
+        },
+        {
+          "id": "window_to_hold_0",
+          "x1": 8.4,
+          "y1": 10.7,
+          "x2": 8.85,
+          "y2": 10.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "window_to_hold_1",
+          "x1": 8.85,
+          "y1": 10.7,
+          "x2": 8.85,
+          "y2": 11.4,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "window_to_hold_2",
+          "x1": 8.85,
+          "y1": 11.4,
+          "x2": 10.0,
+          "y2": 11.4,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "hold_round_0",
+          "x1": 13.0,
+          "y1": 11.4,
+          "x2": 14.3,
+          "y2": 11.4,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "weights_select_0",
+          "x1": 8.4,
+          "y1": 14.1,
+          "x2": 15.8,
+          "y2": 14.1,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "weights_select_1",
+          "x1": 15.8,
+          "y1": 14.1,
+          "x2": 15.8,
+          "y2": 11.95,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "round_mac0_0",
+          "x1": 15.25,
+          "y1": 10.85,
+          "x2": 15.25,
+          "y2": 10.25,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "round_mac0_1",
+          "x1": 15.25,
+          "y1": 10.25,
+          "x2": 11.5,
+          "y2": 10.25,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "round_mac0_2",
+          "x1": 11.5,
+          "y1": 10.25,
+          "x2": 11.5,
+          "y2": 9.925,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "round_mac1_0",
+          "x1": 15.8,
+          "y1": 10.85,
+          "x2": 15.8,
+          "y2": 9.925,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "mac0_collect_0",
+          "x1": 11.5,
+          "y1": 8.675,
+          "x2": 11.5,
+          "y2": 7.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "mac1_collect_0",
+          "x1": 15.8,
+          "y1": 8.675,
+          "x2": 15.8,
+          "y2": 7.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "collect_psum_0",
+          "x1": 13.65,
+          "y1": 6.7,
+          "x2": 13.65,
+          "y2": 5.925,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "psum_activation_0",
+          "x1": 17.3,
+          "y1": 5.35,
+          "x2": 18.6,
+          "y2": 5.35,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "psum_activation_1",
+          "x1": 18.6,
+          "y1": 5.35,
+          "x2": 18.6,
+          "y2": 10.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "psum_activation_2",
+          "x1": 18.6,
+          "y1": 10.7,
+          "x2": 19.15,
+          "y2": 10.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "bias_pairs_0",
+          "x1": 21.0,
+          "y1": 13.525,
+          "x2": 21.0,
+          "y2": 11.4,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "quant_pool_0",
+          "x1": 21.0,
+          "y1": 10.0,
+          "x2": 21.0,
+          "y2": 8.075,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "pool_mux_0",
+          "x1": 21.0,
+          "y1": 6.825,
+          "x2": 21.0,
+          "y2": 5.95,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "quant_bypass_0",
+          "x1": 22.85,
+          "y1": 10.7,
+          "x2": 23.55,
+          "y2": 10.7,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "quant_bypass_1",
+          "x1": 23.55,
+          "y1": 10.7,
+          "x2": 23.55,
+          "y2": 5.6,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 0
+        },
+        {
+          "id": "quant_bypass_2",
+          "x1": 23.55,
+          "y1": 5.6,
+          "x2": 22.85,
+          "y2": 5.6,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "output_write_0",
+          "x1": 22.85,
+          "y1": 5.3,
+          "x2": 24.9,
+          "y2": 5.3,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 0,
+          "endArrow": 13
+        },
+        {
+          "id": "representative_control_0",
+          "x1": 13.7,
+          "y1": 2.5,
+          "x2": 13.7,
+          "y2": 3.65,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 2,
+          "endArrow": 0
+        },
+        {
+          "id": "representative_control_1",
+          "x1": 13.7,
+          "y1": 3.65,
+          "x2": 6.8,
+          "y2": 3.65,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 2,
+          "endArrow": 0
+        },
+        {
+          "id": "representative_control_2",
+          "x1": 6.8,
+          "y1": 3.65,
+          "x2": 6.8,
+          "y2": 10.05,
+          "line": "#000000",
+          "lineWeight": 1.4,
+          "dash": 2,
+          "endArrow": 13
+        }
+      ],
+      "connections": []
+    }
+  ],
+  "rtl_scope": {
+    "top": "conv_engine_top",
+    "expanded": [
+      "pe_array",
+      "mac_tree_3x3",
+      "channel_accumulator"
+    ],
+    "conditional_path": "POOL_REORDER_IMPL == 2; hardware path excludes MODEL_TECH reference"
+  },
+  "logical_routes": [
+    {
+      "id": "dma_weights",
+      "points": [
+        [
+          3.65,
+          14.1
+        ],
+        [
+          5.2,
+          14.1
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "dma_bias",
+      "points": [
+        [
+          3.65,
+          14.35
+        ],
+        [
+          4.25,
+          14.35
+        ],
+        [
+          4.25,
+          14.95
+        ],
+        [
+          21.0,
+          14.95
+        ],
+        [
+          21.0,
+          14.675
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "pixel_read",
+      "points": [
+        [
+          3.65,
+          10.7
+        ],
+        [
+          5.2,
+          10.7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "pixel_ready",
+      "points": [
+        [
+          4.7,
+          9.5
+        ],
+        [
+          2.25,
+          9.5
+        ],
+        [
+          2.25,
+          10.05
+        ]
+      ],
+      "control": true
+    },
+    {
+      "id": "window_to_hold",
+      "points": [
+        [
+          8.4,
+          10.7
+        ],
+        [
+          8.85,
+          10.7
+        ],
+        [
+          8.85,
+          11.4
+        ],
+        [
+          10.0,
+          11.4
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "hold_round",
+      "points": [
+        [
+          13.0,
+          11.4
+        ],
+        [
+          14.3,
+          11.4
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "weights_select",
+      "points": [
+        [
+          8.4,
+          14.1
+        ],
+        [
+          15.8,
+          14.1
+        ],
+        [
+          15.8,
+          11.95
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "round_mac0",
+      "points": [
+        [
+          15.25,
+          10.85
+        ],
+        [
+          15.25,
+          10.25
+        ],
+        [
+          11.5,
+          10.25
+        ],
+        [
+          11.5,
+          9.925
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "round_mac1",
+      "points": [
+        [
+          15.8,
+          10.85
+        ],
+        [
+          15.8,
+          9.925
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "mac0_collect",
+      "points": [
+        [
+          11.5,
+          8.675
+        ],
+        [
+          11.5,
+          7.7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "mac1_collect",
+      "points": [
+        [
+          15.8,
+          8.675
+        ],
+        [
+          15.8,
+          7.7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "collect_psum",
+      "points": [
+        [
+          13.65,
+          6.7
+        ],
+        [
+          13.65,
+          5.925
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "psum_activation",
+      "points": [
+        [
+          17.3,
+          5.35
+        ],
+        [
+          18.6,
+          5.35
+        ],
+        [
+          18.6,
+          10.7
+        ],
+        [
+          19.15,
+          10.7
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "bias_pairs",
+      "points": [
+        [
+          21.0,
+          13.525
+        ],
+        [
+          21.0,
+          11.4
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "quant_pool",
+      "points": [
+        [
+          21.0,
+          10.0
+        ],
+        [
+          21.0,
+          8.075
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "pool_mux",
+      "points": [
+        [
+          21.0,
+          6.825
+        ],
+        [
+          21.0,
+          5.95
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "quant_bypass",
+      "points": [
+        [
+          22.85,
+          10.7
+        ],
+        [
+          23.55,
+          10.7
+        ],
+        [
+          23.55,
+          5.6
+        ],
+        [
+          22.85,
+          5.6
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "output_write",
+      "points": [
+        [
+          22.85,
+          5.3
+        ],
+        [
+          24.9,
+          5.3
+        ]
+      ],
+      "control": false
+    },
+    {
+      "id": "representative_control",
+      "points": [
+        [
+          13.7,
+          2.5
+        ],
+        [
+          13.7,
+          3.65
+        ],
+        [
+          6.8,
+          3.65
+        ],
+        [
+          6.8,
+          10.05
+        ]
+      ],
+      "control": true
+    }
+  ]
+}

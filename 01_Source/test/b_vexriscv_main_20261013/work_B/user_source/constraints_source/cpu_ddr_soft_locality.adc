@@ -1,0 +1,3 @@
+# CPU/DDR request and response endpoints: non-exclusive, spillable placement guide.
+create_bound {cpu_ddr_locality} -mode soft -width 30 -height 40 -origin {3 10} -density_ratio 0.7
+add_cells_to_bound -bound {cpu_ddr_locality} -cells {u_vexriscv_linux u_cpu_ddr_cdc u_cpu_ddr_word_service u_ddr_video_cpu_arbiter}

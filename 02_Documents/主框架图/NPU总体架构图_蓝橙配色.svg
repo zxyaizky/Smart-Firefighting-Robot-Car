@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 NPU总体架构图_蓝橙配色.svg NPU总体架构图 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="24.3in" height="16in" viewBox="0 0 1749.6 1152"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st23">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cbe5fe;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {marker-end:url(#mrkr13-12);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.37313432835821}
+		.st4 {marker-end:url(#mrkr13-28);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st5 {marker-end:url(#mrkr13-28);stroke:#000000;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st6 {marker-end:url(#mrkr13-12);stroke:#000000;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#000000;font-family:微软雅黑;font-size:2.41667em;font-weight:bold}
+		.st9 {fill:#3c3c3c;font-family:微软雅黑;font-size:1.16666em}
+		.st10 {fill:#000000;font-family:微软雅黑;font-size:1.5em;font-weight:bold}
+		.st11 {fill:#ffffff;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#000000;font-family:微软雅黑;font-size:1.33333em;font-weight:bold}
+		.st13 {fill:#3c3c3c;font-family:微软雅黑;font-size:1.00001em}
+		.st14 {fill:#ffcb99;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st15 {font-size:1em}
+		.st16 {fill:#000000;font-family:微软雅黑;font-size:1.24999em;font-weight:bold}
+		.st17 {fill:#000000;font-family:微软雅黑;font-size:0.916672em}
+		.st18 {fill:#000000;font-family:微软雅黑;font-size:0.833336em}
+		.st19 {fill:#000000;font-family:微软雅黑;font-size:1.16666em;font-weight:bold}
+		.st20 {fill:#000000;font-family:微软雅黑;font-size:1.41666em;font-weight:bold}
+		.st21 {fill:#000000;font-family:微软雅黑;font-size:1.08334em}
+		.st22 {fill:#3c3c3c;font-family:微软雅黑;font-size:0.916672em}
+		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-12" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="8.04" refX="-8.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.68,-2.68) "/>
+		</marker>
+		<marker id="mrkr13-28" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="7.8" refX="-7.8" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.68,-2.68) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>NPU总体架构图</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape7-1" v:mID="7" v:groupContext="shape" transform="translate(1447.2,-149.4)">
+			<title>results_panel</title>
+			<rect x="0" y="277.2" width="259.2" height="874.8" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape5-3" v:mID="5" v:groupContext="shape" transform="translate(504,-149.4)">
+			<title>core_panel</title>
+			<rect x="0" y="277.2" width="900" height="874.8" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(39.6,-149.4)">
+			<title>inputs_panel</title>
+			<rect x="0" y="277.2" width="396" height="874.8" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape114-7" v:mID="114" v:groupContext="shape" transform="translate(1425.6,-302.4)">
+			<title>result_voice</title>
+			<path d="M0 1152 L25.74 1152" class="st2"/>
+		</g>
+		<g id="shape113-13" v:mID="113" v:groupContext="shape" transform="translate(1576.8,-525.6)">
+			<title>decode_udp</title>
+			<path d="M0 1041.12 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape112-18" v:mID="112" v:groupContext="shape" transform="translate(1576.8,-724.32)">
+			<title>decode_display</title>
+			<path d="M0 1152 L0 1060.38" class="st2"/>
+		</g>
+		<g id="shape110-23" v:mID="110" v:groupContext="shape" transform="translate(1098,-259.2)">
+			<title>result_decode</title>
+			<path d="M0 1152 L327.6 1152 L327.6 730.8 L365.4 730.8 L365.4 730.8" class="st4"/>
+		</g>
+		<g id="shape96-29" v:mID="96" v:groupContext="shape" transform="translate(961.2,-295.2)">
+			<title>last_layer_reduce</title>
+			<path d="M0 1085.4 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape91-34" v:mID="91" v:groupContext="shape" transform="translate(518.4,-230.4)">
+			<title>seq_dma_request</title>
+			<path d="M306 496.8 L273.6 496.8 L273.6 540 L0 540 L0 1152 L136.8 1152 L136.8 1121.4 L136.8 1121.4" class="st5"/>
+		</g>
+		<g id="shape89-39" v:mID="89" v:groupContext="shape" transform="translate(774,-432)">
+			<title>bias_activation</title>
+			<path d="M0 1152 L30.24 1152 L30.24 1108.8 L450 1108.8 L450 1077.12 L450 1077.12" class="st4"/>
+		</g>
+		<g id="shape88-44" v:mID="88" v:groupContext="shape" transform="translate(774,-417.6)">
+			<title>weights_pe</title>
+			<path d="M0 1152 L18 1152 L18 1044 L50.4 1044 L50.4 1044" class="st4"/>
+		</g>
+		<g id="shape87-49" v:mID="87" v:groupContext="shape" transform="translate(655.2,-336.6)">
+			<title>dma_buffer</title>
+			<path d="M0 1152 L0 1116.18" class="st2"/>
+		</g>
+		<g id="shape86-54" v:mID="86" v:groupContext="shape" transform="translate(410.4,-298.8)">
+			<title>bridge_dma</title>
+			<path d="M0 1137.6 L68.4 1137.6 L68.4 1152 L126 1152 L126 1152" class="st4"/>
+		</g>
+		<g id="shape78-59" v:mID="78" v:groupContext="shape" transform="translate(1065.6,-399.6)">
+			<title>writeback_loop</title>
+			<path d="M32.4 1152 L64.8 1152 L64.8 831.6 L0 831.6 L0 811.8 L0 811.8" class="st4"/>
+		</g>
+		<g id="shape77-64" v:mID="77" v:groupContext="shape" transform="translate(1098,-399.6)">
+			<title>pool_writeback</title>
+			<path d="M64.8 1152 L12.06 1152" class="st2"/>
+		</g>
+		<g id="shape76-69" v:mID="76" v:groupContext="shape" transform="translate(1263.6,-437.4)">
+			<title>quant_pool</title>
+			<path d="M0 1082.52 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape68-74" v:mID="68" v:groupContext="shape" transform="translate(1098,-550.8)">
+			<title>mac_quant</title>
+			<path d="M0 1152 L52.74 1152" class="st2"/>
+		</g>
+		<g id="shape67-79" v:mID="67" v:groupContext="shape" transform="translate(774,-550.8)">
+			<title>window_mac</title>
+			<path d="M0 1152 L38.34 1152" class="st2"/>
+		</g>
+		<g id="shape65-84" v:mID="65" v:groupContext="shape" transform="translate(655.2,-594.72)">
+			<title>feature_read</title>
+			<path d="M216 1006.92 L216 1048.32 L0 1048.32 L0 1152 L0 1152" class="st4"/>
+		</g>
+		<g id="shape54-89" v:mID="54" v:groupContext="shape" transform="translate(1263.6,-815.4)">
+			<title>bcu_feature_ctrl</title>
+			<path d="M0 1099.8 L0 1139.94" class="st6"/>
+		</g>
+		<g id="shape53-94" v:mID="53" v:groupContext="shape" transform="translate(752.4,-777.6)">
+			<title>preload_ping</title>
+			<path d="M0 1152 L34.74 1152" class="st2"/>
+		</g>
+		<g id="shape51-99" v:mID="51" v:groupContext="shape" transform="translate(410.4,-777.6)">
+			<title>sample_preload</title>
+			<path d="M0 1126.8 L68.4 1126.8 L68.4 1152 L133.2 1152 L133.2 1152" class="st4"/>
+		</g>
+		<g id="shape42-104" v:mID="42" v:groupContext="shape" transform="translate(1098,-903.6)">
+			<title>seq_bcu</title>
+			<path d="M0 1152 L58.14 1152" class="st6"/>
+		</g>
+		<g id="shape41-109" v:mID="41" v:groupContext="shape" transform="translate(774,-903.6)">
+			<title>descriptor_seq</title>
+			<path d="M0 1152 L38.34 1152" class="st2"/>
+		</g>
+		<g id="shape31-114" v:mID="31" v:groupContext="shape" transform="translate(237.6,-349.2)">
+			<title>ddr_read_bridge</title>
+			<path d="M0 1105.92 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape30-119" v:mID="30" v:groupContext="shape" transform="translate(237.6,-475.92)">
+			<title>load_ddr</title>
+			<path d="M0 1109.52 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape29-124" v:mID="29" v:groupContext="shape" transform="translate(237.6,-590.4)">
+			<title>flash_load</title>
+			<path d="M0 1108.08 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape28-129" v:mID="28" v:groupContext="shape" transform="translate(237.6,-843.12)">
+			<title>video_input</title>
+			<path d="M0 1112.4 L0 1139.94" class="st2"/>
+		</g>
+		<g id="shape1-134" v:mID="1" v:groupContext="shape" transform="translate(46.8,-1081.8)">
+			<title>title</title>
+			<desc>NPU 总体架构图</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="828" cy="1128.6" width="1656" height="46.8"/>
+			<rect x="0" y="1105.2" width="1656" height="46.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="718.1" y="1137.3" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NPU 总体架构图</text>		</g>
+		<g id="shape2-137" v:mID="2" v:groupContext="shape" transform="translate(54,-1051.2)">
+			<title>subtitle</title>
+			<desc>A 板人员检测 · 描述符驱动的硬件推理 · 8 位特征 / 权重32 位累加</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="820.8" cy="1139.76" width="1641.6" height="24.48"/>
+			<rect x="0" y="1127.52" width="1641.6" height="24.48" rx="6.48" ry="6.48" class="st7"/>
+			<text x="602.27" y="1143.96" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A 板人员检测  ·  描述符驱动的硬件推理  ·  8 位特征 / 权重，32 位累加</text>		</g>
+		<g id="shape4-140" v:mID="4" v:groupContext="shape" transform="translate(48.6,-981.36)">
+			<title>inputs_panel_title</title>
+			<desc>输入与参数存储</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="189" cy="1137.6" width="378" height="28.8"/>
+			<rect x="0" y="1123.2" width="378" height="28.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="126" y="1143" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>输入与参数存储</text>		</g>
+		<g id="shape6-143" v:mID="6" v:groupContext="shape" transform="translate(513,-981.36)">
+			<title>core_panel_title</title>
+			<desc>NPU 推理核心 · npu_network_top</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="441" cy="1137.6" width="882" height="28.8"/>
+			<rect x="0" y="1123.2" width="882" height="28.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="288.19" y="1143" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NPU 推理核心  ·  npu_network_top</text>		</g>
+		<g id="shape8-146" v:mID="8" v:groupContext="shape" transform="translate(1456.2,-981.36)">
+			<title>results_panel_title</title>
+			<desc>检测结果与应用</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="120.6" cy="1137.6" width="241.2" height="28.8"/>
+			<rect x="0" y="1123.2" width="241.2" height="28.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="57.6" y="1143" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>检测结果与应用</text>		</g>
+		<g id="shape9-149" v:mID="9" v:groupContext="shape" transform="translate(64.8,-882.72)">
+			<title>video</title>
+			<rect x="0" y="1088.64" width="345.6" height="63.36" rx="6.48" ry="6.48" class="st11"/>
+		</g>
+		<g id="shape10-151" v:mID="10" v:groupContext="shape" transform="translate(71.28,-914.4)">
+			<title>video_title</title>
+			<desc>摄像头 / ISP / 视频 DDR</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="75.84" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>摄像头 / ISP / 视频 DDR</text>		</g>
+		<g id="shape11-154" v:mID="11" v:groupContext="shape" transform="translate(71.28,-877.68)">
+			<title>video_detail</title>
+			<desc>1280 × 720 RGB888OSD 前取流</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="70.51" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1280 × 720 RGB888，OSD 前取流</text>		</g>
+		<g id="shape12-157" v:mID="12" v:groupContext="shape" transform="translate(64.8,-762.48)">
+			<title>input</title>
+			<rect x="0" y="1071.36" width="345.6" height="80.64" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape13-159" v:mID="13" v:groupContext="shape" transform="translate(71.28,-802.8)">
+			<title>input_title</title>
+			<desc>图像采样与跨时钟输入</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="86.32" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>图像采样与跨时钟输入</text>		</g>
+		<g id="shape14-162" v:mID="14" v:groupContext="shape" transform="translate(71.28,-766.08)">
+			<title>input_detail</title>
+			<desc>160 × 90 采样按 160 × 120 补零布局 npu_video_input / npu_rgb_input</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="58.29" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>160 × 90 采样；按 160 × 120 补零布局<v:newlineChar/><tspan
+						x="71.11" dy="1.2em" class="st15">npu_video_input / npu_rgb_input</tspan></text>		</g>
+		<g id="shape15-166" v:mID="15" v:groupContext="shape" transform="translate(64.8,-634.32)">
+			<title>flash</title>
+			<rect x="0" y="1088.64" width="345.6" height="63.36" rx="6.48" ry="6.48" class="st11"/>
+		</g>
+		<g id="shape16-168" v:mID="16" v:groupContext="shape" transform="translate(71.28,-666)">
+			<title>flash_title</title>
+			<desc>U33 Flash 模型参数</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="92.91" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U33 Flash 模型参数</text>		</g>
+		<g id="shape17-171" v:mID="17" v:groupContext="shape" transform="translate(71.28,-629.28)">
+			<title>flash_detail</title>
+			<desc>当前人员模型参数与 MCU 启动固件</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="70.41" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>当前人员模型参数与 MCU 启动固件</text>		</g>
+		<g id="shape18-174" v:mID="18" v:groupContext="shape" transform="translate(64.8,-518.4)">
+			<title>load</title>
+			<rect x="0" y="1080" width="345.6" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape19-176" v:mID="19" v:groupContext="shape" transform="translate(71.28,-554.4)">
+			<title>load_title</title>
+			<desc>MCU / AHB 桥与参数装载</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="69.51" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MCU / AHB 桥与参数装载</text>		</g>
+		<g id="shape20-179" v:mID="20" v:groupContext="shape" transform="translate(71.28,-517.68)">
+			<title>load_detail</title>
+			<desc>npu_u33_mcu_bridge / npu_param_loader</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="45.8" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>npu_u33_mcu_bridge / npu_param_loader</text>		</g>
+		<g id="shape21-182" v:mID="21" v:groupContext="shape" transform="translate(64.8,-395.28)">
+			<title>ddr</title>
+			<rect x="0" y="1071.36" width="345.6" height="80.64" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape22-184" v:mID="22" v:groupContext="shape" transform="translate(71.28,-435.6)">
+			<title>ddr_title</title>
+			<desc>共享 DDR 控制与调度</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="87.3" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>共享 DDR 控制与调度</text>		</g>
+		<g id="shape23-187" v:mID="23" v:groupContext="shape" transform="translate(71.28,-398.88)">
+			<title>ddr_detail</title>
+			<desc>视频与参数分区参数写入 / 回读校验 npu_ddr_scheduler</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="64.2" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>视频与参数分区；参数写入 / 回读校验<v:newlineChar/><tspan
+						x="112.04" dy="1.2em" class="st15">npu_ddr_scheduler</tspan></text>		</g>
+		<g id="shape24-191" v:mID="24" v:groupContext="shape" transform="translate(64.8,-277.2)">
+			<title>bridge</title>
+			<rect x="0" y="1080" width="345.6" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape25-193" v:mID="25" v:groupContext="shape" transform="translate(71.28,-313.2)">
+			<title>bridge_title</title>
+			<desc>NPU 参数读桥 / CDC</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1138.32" width="332.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="332.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="88.03" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NPU 参数读桥 / CDC</text>		</g>
+		<g id="shape26-196" v:mID="26" v:groupContext="shape" transform="translate(71.28,-276.48)">
+			<title>bridge_detail</title>
+			<desc>DDR 128 位数据 → NPU 16 位读流 npu_ddr_read_bridge</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.32" cy="1133.28" width="332.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="332.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="69.99" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DDR 128 位数据 → NPU 16 位读流<v:newlineChar/><tspan
+						x="105.41" dy="1.2em" class="st15">npu_ddr_read_bridge</tspan></text>		</g>
+		<g id="shape27-200" v:mID="27" v:groupContext="shape" transform="translate(64.8,-178.2)">
+			<title>ready_note</title>
+			<desc>启动条件参数校验通过且模型就绪 忙时整帧拒绝保持原视频通路独立</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="172.8" cy="1128.6" width="345.6" height="46.8"/>
+			<rect x="0" y="1105.2" width="345.6" height="46.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="76.8" y="1125" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>启动条件：参数校验通过且模型就绪<v:newlineChar/><tspan
+						x="76.8" dy="1.2em" class="st15">忙时整帧拒绝</tspan>，保持原视频通路独立</text>		</g>
+		<g id="shape32-204" v:mID="32" v:groupContext="shape" transform="translate(536.4,-867.6)">
+			<title>descriptor</title>
+			<rect x="0" y="1080" width="237.6" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape33-206" v:mID="33" v:groupContext="shape" transform="translate(542.88,-903.6)">
+			<title>descriptor_title</title>
+			<desc>模型描述符 ROM / RAM</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1138.32" width="224.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="224.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="26.9" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>模型描述符 ROM / RAM</text>		</g>
+		<g id="shape34-209" v:mID="34" v:groupContext="shape" transform="translate(542.88,-866.88)">
+			<title>descriptor_detail</title>
+			<desc>当前 12 层网络配置 npu_model_config.vh</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1133.28" width="224.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="224.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="59.73" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>当前 12 层网络配置<v:newlineChar/><tspan
+						x="51.12" dy="1.2em" class="st15">npu_model_config.vh</tspan></text>		</g>
+		<g id="shape35-213" v:mID="35" v:groupContext="shape" transform="translate(824.4,-867.6)">
+			<title>sequencer</title>
+			<rect x="0" y="1080" width="273.6" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape36-215" v:mID="36" v:groupContext="shape" transform="translate(830.88,-903.6)">
+			<title>sequencer_title</title>
+			<desc>层序 / Tile 控制器</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1138.32" width="260.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="260.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="65" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>层序 / Tile 控制器</text>		</g>
+		<g id="shape37-218" v:mID="37" v:groupContext="shape" transform="translate(830.88,-866.88)">
+			<title>sequencer_detail</title>
+			<desc>层配置、参数请求与完成判断 npu_sequencer</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1133.28" width="260.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="260.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="52.32" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>层配置、参数请求与完成判断<v:newlineChar/><tspan
+						x="86.88" dy="1.2em" class="st15">npu_sequencer</tspan></text>		</g>
+		<g id="shape38-222" v:mID="38" v:groupContext="shape" transform="translate(1168.2,-867.6)">
+			<title>bcu</title>
+			<rect x="0" y="1080" width="190.8" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape39-224" v:mID="39" v:groupContext="shape" transform="translate(1174.68,-903.6)">
+			<title>bcu_title</title>
+			<desc>访存控制 BCU</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="88.92" cy="1138.32" width="177.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="177.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="40.69" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>访存控制 BCU</text>		</g>
+		<g id="shape40-227" v:mID="40" v:groupContext="shape" transform="translate(1174.68,-866.88)">
+			<title>bcu_detail</title>
+			<desc>地址、读写与层切换 bcu</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="88.92" cy="1133.28" width="177.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="177.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="34.92" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>地址、读写与层切换<v:newlineChar/><tspan
+						x="78.38" dy="1.2em" class="st15">bcu</tspan></text>		</g>
+		<g id="shape43-231" v:mID="43" v:groupContext="shape" transform="translate(756,-920.88)">
+			<title>descriptor_bus</title>
+			<desc>层描述符</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.2" cy="1141.2" width="86.4" height="21.6"/>
+			<rect x="0" y="1130.4" width="86.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="21.2" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>层描述符</text>		</g>
+		<g id="shape44-234" v:mID="44" v:groupContext="shape" transform="translate(1098.36,-920.88)">
+			<title>seq_bcu_bus</title>
+			<desc>配置</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.2" cy="1141.2" width="68.41" height="21.6"/>
+			<rect x="0" y="1130.4" width="68.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="24.2" y="1144.2" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>配置</text>		</g>
+		<g id="shape45-237" v:mID="45" v:groupContext="shape" transform="translate(543.6,-739.8)">
+			<title>packer</title>
+			<rect x="0" y="1076.4" width="208.8" height="75.6" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape46-239" v:mID="46" v:groupContext="shape" transform="translate(550.08,-777.6)">
+			<title>packer_title</title>
+			<desc>输入打包 / 预装载</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.92" cy="1138.32" width="195.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="195.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="41.44" y="1142.52" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>输入打包 / 预装载</text>		</g>
+		<g id="shape47-242" v:mID="47" v:groupContext="shape" transform="translate(550.08,-740.88)">
+			<title>packer_detail</title>
+			<desc>RGB 字节流 → CHW lbp_to_ping_packer</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.92" cy="1133.28" width="195.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="195.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="41.69" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RGB 字节流 → CHW<v:newlineChar/><tspan
+						x="42.46" dy="1.2em" class="st15">lbp_to_ping_packer</tspan></text>		</g>
+		<g id="shape48-246" v:mID="48" v:groupContext="shape" transform="translate(799.2,-739.8)">
+			<title>features</title>
+			<rect x="0" y="1076.4" width="532.8" height="75.6" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape49-248" v:mID="49" v:groupContext="shape" transform="translate(805.68,-777.6)">
+			<title>features_title</title>
+			<desc>PING / PONG 特征缓存</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="259.92" cy="1138.32" width="519.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="519.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="165.9" y="1143.42" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>PING / PONG 特征缓存</text>		</g>
+		<g id="shape50-251" v:mID="50" v:groupContext="shape" transform="translate(805.68,-740.88)">
+			<title>features_detail</title>
+			<desc>片上分 Bank RAM层间交替读写 / 128 位结果写回 fm_bank_array</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="259.92" cy="1133.28" width="519.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="519.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="119.88" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>片上分 Bank RAM；层间交替读写 / 128 位结果写回<v:newlineChar/><tspan
+						x="218.34" dy="1.2em" class="st15">fm_bank_array</tspan></text>		</g>
+		<g id="shape52-255" v:mID="52" v:groupContext="shape" transform="translate(417.6,-820.8)">
+			<title>byte_stream</title>
+			<desc>RGB8 / valid</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.2" cy="1141.2" width="122.4" height="21.6"/>
+			<rect x="0" y="1130.4" width="122.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="28.87" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RGB8 / valid</text>		</g>
+		<g id="shape55-258" v:mID="55" v:groupContext="shape" transform="translate(1276.2,-831.6)">
+			<title>bcu_ctrl_label</title>
+			<desc>地址 / 读写控制</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.4" cy="1141.2" width="118.8" height="21.6"/>
+			<rect x="0" y="1130.4" width="118.8" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="20.79" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>地址 / 读写控制</text>		</g>
+		<g id="shape56-261" v:mID="56" v:groupContext="shape" transform="translate(536.4,-506.88)">
+			<title>window</title>
+			<rect x="0" y="1064.16" width="237.6" height="87.84" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape57-263" v:mID="57" v:groupContext="shape" transform="translate(542.88,-550.8)">
+			<title>window_title</title>
+			<desc>窗口生成 / Padding</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1138.32" width="224.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="224.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="43.02" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>窗口生成 / Padding</text>		</g>
+		<g id="shape58-266" v:mID="58" v:groupContext="shape" transform="translate(542.88,-514.08)">
+			<title>window_detail</title>
+			<desc>1 × 1 / 3 × 3 卷积窗口 line_buffer_conv</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1133.28" width="224.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="224.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="50.35" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1 × 1 / 3 × 3 卷积窗口<v:newlineChar/><tspan
+						x="65.59" dy="1.2em" class="st15">line_buffer_conv</tspan></text>		</g>
+		<g id="shape59-270" v:mID="59" v:groupContext="shape" transform="translate(824.4,-506.88)">
+			<title>mac</title>
+			<rect x="0" y="1064.16" width="273.6" height="87.84" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape60-272" v:mID="60" v:groupContext="shape" transform="translate(830.88,-550.8)">
+			<title>mac_title</title>
+			<desc>卷积 PE / 部分和累加</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1138.32" width="260.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="260.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="53.56" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>卷积 PE / 部分和累加</text>		</g>
+		<g id="shape61-275" v:mID="61" v:groupContext="shape" transform="translate(830.88,-514.08)">
+			<title>mac_detail</title>
+			<desc>2 组物理 MAC 树分时复用 16 通道 pe_array / channel_accumulator</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1133.28" width="260.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="260.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="30.79" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2 组物理 MAC 树，分时复用 16 通道<v:newlineChar/><tspan
+						x="39.18" dy="1.2em" class="st15">pe_array / channel_accumulator</tspan></text>		</g>
+		<g id="shape62-279" v:mID="62" v:groupContext="shape" transform="translate(1162.8,-506.88)">
+			<title>activation</title>
+			<rect x="0" y="1064.16" width="201.6" height="87.84" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape63-281" v:mID="63" v:groupContext="shape" transform="translate(1169.28,-550.8)">
+			<title>activation_title</title>
+			<desc>偏置 / 激活 / 量化</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="94.32" cy="1138.32" width="188.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="188.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="37.36" y="1142.52" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>偏置 / 激活 / 量化</text>		</g>
+		<g id="shape64-284" v:mID="64" v:groupContext="shape" transform="translate(1169.28,-514.08)">
+			<title>activation_detail</title>
+			<desc>融合两通道处理 activation_quant_fused</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="94.32" cy="1133.28" width="188.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="188.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="52.32" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>融合两通道处理<v:newlineChar/><tspan
+						x="28.39" dy="1.2em" class="st15">activation_quant_fused</tspan></text>		</g>
+		<g id="shape66-288" v:mID="66" v:groupContext="shape" transform="translate(612,-705.6)">
+			<title>feature_stream</title>
+			<desc>8 位特征读取 / valid</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="1141.2" width="216" height="21.6"/>
+			<rect x="0" y="1130.4" width="216" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="57.67" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>8 位特征读取 / valid</text>		</g>
+		<g id="shape69-291" v:mID="69" v:groupContext="shape" transform="translate(1083.6,-568.8)">
+			<title>mac_quant_label</title>
+			<desc>32 位累加</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.8" cy="1141.2" width="93.6" height="21.6"/>
+			<rect x="0" y="1130.4" width="93.6" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="22.22" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>32 位累加</text>		</g>
+		<g id="shape70-294" v:mID="70" v:groupContext="shape" transform="translate(1162.8,-361.8)">
+			<title>pool</title>
+			<rect x="0" y="1076.4" width="201.6" height="75.6" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape71-296" v:mID="71" v:groupContext="shape" transform="translate(1169.28,-399.6)">
+			<title>pool_title</title>
+			<desc>池化 / 旁路</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="94.32" cy="1138.32" width="188.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="188.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="58.84" y="1142.52" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>池化 / 旁路</text>		</g>
+		<g id="shape72-299" v:mID="72" v:groupContext="shape" transform="translate(1169.28,-362.88)">
+			<title>pool_detail</title>
+			<desc>按层配置启用输出重排 pool_reorder / line_buffer_pool</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="94.32" cy="1133.28" width="188.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="188.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="28.32" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>按层配置启用；输出重排<v:newlineChar/><tspan
+						x="5.01" dy="1.2em" class="st15">pool_reorder / line_buffer_pool</tspan></text>		</g>
+		<g id="shape73-303" v:mID="73" v:groupContext="shape" transform="translate(824.4,-361.8)">
+			<title>writeback</title>
+			<rect x="0" y="1076.4" width="273.6" height="75.6" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape74-305" v:mID="74" v:groupContext="shape" transform="translate(830.88,-399.6)">
+			<title>writeback_title</title>
+			<desc>结果写回与层间复用</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1138.32" width="260.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="260.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="58.32" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>结果写回与层间复用</text>		</g>
+		<g id="shape75-308" v:mID="75" v:groupContext="shape" transform="translate(830.88,-362.88)">
+			<title>writeback_detail</title>
+			<desc>128 位特征向量 → PING / PONG</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1133.28" width="260.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="260.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="39.65" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>128 位特征向量 → PING / PONG</text>		</g>
+		<g id="shape79-311" v:mID="79" v:groupContext="shape" transform="translate(1050.48,-662.4)">
+			<title>feedback_label</title>
+			<desc>层间特征写回</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.2" cy="1141.2" width="194.4" height="21.6"/>
+			<rect x="0" y="1130.4" width="194.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="64.2" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>层间特征写回</text>		</g>
+		<g id="shape80-314" v:mID="80" v:groupContext="shape" transform="translate(536.4,-261)">
+			<title>dma</title>
+			<rect x="0" y="1076.4" width="237.6" height="75.6" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape81-316" v:mID="81" v:groupContext="shape" transform="translate(542.88,-298.8)">
+			<title>dma_title</title>
+			<desc>权重 / 偏置 DMA</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1138.32" width="224.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="224.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="52.79" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>权重 / 偏置 DMA</text>		</g>
+		<g id="shape82-319" v:mID="82" v:groupContext="shape" transform="translate(542.88,-262.08)">
+			<title>dma_detail</title>
+			<desc>按层请求、打包与更新 weight_sdram_dma</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1133.28" width="224.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="224.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="52.32" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>按层请求、打包与更新<v:newlineChar/><tspan
+						x="56.81" dy="1.2em" class="st15">weight_sdram_dma</tspan></text>		</g>
+		<g id="shape83-323" v:mID="83" v:groupContext="shape" transform="translate(536.4,-384.48)">
+			<title>weights</title>
+			<rect x="0" y="1085.76" width="237.6" height="66.24" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape84-325" v:mID="84" v:groupContext="shape" transform="translate(542.88,-417.6)">
+			<title>weights_title</title>
+			<desc>片上权重 / 偏置缓存</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1138.32" width="224.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="224.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="44.31" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>片上权重 / 偏置缓存</text>		</g>
+		<g id="shape85-328" v:mID="85" v:groupContext="shape" transform="translate(542.88,-380.88)">
+			<title>weights_detail</title>
+			<desc>weight_buffer / bias_buffer</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="112.32" cy="1133.28" width="224.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="224.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="35.03" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>weight_buffer / bias_buffer</text>		</g>
+		<g id="shape90-331" v:mID="90" v:groupContext="shape" transform="translate(878.4,-478.8)">
+			<title>bias_label</title>
+			<desc>32 位 Bias</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="1141.2" width="158.4" height="21.6"/>
+			<rect x="0" y="1130.4" width="158.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="53.49" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>32 位 Bias</text>		</g>
+		<g id="shape92-334" v:mID="92" v:groupContext="shape" transform="translate(500.4,-205.2)">
+			<title>dma_control_label</title>
+			<desc>DMA req / ack / done</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.2" cy="1141.2" width="194.4" height="21.6"/>
+			<rect x="0" y="1130.4" width="194.4" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="39.87" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DMA req / ack / done</text>		</g>
+		<g id="shape93-337" v:mID="93" v:groupContext="shape" transform="translate(824.4,-223.2)">
+			<title>reduce</title>
+			<rect x="0" y="1080" width="273.6" height="72" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape94-339" v:mID="94" v:groupContext="shape" transform="translate(830.88,-259.2)">
+			<title>reduce_title</title>
+			<desc>末层网格最大置信度归约</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1138.32" width="260.64" height="27.36"/>
+			<rect x="0" y="1124.64" width="260.64" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="47.82" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>末层网格最大置信度归约</text>		</g>
+		<g id="shape95-342" v:mID="95" v:groupContext="shape" transform="translate(830.88,-222.48)">
+			<title>reduce_detail</title>
+			<desc>20 × 15 × 6 → 单目标结果 归约逻辑位于 npu_sequencer</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="130.32" cy="1133.28" width="260.64" height="37.44"/>
+			<rect x="0" y="1114.56" width="260.64" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="57.17" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>20 × 15 × 6 → 单目标结果<v:newlineChar/><tspan
+						x="49.11" dy="1.2em" class="st15">归约逻辑位于</tspan> npu_sequencer</text>		</g>
+		<g id="shape97-346" v:mID="97" v:groupContext="shape" transform="translate(975.6,-316.8)">
+			<title>last_layer_label</title>
+			<desc>仅末层结果</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="1141.2" width="144" height="21.6"/>
+			<rect x="0" y="1130.4" width="144" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="44.5" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>仅末层结果</text>		</g>
+		<g id="shape98-349" v:mID="98" v:groupContext="shape" transform="translate(1463.4,-636.48)">
+			<title>decode</title>
+			<rect x="0" y="1064.16" width="226.8" height="87.84" rx="6.48" ry="6.48" class="st14"/>
+		</g>
+		<g id="shape99-351" v:mID="99" v:groupContext="shape" transform="translate(1469.88,-680.4)">
+			<title>decode_title</title>
+			<desc>检测结果解码</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1138.32" width="213.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="213.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="58.92" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>检测结果解码</text>		</g>
+		<g id="shape100-354" v:mID="100" v:groupContext="shape" transform="translate(1469.88,-643.68)">
+			<title>decode_detail</title>
+			<desc>置信度 / 框坐标 关联来源帧号</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1133.28" width="213.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="213.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="64.81" y="1129.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>置信度 / 框坐标<v:newlineChar/><tspan
+						x="70.92" dy="1.2em" class="st15">关联来源帧号</tspan></text>		</g>
+		<g id="shape101-358" v:mID="101" v:groupContext="shape" transform="translate(1463.4,-828)">
+			<title>hdmi</title>
+			<rect x="0" y="1080" width="226.8" height="72" rx="6.48" ry="6.48" class="st11"/>
+		</g>
+		<g id="shape102-360" v:mID="102" v:groupContext="shape" transform="translate(1469.88,-864)">
+			<title>hdmi_title</title>
+			<desc>本地 HDMI / OSD</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1138.32" width="213.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="213.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="38.49" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>本地 HDMI / OSD</text>		</g>
+		<g id="shape103-363" v:mID="103" v:groupContext="shape" transform="translate(1469.88,-827.28)">
+			<title>hdmi_detail</title>
+			<desc>人员检测显示</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1133.28" width="213.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="213.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="70.92" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>人员检测显示</text>		</g>
+		<g id="shape104-366" v:mID="104" v:groupContext="shape" transform="translate(1463.4,-446.4)">
+			<title>udp</title>
+			<rect x="0" y="1072.8" width="226.8" height="79.2" rx="6.48" ry="6.48" class="st11"/>
+		</g>
+		<g id="shape105-368" v:mID="105" v:groupContext="shape" transform="translate(1469.88,-486)">
+			<title>udp_title</title>
+			<desc>UDP 元数据输出</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1138.32" width="213.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="213.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="50.5" y="1142.82" class="st16" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>UDP 元数据输出</text>		</g>
+		<g id="shape106-371" v:mID="106" v:groupContext="shape" transform="translate(1469.88,-449.28)">
+			<title>udp_detail</title>
+			<desc>人员框 + 帧号 → B 板</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1133.28" width="213.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="213.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="47.83" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>人员框 + 帧号 → B 板</text>		</g>
+		<g id="shape107-374" v:mID="107" v:groupContext="shape" transform="translate(1463.4,-266.4)">
+			<title>voice</title>
+			<rect x="0" y="1080" width="226.8" height="72" rx="6.48" ry="6.48" class="st11"/>
+		</g>
+		<g id="shape108-376" v:mID="108" v:groupContext="shape" transform="translate(1469.88,-302.4)">
+			<title>voice_title</title>
+			<desc>语音触发输出</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1138.32" width="213.84" height="27.36"/>
+			<rect x="0" y="1124.64" width="213.84" height="27.36" rx="6.48" ry="6.48" class="st7"/>
+			<text x="58.92" y="1143.12" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>语音触发输出</text>		</g>
+		<g id="shape109-379" v:mID="109" v:groupContext="shape" transform="translate(1469.88,-265.68)">
+			<title>voice_detail</title>
+			<desc>本地 UART 提示</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.92" cy="1133.28" width="213.84" height="37.44"/>
+			<rect x="0" y="1114.56" width="213.84" height="37.44" rx="6.48" ry="6.48" class="st7"/>
+			<text x="63.31" y="1136.88" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>本地 UART 提示</text>		</g>
+		<g id="shape111-382" v:mID="111" v:groupContext="shape" transform="translate(1134,-270)">
+			<title>tensor_label</title>
+			<desc>64 位结果 / inference_done</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="111.6" cy="1141.2" width="223.2" height="21.6"/>
+			<rect x="0" y="1130.4" width="223.2" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="41.06" y="1144.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>64 位结果 / inference_done</text>		</g>
+		<g id="shape115-385" v:mID="115" v:groupContext="shape" transform="translate(1465.2,-560.16)">
+			<title>bbox_module</title>
+			<desc>npu_bbox_overlay_160x120</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="111.6" cy="1141.2" width="223.2" height="21.6"/>
+			<rect x="0" y="1130.4" width="223.2" height="21.6" rx="6.48" ry="6.48" class="st7"/>
+			<text x="46" y="1144.2" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>npu_bbox_overlay_160x120</text>		</g>
+		<g id="shape116-388" v:mID="116" v:groupContext="shape" transform="translate(46.8,-90)">
+			<title>legend</title>
+			<desc>实线特征 / 参数 / 结果数据流 虚线层配置、访存与 DMA 控制</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="828" cy="1137.6" width="1656" height="28.8"/>
+			<rect x="0" y="1123.2" width="1656" height="28.8" rx="6.48" ry="6.48" class="st7"/>
+			<text x="627.49" y="1141.5" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>实线：特征 / 参数 / 结果数据流      虚线：层配置、访存与 DMA 控制</text>		</g>
+		<g id="shape117-391" v:mID="117" v:groupContext="shape" transform="translate(46.8,-40.32)">
+			<title>footer</title>
+			<desc>依据当前 A 板 RTL 整理历史 lbp 命名接口在本路径承载 RGB 数据。图中采用功能分组非资源或实板性能验收图。</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="828" cy="1134.72" width="1656" height="34.56"/>
+			<rect x="0" y="1117.44" width="1656" height="34.56" rx="6.48" ry="6.48" class="st7"/>
+			<text x="539.92" y="1138.02" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>依据当前 A 板 RTL 整理；历史 lbp 命名接口在本路径承载 RGB 数据。图中采用功能分组，非资源或实板性能验收图。</text>		</g>
+	</g>
+</svg>

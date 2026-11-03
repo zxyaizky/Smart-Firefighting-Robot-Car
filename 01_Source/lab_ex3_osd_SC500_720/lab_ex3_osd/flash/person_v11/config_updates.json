@@ -1,0 +1,33 @@
+{
+  "active_project_modified": true,
+  "descriptor_numeric_values_same_as_active": true,
+  "files": [
+    {
+      "relative_path": "user_source/hdl_source/design_top_wrapper.v",
+      "active_source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\user_source\\hdl_source\\design_top_wrapper.v",
+      "replacement": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\rtl_update\\user_source\\hdl_source\\design_top_wrapper.v",
+      "backup": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\original_A\\user_source\\hdl_source\\design_top_wrapper.v",
+      "before_sha256": "079d7849472e2a3ddd4375e6acf99ca787f0fba686c72dd043151d69e1a734d0",
+      "after_sha256": "b4bba180cc5c11ff2641e4bc1e653f0723a2c5d9793530df936ac0111b4ce341",
+      "applied": true
+    },
+    {
+      "relative_path": "td_project/import/npu_u33_mcu_bridge.v",
+      "active_source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "replacement": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\rtl_update\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "backup": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\original_A\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "before_sha256": "889133e7fb4d9c7b590978f1691e9a847e5df9c400a70258a6c7276eeb9b7fba",
+      "after_sha256": "c38c46f8ea82ecbddfa556784e9479f6ef6e3f8dd3ecfc043c8645645ae6a28f",
+      "applied": true
+    },
+    {
+      "relative_path": "td_project/import/npu_model_config.vh",
+      "active_source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_model_config.vh",
+      "replacement": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\rtl_update\\td_project\\import\\npu_model_config.vh",
+      "backup": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\original_A\\td_project\\import\\npu_model_config.vh",
+      "before_sha256": "71ce305e48dbe766014ab594495398c782485f7f2d4d415c5961809ebcf7c1a3",
+      "after_sha256": "b5aaaf9b57025fd9722383ec407efbddf95a6feedb9fc563819f6210e6b52d1e",
+      "applied": true
+    }
+  ]
+}

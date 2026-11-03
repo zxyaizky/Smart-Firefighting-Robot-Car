@@ -1,0 +1,8010 @@
+{
+  "result": "FAIL_EXISTING_HDMI_COORDINATE_BUG",
+  "cases": 183,
+  "native_passed": 183,
+  "hdmi_passed": 180,
+  "detection_gates_and_source_ids": "PASS",
+  "failures": [
+    {
+      "index": 68,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_303df2a476f606e13944e6c6c74469f4a02456876fb33d1fe6dcce730115b9ae.jpg",
+      "winner": [
+        9,
+        10,
+        244,
+        182,
+        181,
+        15,
+        74,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          81,
+          60,
+          90,
+          95
+        ],
+        "hdmi": [
+          648,
+          362,
+          723,
+          641
+        ]
+      },
+      "actual_native": [
+        81,
+        60,
+        90,
+        95
+      ],
+      "actual_hdmi": [
+        632,
+        362,
+        723,
+        641
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    },
+    {
+      "index": 72,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_3472502e93f8993abc3182dcbc90c751b22966a443b89f38156e473a6fa6f51a.jpg",
+      "winner": [
+        8,
+        11,
+        174,
+        129,
+        125,
+        12,
+        53,
+        199
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          88,
+          55,
+          96,
+          80
+        ],
+        "hdmi": [
+          706,
+          324,
+          766,
+          523
+        ]
+      },
+      "actual_native": [
+        88,
+        55,
+        96,
+        80
+      ],
+      "actual_hdmi": [
+        702,
+        324,
+        766,
+        523
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    },
+    {
+      "index": 160,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_eed0a76c75ff048a8c0cb9901241e6a627710435bb374cf0e4c1c9df92355ab1.jpg",
+      "winner": [
+        8,
+        10,
+        231,
+        198,
+        206,
+        15,
+        69,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          82,
+          54,
+          91,
+          87
+        ],
+        "hdmi": [
+          652,
+          314,
+          727,
+          574
+        ]
+      },
+      "actual_native": [
+        82,
+        54,
+        91,
+        87
+      ],
+      "actual_hdmi": [
+        628,
+        314,
+        727,
+        574
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    }
+  ],
+  "checks": [
+    {
+      "index": 0,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_025324bb818d5e5bc4f7daece4cb11dc04cd6a3248d85ec8244f5c7d0ae89e71.png",
+      "winner": [
+        7,
+        6,
+        220,
+        118,
+        161,
+        140,
+        182,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          8,
+          18,
+          96,
+          104
+        ],
+        "hdmi": [
+          62,
+          26,
+          765,
+          711
+        ]
+      },
+      "actual_native": [
+        8,
+        18,
+        96,
+        104
+      ],
+      "actual_hdmi": [
+        62,
+        26,
+        765,
+        711
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 1,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_0339a2afc0aadfc5d13dd72268a27e90ff14c266628a017b53a5df0cda64967d.png",
+      "winner": [
+        5,
+        7,
+        48,
+        117,
+        147,
+        83,
+        107,
+        104
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          269,
+          35,
+          686,
+          438
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        269,
+        35,
+        686,
+        438
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 2,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_0ec0fea833476272481005bf875bbdda2ba5c2dd4a339f3fd74102cc5ab59bd1.png",
+      "winner": [
+        7,
+        6,
+        220,
+        121,
+        154,
+        140,
+        181,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          8,
+          18,
+          96,
+          103
+        ],
+        "hdmi": [
+          63,
+          26,
+          766,
+          707
+        ]
+      },
+      "actual_native": [
+        8,
+        18,
+        96,
+        103
+      ],
+      "actual_hdmi": [
+        63,
+        26,
+        766,
+        707
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 3,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_1fe387cad242215104837b5aaf308583481542111b1137e73533ee13547e823e.png",
+      "winner": [
+        5,
+        7,
+        45,
+        120,
+        143,
+        85,
+        109,
+        98
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          265,
+          31,
+          691,
+          441
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        265,
+        31,
+        691,
+        441
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 4,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_2052d8fbb45b02ae4dc63b77766b6ec7fb9830c1ee5c3745f01c30365cebc52d.png",
+      "winner": [
+        7,
+        6,
+        226,
+        124,
+        152,
+        141,
+        182,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          8,
+          18,
+          96,
+          104
+        ],
+        "hdmi": [
+          61,
+          24,
+          769,
+          709
+        ]
+      },
+      "actual_native": [
+        8,
+        18,
+        96,
+        104
+      ],
+      "actual_hdmi": [
+        61,
+        24,
+        769,
+        709
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 5,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_20ed5ec4d9eef28618282d9711eaa6f4599cb66f9523c45aa9b3cbb6b355609e.png",
+      "winner": [
+        5,
+        7,
+        43,
+        119,
+        148,
+        82,
+        108,
+        84
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          85,
+          70
+        ],
+        "hdmi": [
+          272,
+          34,
+          684,
+          440
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        85,
+        70
+      ],
+      "actual_hdmi": [
+        272,
+        34,
+        684,
+        440
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 6,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_2a415b0527888a256e9b6c66789c82e2ceb0402e3fd9919bb139a03d226b3e79.png",
+      "winner": [
+        5,
+        7,
+        50,
+        117,
+        148,
+        83,
+        106,
+        107
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          20,
+          86,
+          70
+        ],
+        "hdmi": [
+          269,
+          38,
+          686,
+          437
+        ]
+      },
+      "actual_native": [
+        34,
+        20,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        269,
+        38,
+        686,
+        437
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 7,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_2a7d4f358cca5e5e0187af307bebb0866d774af1b99a2235ac75be5a8d2c826a.png",
+      "winner": [
+        6,
+        2,
+        110,
+        108,
+        143,
+        89,
+        103,
+        217
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          28,
+          47,
+          77
+        ],
+        "hdmi": [
+          0,
+          106,
+          378,
+          494
+        ]
+      },
+      "actual_native": [
+        0,
+        28,
+        47,
+        77
+      ],
+      "actual_hdmi": [
+        0,
+        106,
+        378,
+        494
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 8,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_31069d7639022850a233cacf69b0e121ddd0e877729f94668a5476ca96a7eab9.png",
+      "winner": [
+        7,
+        6,
+        228,
+        127,
+        157,
+        141,
+        184,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          8,
+          18,
+          96,
+          104
+        ],
+        "hdmi": [
+          62,
+          21,
+          770,
+          714
+        ]
+      },
+      "actual_native": [
+        8,
+        18,
+        96,
+        104
+      ],
+      "actual_hdmi": [
+        62,
+        21,
+        770,
+        714
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 9,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_3179276771e24ddd2e79458471a9a2514f84926757a003d89e5d3cd91035dd67.png",
+      "winner": [
+        7,
+        6,
+        215,
+        130,
+        157,
+        145,
+        184,
+        251
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          18,
+          98,
+          104
+        ],
+        "hdmi": [
+          53,
+          21,
+          781,
+          714
+        ]
+      },
+      "actual_native": [
+        7,
+        18,
+        98,
+        104
+      ],
+      "actual_hdmi": [
+        53,
+        21,
+        781,
+        714
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 10,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_37aa9f420ab882d9bf3f2633e2f83767ac3bf196e9fe6c276b2349bb9d997caa.png",
+      "winner": [
+        5,
+        7,
+        43,
+        122,
+        144,
+        83,
+        108,
+        91
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          270,
+          33,
+          687,
+          439
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        270,
+        33,
+        687,
+        439
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 11,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_3d7605c96506aab1eaf4d757a648df3783ea09df2dde02fda663f5723ad41eb1.png",
+      "winner": [
+        5,
+        7,
+        43,
+        117,
+        147,
+        81,
+        108,
+        87
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          85,
+          70
+        ],
+        "hdmi": [
+          274,
+          34,
+          681,
+          440
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        85,
+        70
+      ],
+      "actual_hdmi": [
+        274,
+        34,
+        681,
+        440
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 12,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_3ec112325ebfb9b63243833cbca8459e20d23a4e382dba22c55e29e04b98ddb0.png",
+      "winner": [
+        5,
+        7,
+        43,
+        117,
+        147,
+        81,
+        108,
+        89
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          85,
+          70
+        ],
+        "hdmi": [
+          274,
+          34,
+          681,
+          440
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        85,
+        70
+      ],
+      "actual_hdmi": [
+        274,
+        34,
+        681,
+        440
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 13,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_41fc366f65ba04db5d6e51854d4d6ce789fbc7381c6e6fd0bdde8189c1814c5b.png",
+      "winner": [
+        7,
+        6,
+        216,
+        122,
+        149,
+        142,
+        183,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          18,
+          96,
+          104
+        ],
+        "hdmi": [
+          58,
+          21,
+          771,
+          710
+        ]
+      },
+      "actual_native": [
+        7,
+        18,
+        96,
+        104
+      ],
+      "actual_hdmi": [
+        58,
+        21,
+        771,
+        710
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 14,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_456f044c06976162ce9112f69481ac15350ee5cc1fd4c4c02e8ec9d6c804f090.png",
+      "winner": [
+        6,
+        2,
+        108,
+        110,
+        142,
+        90,
+        105,
+        213
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          28,
+          48,
+          77
+        ],
+        "hdmi": [
+          0,
+          102,
+          381,
+          497
+        ]
+      },
+      "actual_native": [
+        0,
+        28,
+        48,
+        77
+      ],
+      "actual_hdmi": [
+        0,
+        102,
+        381,
+        497
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 15,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_4ac4ce847f5b89fc5cab0bcbc4756376a8dfd2a2aa8790b3f86278daaaa0e5c1.png",
+      "winner": [
+        7,
+        6,
+        219,
+        125,
+        148,
+        142,
+        182,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          18,
+          96,
+          103
+        ],
+        "hdmi": [
+          59,
+          23,
+          772,
+          708
+        ]
+      },
+      "actual_native": [
+        7,
+        18,
+        96,
+        103
+      ],
+      "actual_hdmi": [
+        59,
+        23,
+        772,
+        708
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 16,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_5072b8f4dcb0dc4812c89e621d6964bee27cac4a040b11f04abd2c9a768bc752.png",
+      "winner": [
+        7,
+        6,
+        209,
+        113,
+        132,
+        143,
+        183,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          17,
+          96,
+          103
+        ],
+        "hdmi": [
+          53,
+          17,
+          771,
+          706
+        ]
+      },
+      "actual_native": [
+        7,
+        17,
+        96,
+        103
+      ],
+      "actual_hdmi": [
+        53,
+        17,
+        771,
+        706
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 17,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_72d3c9e82d2afbae8202a9ebcb5e3bc243476829a0766fdf2a5e31456a7c05c5.png",
+      "winner": [
+        7,
+        3,
+        190,
+        161,
+        89,
+        125,
+        178,
+        228
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          17,
+          68,
+          101
+        ],
+        "hdmi": [
+          0,
+          15,
+          546,
+          685
+        ]
+      },
+      "actual_native": [
+        0,
+        17,
+        68,
+        101
+      ],
+      "actual_hdmi": [
+        0,
+        15,
+        546,
+        685
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 18,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_775e6611a1f7cae2cfaa22efa23a77e476ceb0d74ce03898f0a071ca54005900.png",
+      "winner": [
+        5,
+        7,
+        45,
+        120,
+        146,
+        84,
+        109,
+        93
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          31,
+          689,
+          442
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        31,
+        689,
+        442
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 19,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_7c3c63e87f8afdc6f81ef6f04ab8aad67c690c40649b9ce53dc6408a3e944bcf.png",
+      "winner": [
+        6,
+        2,
+        108,
+        108,
+        141,
+        88,
+        103,
+        216
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          28,
+          47,
+          77
+        ],
+        "hdmi": [
+          0,
+          106,
+          376,
+          493
+        ]
+      },
+      "actual_native": [
+        0,
+        28,
+        47,
+        77
+      ],
+      "actual_hdmi": [
+        0,
+        106,
+        376,
+        493
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 20,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_7fca5c1279fb20be01bca2a84c5151b2c10b4c3d67cfa3dcd6904db4f7bf2e9d.png",
+      "winner": [
+        5,
+        7,
+        48,
+        119,
+        145,
+        85,
+        109,
+        103
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          265,
+          31,
+          691,
+          442
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        265,
+        31,
+        691,
+        442
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 21,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_84f3eb49783e9c332eca40121b589f40c5783cc6bb0329c7123778c2a0b92b4f.png",
+      "winner": [
+        7,
+        6,
+        210,
+        115,
+        162,
+        141,
+        180,
+        245
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          19,
+          96,
+          103
+        ],
+        "hdmi": [
+          59,
+          30,
+          767,
+          707
+        ]
+      },
+      "actual_native": [
+        7,
+        19,
+        96,
+        103
+      ],
+      "actual_hdmi": [
+        59,
+        30,
+        767,
+        707
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 22,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_8ae548fab770b95e32e29ab4f804c06a2bcf33be4b1c371f939c9076db15380d.png",
+      "winner": [
+        5,
+        7,
+        45,
+        119,
+        145,
+        84,
+        108,
+        95
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          33,
+          689,
+          440
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        33,
+        689,
+        440
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 23,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_8c99b4638aec4bd9fdddd9ef7df73fd530dbc82506f8e98711c8d20e5927cadb.png",
+      "winner": [
+        5,
+        7,
+        43,
+        120,
+        145,
+        84,
+        110,
+        88
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          29,
+          689,
+          443
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        29,
+        689,
+        443
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 24,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_9c456a21fe93aef3d6a1946bd4f567cbbd2a247531b5bcfb4616c72a4505a967.png",
+      "winner": [
+        7,
+        6,
+        209,
+        108,
+        129,
+        147,
+        184,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          5,
+          17,
+          98,
+          103
+        ],
+        "hdmi": [
+          42,
+          14,
+          780,
+          707
+        ]
+      },
+      "actual_native": [
+        5,
+        17,
+        98,
+        103
+      ],
+      "actual_hdmi": [
+        42,
+        14,
+        780,
+        707
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 25,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_a3dbd39e7e5332c95156f34f29bf4b9a8ecc151ce693a59189da17f4c847a8ee.png",
+      "winner": [
+        7,
+        3,
+        194,
+        156,
+        94,
+        126,
+        180,
+        233
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          17,
+          68,
+          101
+        ],
+        "hdmi": [
+          0,
+          13,
+          547,
+          690
+        ]
+      },
+      "actual_native": [
+        0,
+        17,
+        68,
+        101
+      ],
+      "actual_hdmi": [
+        0,
+        13,
+        547,
+        690
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 26,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_afebde57df262f3f82eeb3dae034b05ee147549f0d9cc1cd46b4e5e4c5d71d88.png",
+      "winner": [
+        5,
+        7,
+        42,
+        119,
+        146,
+        83,
+        109,
+        86
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          270,
+          31,
+          686,
+          442
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        270,
+        31,
+        686,
+        442
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 27,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_b04c5ed8e8da1f3a6c24b4888601d2ffa96a6437e87d91c31dff299b81ba7433.png",
+      "winner": [
+        7,
+        6,
+        219,
+        121,
+        137,
+        143,
+        186,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          17,
+          97,
+          104
+        ],
+        "hdmi": [
+          55,
+          12,
+          773,
+          713
+        ]
+      },
+      "actual_native": [
+        7,
+        17,
+        97,
+        104
+      ],
+      "actual_hdmi": [
+        55,
+        12,
+        773,
+        713
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 28,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_b5968a0c7e84fee9249f618acc9d52d4afe8929e5a065929c312701e227a7d1e.png",
+      "winner": [
+        7,
+        16,
+        43,
+        135,
+        151,
+        74,
+        157,
+        0
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          109,
+          24,
+          155,
+          98
+        ],
+        "hdmi": [
+          872,
+          70,
+          1244,
+          661
+        ]
+      },
+      "actual_native": [
+        109,
+        24,
+        155,
+        98
+      ],
+      "actual_hdmi": [
+        872,
+        70,
+        1244,
+        661
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 29,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_bf31b061d59500b1244769116b3cbbc4958cf96fc1295a2000d8fcab540daa55.png",
+      "winner": [
+        5,
+        7,
+        47,
+        118,
+        145,
+        83,
+        107,
+        100
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          269,
+          35,
+          686,
+          438
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        269,
+        35,
+        686,
+        438
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 30,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_c3c0fdbb0aa7ea514ae9435176517cca47ba63bc34d05dce3ed7f6d04ab53a3f.png",
+      "winner": [
+        5,
+        7,
+        49,
+        119,
+        145,
+        84,
+        107,
+        103
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          35,
+          689,
+          438
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        35,
+        689,
+        438
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 31,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_c67d7ab169357a23a867780c3db15600f6e4485da1ee21aa581cfc744697b30d.png",
+      "winner": [
+        7,
+        6,
+        215,
+        114,
+        132,
+        146,
+        185,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          6,
+          17,
+          97,
+          104
+        ],
+        "hdmi": [
+          46,
+          13,
+          779,
+          709
+        ]
+      },
+      "actual_native": [
+        6,
+        17,
+        97,
+        104
+      ],
+      "actual_hdmi": [
+        46,
+        13,
+        779,
+        709
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 32,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_d1023b5576e00233686be610b146320cfff380957f572dfb545e36982a95171c.png",
+      "winner": [
+        5,
+        7,
+        40,
+        117,
+        148,
+        80,
+        107,
+        79
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          35,
+          19,
+          85,
+          70
+        ],
+        "hdmi": [
+          277,
+          36,
+          678,
+          439
+        ]
+      },
+      "actual_native": [
+        35,
+        19,
+        85,
+        70
+      ],
+      "actual_hdmi": [
+        277,
+        36,
+        678,
+        439
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 33,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_e0783c0efb09d52eb2758b0816533bbe3c3847b26655f294ed74756031fb4c41.png",
+      "winner": [
+        5,
+        7,
+        45,
+        118,
+        145,
+        84,
+        109,
+        93
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          31,
+          688,
+          442
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        31,
+        688,
+        442
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 34,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_e2beaafcf61428776128b4eb59bf8ae61ce140b8c652ef9587b6954c0489cf07.png",
+      "winner": [
+        7,
+        6,
+        219,
+        121,
+        160,
+        144,
+        183,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          18,
+          97,
+          104
+        ],
+        "hdmi": [
+          53,
+          24,
+          776,
+          713
+        ]
+      },
+      "actual_native": [
+        7,
+        18,
+        97,
+        104
+      ],
+      "actual_hdmi": [
+        53,
+        24,
+        776,
+        713
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 35,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_e3b9beebff6611b66ffa78be60e0bb346164658bb49db02a05ae8fda2bd267a7.png",
+      "winner": [
+        5,
+        7,
+        48,
+        114,
+        147,
+        85,
+        109,
+        106
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          263,
+          32,
+          690,
+          442
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        263,
+        32,
+        690,
+        442
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 36,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_e48435d83bd80b378a4d89a825af4553d125f83b25e1ababbcc7913d5776c7fe.png",
+      "winner": [
+        6,
+        2,
+        109,
+        109,
+        140,
+        89,
+        103,
+        216
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          0,
+          28,
+          47,
+          77
+        ],
+        "hdmi": [
+          0,
+          105,
+          379,
+          493
+        ]
+      },
+      "actual_native": [
+        0,
+        28,
+        47,
+        77
+      ],
+      "actual_hdmi": [
+        0,
+        105,
+        379,
+        493
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 37,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_eba42fef0c9dd6b0d72c99c9dc0ff48e524e5c7a1657c4fa58efd2156c0b4b39.png",
+      "winner": [
+        5,
+        7,
+        45,
+        119,
+        144,
+        84,
+        110,
+        94
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          33,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          267,
+          29,
+          689,
+          443
+        ]
+      },
+      "actual_native": [
+        33,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        267,
+        29,
+        689,
+        443
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 38,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_ebe3435baea839841ffcc98851298d73d6878b043e9696efd4a8d46186e76722.png",
+      "winner": [
+        7,
+        6,
+        211,
+        118,
+        143,
+        141,
+        183,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          17,
+          96,
+          104
+        ],
+        "hdmi": [
+          60,
+          19,
+          767,
+          708
+        ]
+      },
+      "actual_native": [
+        7,
+        17,
+        96,
+        104
+      ],
+      "actual_hdmi": [
+        60,
+        19,
+        767,
+        708
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 39,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_018af68ffaa337b31e36674b2276ccfba55b308b509723e5ed62fe9501fe8c22.jpeg",
+      "winner": [
+        7,
+        5,
+        194,
+        115,
+        158,
+        48,
+        138,
+        223
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          29,
+          28,
+          59,
+          93
+        ],
+        "hdmi": [
+          228,
+          108,
+          469,
+          627
+        ]
+      },
+      "actual_native": [
+        29,
+        28,
+        59,
+        93
+      ],
+      "actual_hdmi": [
+        228,
+        108,
+        469,
+        627
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 40,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_03697f57dae4fabd073a18dcb9e9f877acee3b610b41db1e726faa0a6aeed013.png",
+      "winner": [
+        9,
+        7,
+        164,
+        203,
+        142,
+        31,
+        99,
+        178
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          53,
+          53,
+          72,
+          100
+        ],
+        "hdmi": [
+          421,
+          305,
+          577,
+          678
+        ]
+      },
+      "actual_native": [
+        53,
+        53,
+        72,
+        100
+      ],
+      "actual_hdmi": [
+        421,
+        305,
+        577,
+        678
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 41,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_068974516e032e16e9d4c722994fd1b323e7e80fd87d0e149c0e3a4dc0dab29e.jpg",
+      "winner": [
+        9,
+        14,
+        223,
+        223,
+        123,
+        24,
+        89,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          111,
+          55,
+          127,
+          97
+        ],
+        "hdmi": [
+          892,
+          319,
+          1012,
+          654
+        ]
+      },
+      "actual_native": [
+        111,
+        55,
+        127,
+        97
+      ],
+      "actual_hdmi": [
+        892,
+        319,
+        1012,
+        654
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 42,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_073df6ec4c0d67c55bd04c36002e22d25aae0b5b1e0656eddcc1de1129004ac4.png",
+      "winner": [
+        8,
+        11,
+        181,
+        125,
+        53,
+        60,
+        145,
+        194
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          73,
+          32,
+          111,
+          100
+        ],
+        "hdmi": [
+          585,
+          132,
+          886,
+          678
+        ]
+      },
+      "actual_native": [
+        73,
+        32,
+        111,
+        100
+      ],
+      "actual_hdmi": [
+        585,
+        132,
+        886,
+        678
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 43,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_0805e5a01ec02d777190e5c0924d1a78a3d619eb7b9f9a2f47abbf8f858bcc42.png",
+      "winner": [
+        7,
+        13,
+        182,
+        107,
+        164,
+        78,
+        161,
+        200
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          83,
+          23,
+          132,
+          99
+        ],
+        "hdmi": [
+          663,
+          66,
+          1055,
+          672
+        ]
+      },
+      "actual_native": [
+        83,
+        23,
+        132,
+        99
+      ],
+      "actual_hdmi": [
+        663,
+        66,
+        1055,
+        672
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 44,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_09bcb2197283c232b6e8e107b05c388d3fecec7d21dc33d7195e9c2fc75ffb3b.png",
+      "winner": [
+        7,
+        7,
+        218,
+        119,
+        122,
+        74,
+        157,
+        246
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          37,
+          23,
+          83,
+          97
+        ],
+        "hdmi": [
+          292,
+          63,
+          664,
+          654
+        ]
+      },
+      "actual_native": [
+        37,
+        23,
+        83,
+        97
+      ],
+      "actual_hdmi": [
+        292,
+        63,
+        664,
+        654
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 45,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_0cf613cd9b0ef1221a883d0ca3fa38bb6b58f055c219a2cddaf52f8d5f2c066e.jpeg",
+      "winner": [
+        8,
+        17,
+        204,
+        122,
+        124,
+        51,
+        137,
+        232
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          124,
+          36,
+          156,
+          100
+        ],
+        "hdmi": [
+          991,
+          165,
+          1247,
+          681
+        ]
+      },
+      "actual_native": [
+        124,
+        36,
+        156,
+        100
+      ],
+      "actual_hdmi": [
+        991,
+        165,
+        1247,
+        681
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 46,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_0f2223541d1f2a4ef438fa5783086b61515192907b6a8550fa3b5f80005cbec6.jpeg",
+      "winner": [
+        8,
+        4,
+        196,
+        118,
+        116,
+        67,
+        142,
+        240
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          15,
+          34,
+          57,
+          101
+        ],
+        "hdmi": [
+          117,
+          154,
+          454,
+          688
+        ]
+      },
+      "actual_native": [
+        15,
+        34,
+        57,
+        101
+      ],
+      "actual_hdmi": [
+        117,
+        154,
+        454,
+        688
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 47,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1075dd63189f8ebf270b8ad9b6aa3196679e9d99b377990a1597c75137667639.jpg",
+      "winner": [
+        9,
+        10,
+        220,
+        140,
+        143,
+        56,
+        134,
+        252
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          67,
+          45,
+          102,
+          108
+        ],
+        "hdmi": [
+          535,
+          240,
+          816,
+          719
+        ]
+      },
+      "actual_native": [
+        67,
+        45,
+        102,
+        108
+      ],
+      "actual_hdmi": [
+        535,
+        240,
+        816,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 48,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_136ba5abde9e0fc150d4c384403cd468fd3cd9c715fff63418f4cf12f95966ea.jpg",
+      "winner": [
+        9,
+        7,
+        209,
+        136,
+        132,
+        27,
+        93,
+        235
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          52,
+          54,
+          69,
+          98
+        ],
+        "hdmi": [
+          414,
+          314,
+          550,
+          664
+        ]
+      },
+      "actual_native": [
+        52,
+        54,
+        69,
+        98
+      ],
+      "actual_hdmi": [
+        414,
+        314,
+        550,
+        664
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 49,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1763f4b22c509622b254bd6af3203e78b92e8dee2573e1dff3afc8d7dcd28e16.png",
+      "winner": [
+        8,
+        4,
+        182,
+        175,
+        89,
+        72,
+        150,
+        196
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          15,
+          31,
+          60,
+          102
+        ],
+        "hdmi": [
+          119,
+          132,
+          481,
+          697
+        ]
+      },
+      "actual_native": [
+        15,
+        31,
+        60,
+        102
+      ],
+      "actual_hdmi": [
+        119,
+        132,
+        481,
+        697
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 50,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_18fc8f19c1a9ee5d16609179f9aa315df15b3b3eb518df357c40a30eb9036c60.jpeg",
+      "winner": [
+        7,
+        14,
+        208,
+        107,
+        162,
+        71,
+        155,
+        242
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          93,
+          25,
+          138,
+          98
+        ],
+        "hdmi": [
+          745,
+          77,
+          1101,
+          660
+        ]
+      },
+      "actual_native": [
+        93,
+        25,
+        138,
+        98
+      ],
+      "actual_hdmi": [
+        745,
+        77,
+        1101,
+        660
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 51,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1942ce4c412d3c4534e830c554624ebea1c73796906b3304c74d929f84a2e98f.jpg",
+      "winner": [
+        9,
+        10,
+        224,
+        160,
+        218,
+        19,
+        82,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          79,
+          60,
+          91,
+          98
+        ],
+        "hdmi": [
+          632,
+          356,
+          728,
+          665
+        ]
+      },
+      "actual_native": [
+        79,
+        60,
+        91,
+        98
+      ],
+      "actual_hdmi": [
+        632,
+        356,
+        728,
+        665
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 52,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1bc19570c52497349e296bba401c00dd947351ee11888733fbda4d22d064e50f.jpeg",
+      "winner": [
+        7,
+        10,
+        196,
+        148,
+        119,
+        51,
+        140,
+        216
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          69,
+          27,
+          101,
+          93
+        ],
+        "hdmi": [
+          549,
+          94,
+          805,
+          621
+        ]
+      },
+      "actual_native": [
+        69,
+        27,
+        101,
+        93
+      ],
+      "actual_hdmi": [
+        549,
+        94,
+        805,
+        621
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 53,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1bc2887f5dcdcd7996652fd99664d589ec1f1e364bf89521b077ae66fc39942d.png",
+      "winner": [
+        8,
+        9,
+        188,
+        156,
+        103,
+        48,
+        132,
+        214
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          62,
+          36,
+          92,
+          98
+        ],
+        "hdmi": [
+          495,
+          169,
+          736,
+          666
+        ]
+      },
+      "actual_native": [
+        62,
+        36,
+        92,
+        98
+      ],
+      "actual_hdmi": [
+        495,
+        169,
+        736,
+        666
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 54,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1d0a05b83c4915b2264a5528fbfe5dc82274113f07a07151e489c90357a527ae.png",
+      "winner": [
+        7,
+        8,
+        196,
+        121,
+        123,
+        120,
+        172,
+        233
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          30,
+          19,
+          105,
+          100
+        ],
+        "hdmi": [
+          241,
+          35,
+          844,
+          683
+        ]
+      },
+      "actual_native": [
+        30,
+        19,
+        105,
+        100
+      ],
+      "actual_hdmi": [
+        241,
+        35,
+        844,
+        683
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 55,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1de4928a9f5b8ea02ff7c540e28b715a3aef2b9f347ce7ec444fa4f9f5e3a388.png",
+      "winner": [
+        8,
+        12,
+        206,
+        100,
+        93,
+        57,
+        136,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          81,
+          35,
+          117,
+          99
+        ],
+        "hdmi": [
+          650,
+          159,
+          936,
+          671
+        ]
+      },
+      "actual_native": [
+        81,
+        35,
+        117,
+        99
+      ],
+      "actual_hdmi": [
+        650,
+        159,
+        936,
+        671
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 56,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1f37727fa44651c967eb25fac9e946f9d040bba3f4a6622b00d2520ad56a7666.jpg",
+      "winner": [
+        10,
+        15,
+        58,
+        130,
+        131,
+        95,
+        115,
+        108
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          94,
+          57,
+          154,
+          111
+        ],
+        "hdmi": [
+          754,
+          336,
+          1231,
+          719
+        ]
+      },
+      "actual_native": [
+        94,
+        57,
+        154,
+        111
+      ],
+      "actual_hdmi": [
+        754,
+        336,
+        1231,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 57,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_218b49f3e50f698aa4920a6147d78663bd3dae53a8e35d0c9c1c1eaf6480eb43.png",
+      "winner": [
+        7,
+        11,
+        195,
+        159,
+        125,
+        106,
+        168,
+        246
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          60,
+          20,
+          126,
+          99
+        ],
+        "hdmi": [
+          478,
+          43,
+          1010,
+          676
+        ]
+      },
+      "actual_native": [
+        60,
+        20,
+        126,
+        99
+      ],
+      "actual_hdmi": [
+        478,
+        43,
+        1010,
+        676
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 58,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_24ff119f34cdee0759782417cc2ef0d65fb194d4bc36f424bb9e6d73b94243ac.png",
+      "winner": [
+        8,
+        6,
+        232,
+        153,
+        113,
+        53,
+        138,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          36,
+          35,
+          69,
+          100
+        ],
+        "hdmi": [
+          289,
+          161,
+          555,
+          680
+        ]
+      },
+      "actual_native": [
+        36,
+        35,
+        69,
+        100
+      ],
+      "actual_hdmi": [
+        289,
+        161,
+        555,
+        680
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 59,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_29ccd6944dd36cabb775e0e3fd5feed24c58c95879e5aaaee73a59cb56968537.jpg",
+      "winner": [
+        9,
+        6,
+        240,
+        103,
+        205,
+        29,
+        105,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          42,
+          54,
+          60,
+          103
+        ],
+        "hdmi": [
+          337,
+          310,
+          483,
+          705
+        ]
+      },
+      "actual_native": [
+        42,
+        54,
+        60,
+        103
+      ],
+      "actual_hdmi": [
+        337,
+        310,
+        483,
+        705
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 60,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2bcd3aae083b5601ba47decbf73a23f6170334a772af6de989cb56eb681a2cc1.png",
+      "winner": [
+        9,
+        16,
+        182,
+        137,
+        105,
+        51,
+        125,
+        225
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          116,
+          46,
+          148,
+          105
+        ],
+        "hdmi": [
+          930,
+          247,
+          1186,
+          718
+        ]
+      },
+      "actual_native": [
+        116,
+        46,
+        148,
+        105
+      ],
+      "actual_hdmi": [
+        930,
+        247,
+        1186,
+        718
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 61,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2bf5b3ea03d46520f7c789ae0d2cf6da5b131da921ab242e58c7e572e9b5ffbf.png",
+      "winner": [
+        7,
+        15,
+        191,
+        127,
+        156,
+        105,
+        169,
+        225
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          91,
+          21,
+          157,
+          101
+        ],
+        "hdmi": [
+          728,
+          49,
+          1255,
+          685
+        ]
+      },
+      "actual_native": [
+        91,
+        21,
+        157,
+        101
+      ],
+      "actual_hdmi": [
+        728,
+        49,
+        1255,
+        685
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 62,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2cd01d7951082b3786a98e5002b89f53af0c3042e9434107a9bb9eba5d801fe6.png",
+      "winner": [
+        7,
+        9,
+        208,
+        96,
+        140,
+        83,
+        163,
+        241
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          49,
+          22,
+          101,
+          99
+        ],
+        "hdmi": [
+          392,
+          56,
+          808,
+          670
+        ]
+      },
+      "actual_native": [
+        49,
+        22,
+        101,
+        99
+      ],
+      "actual_hdmi": [
+        392,
+        56,
+        808,
+        670
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 63,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2d99494275178c949069a1b75824a9c065efafb049d6ec2dcd45bdf203d12ee9.png",
+      "winner": [
+        7,
+        15,
+        211,
+        136,
+        150,
+        76,
+        153,
+        240
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          100,
+          25,
+          148,
+          97
+        ],
+        "hdmi": [
+          803,
+          78,
+          1185,
+          654
+        ]
+      },
+      "actual_native": [
+        100,
+        25,
+        148,
+        97
+      ],
+      "actual_hdmi": [
+        803,
+        78,
+        1185,
+        654
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 64,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2e7e5825630aeaebd9df3037fc6404a33d2005bca1cdf2295ce6135bb33420ef.jpeg",
+      "winner": [
+        9,
+        14,
+        185,
+        200,
+        38,
+        37,
+        97,
+        196
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          107,
+          50,
+          130,
+          96
+        ],
+        "hdmi": [
+          853,
+          283,
+          1039,
+          648
+        ]
+      },
+      "actual_native": [
+        107,
+        50,
+        130,
+        96
+      ],
+      "actual_hdmi": [
+        853,
+        283,
+        1039,
+        648
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 65,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2e85899f0ff1c9fc63369ac06d3de9fc43e7fad8c012a6126d1061ac7751b743.png",
+      "winner": [
+        8,
+        7,
+        196,
+        119,
+        127,
+        48,
+        134,
+        226
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          45,
+          36,
+          75,
+          100
+        ],
+        "hdmi": [
+          357,
+          172,
+          598,
+          676
+        ]
+      },
+      "actual_native": [
+        45,
+        36,
+        75,
+        100
+      ],
+      "actual_hdmi": [
+        357,
+        172,
+        598,
+        676
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 66,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_2fb09fc30ab723c62a18973aff9f9133e5a5165ab9ef6248848fda7d265545ad.jpg",
+      "winner": [
+        9,
+        9,
+        206,
+        230,
+        164,
+        24,
+        97,
+        213
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          72,
+          54,
+          87,
+          100
+        ],
+        "hdmi": [
+          573,
+          315,
+          694,
+          680
+        ]
+      },
+      "actual_native": [
+        72,
+        54,
+        87,
+        100
+      ],
+      "actual_hdmi": [
+        573,
+        315,
+        694,
+        680
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 67,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_300aad30272ac38d82ff9fda9168a2bb53707040d82db057b64b318b1f8db374.jpg",
+      "winner": [
+        2,
+        6,
+        55,
+        133,
+        144,
+        118,
+        162,
+        20
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          15,
+          0,
+          89,
+          59
+        ],
+        "hdmi": [
+          121,
+          0,
+          714,
+          349
+        ]
+      },
+      "actual_native": [
+        15,
+        0,
+        89,
+        59
+      ],
+      "actual_hdmi": [
+        121,
+        0,
+        714,
+        349
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 68,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_303df2a476f606e13944e6c6c74469f4a02456876fb33d1fe6dcce730115b9ae.jpg",
+      "winner": [
+        9,
+        10,
+        244,
+        182,
+        181,
+        15,
+        74,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          81,
+          60,
+          90,
+          95
+        ],
+        "hdmi": [
+          648,
+          362,
+          723,
+          641
+        ]
+      },
+      "actual_native": [
+        81,
+        60,
+        90,
+        95
+      ],
+      "actual_hdmi": [
+        632,
+        362,
+        723,
+        641
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    },
+    {
+      "index": 69,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_30e6b3796295e32da37a75602cc0aea1d0d4c50b812e57bafbbc0bde26f7d9e6.jpg",
+      "winner": [
+        9,
+        6,
+        220,
+        78,
+        151,
+        27,
+        92,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          42,
+          55,
+          59,
+          98
+        ],
+        "hdmi": [
+          336,
+          321,
+          471,
+          667
+        ]
+      },
+      "actual_native": [
+        42,
+        55,
+        59,
+        98
+      ],
+      "actual_hdmi": [
+        336,
+        321,
+        471,
+        667
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 70,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_327254abea17c954b105b59c086a4231b4f0a9971167d5f9f7df1a063c962050.jpg",
+      "winner": [
+        9,
+        8,
+        219,
+        174,
+        154,
+        25,
+        87,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          62,
+          56,
+          77,
+          97
+        ],
+        "hdmi": [
+          493,
+          331,
+          618,
+          658
+        ]
+      },
+      "actual_native": [
+        62,
+        56,
+        77,
+        97
+      ],
+      "actual_hdmi": [
+        493,
+        331,
+        618,
+        658
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 71,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_338b3f3d5c01fcb396b115127fe80c6e58ae8b78e1d42e34e674fbb9a79da6d7.jpg",
+      "winner": [
+        10,
+        9,
+        222,
+        52,
+        88,
+        26,
+        95,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          65,
+          60,
+          82,
+          105
+        ],
+        "hdmi": [
+          524,
+          363,
+          654,
+          719
+        ]
+      },
+      "actual_native": [
+        65,
+        60,
+        82,
+        105
+      ],
+      "actual_hdmi": [
+        524,
+        363,
+        654,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 72,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_3472502e93f8993abc3182dcbc90c751b22966a443b89f38156e473a6fa6f51a.jpg",
+      "winner": [
+        8,
+        11,
+        174,
+        129,
+        125,
+        12,
+        53,
+        199
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          88,
+          55,
+          96,
+          80
+        ],
+        "hdmi": [
+          706,
+          324,
+          766,
+          523
+        ]
+      },
+      "actual_native": [
+        88,
+        55,
+        96,
+        80
+      ],
+      "actual_hdmi": [
+        702,
+        324,
+        766,
+        523
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    },
+    {
+      "index": 73,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_37c5e23cdfa466af343800f3bc52669800ee54818dc4a2143990bc436991f736.jpg",
+      "winner": [
+        9,
+        11,
+        221,
+        109,
+        62,
+        14,
+        60,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          87,
+          60,
+          96,
+          88
+        ],
+        "hdmi": [
+          696,
+          359,
+          766,
+          585
+        ]
+      },
+      "actual_native": [
+        87,
+        60,
+        96,
+        88
+      ],
+      "actual_hdmi": [
+        696,
+        359,
+        766,
+        585
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 74,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_3b80ae51acf8d193790a0207c6282716d7332a7dad2accab988f5272d3cdbbea.jpeg",
+      "winner": [
+        8,
+        11,
+        151,
+        136,
+        136,
+        63,
+        134,
+        190
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          73,
+          37,
+          112,
+          100
+        ],
+        "hdmi": [
+          580,
+          174,
+          896,
+          678
+        ]
+      },
+      "actual_native": [
+        73,
+        37,
+        112,
+        100
+      ],
+      "actual_hdmi": [
+        580,
+        174,
+        896,
+        678
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 75,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_3b93af38ab6f0ab1d3e111fd1d9c054dc20d6f5f19c384859ec377fdd8597994.jpg",
+      "winner": [
+        7,
+        15,
+        208,
+        157,
+        140,
+        131,
+        179,
+        251
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          84,
+          18,
+          159,
+          103
+        ],
+        "hdmi": [
+          671,
+          26,
+          1279,
+          700
+        ]
+      },
+      "actual_native": [
+        84,
+        18,
+        159,
+        103
+      ],
+      "actual_hdmi": [
+        671,
+        26,
+        1279,
+        700
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 76,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_3bddf9720f91e34d0a6452f222050891f2d67ebce51662605a2fe49e6d55ad45.png",
+      "winner": [
+        7,
+        4,
+        196,
+        134,
+        156,
+        112,
+        182,
+        219
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          1,
+          18,
+          71,
+          104
+        ],
+        "hdmi": [
+          9,
+          25,
+          571,
+          710
+        ]
+      },
+      "actual_native": [
+        1,
+        18,
+        71,
+        104
+      ],
+      "actual_hdmi": [
+        9,
+        25,
+        571,
+        710
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 77,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_42b2167b0eb47fa88c83ad479fdd24335ce432a0a83bb266d8cebedfab1c8195.jpg",
+      "winner": [
+        9,
+        15,
+        226,
+        65,
+        103,
+        31,
+        97,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          112,
+          52,
+          132,
+          98
+        ],
+        "hdmi": [
+          899,
+          299,
+          1054,
+          664
+        ]
+      },
+      "actual_native": [
+        112,
+        52,
+        132,
+        98
+      ],
+      "actual_hdmi": [
+        899,
+        299,
+        1054,
+        664
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 78,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_432e36145e2914d838a22300994d496ff066d06ea0a1de8bd12781e82fa20300.jpg",
+      "winner": [
+        7,
+        11,
+        59,
+        158,
+        130,
+        80,
+        162,
+        0
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          68,
+          22,
+          118,
+          98
+        ],
+        "hdmi": [
+          543,
+          56,
+          944,
+          666
+        ]
+      },
+      "actual_native": [
+        68,
+        22,
+        118,
+        98
+      ],
+      "actual_hdmi": [
+        543,
+        56,
+        944,
+        666
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 79,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_43402218558af780bca197224f684afbf885c0876c6969fbe6518ca583a0cff4.jpeg",
+      "winner": [
+        8,
+        8,
+        200,
+        126,
+        107,
+        53,
+        143,
+        229
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          51,
+          34,
+          85,
+          101
+        ],
+        "hdmi": [
+          411,
+          150,
+          677,
+          688
+        ]
+      },
+      "actual_native": [
+        51,
+        34,
+        85,
+        101
+      ],
+      "actual_hdmi": [
+        411,
+        150,
+        677,
+        688
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 80,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4378bb3d4a611b7f2668597c8dd29a7d30b18dcd324bb99b8286896ec9ce084f.png",
+      "winner": [
+        7,
+        6,
+        207,
+        124,
+        160,
+        97,
+        161,
+        233
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          21,
+          23,
+          82,
+          99
+        ],
+        "hdmi": [
+          172,
+          65,
+          659,
+          671
+        ]
+      },
+      "actual_native": [
+        21,
+        23,
+        82,
+        99
+      ],
+      "actual_hdmi": [
+        172,
+        65,
+        659,
+        671
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 81,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_471509461bee4ddab5e7ad00ae28a40ab82e8bcf9d048f1fe05cfcf403c4f4f2.png",
+      "winner": [
+        8,
+        2,
+        203,
+        166,
+        36,
+        49,
+        140,
+        202
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          6,
+          32,
+          37,
+          98
+        ],
+        "hdmi": [
+          47,
+          138,
+          293,
+          665
+        ]
+      },
+      "actual_native": [
+        6,
+        32,
+        37,
+        98
+      ],
+      "actual_hdmi": [
+        47,
+        138,
+        293,
+        665
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 82,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4839f8ddd782becdddb4f778d018211392cfbe3c588a0d98e322d639be767f98.png",
+      "winner": [
+        7,
+        9,
+        216,
+        133,
+        131,
+        95,
+        169,
+        250
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          46,
+          20,
+          106,
+          100
+        ],
+        "hdmi": [
+          371,
+          43,
+          848,
+          679
+        ]
+      },
+      "actual_native": [
+        46,
+        20,
+        106,
+        100
+      ],
+      "actual_hdmi": [
+        371,
+        43,
+        848,
+        679
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 83,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_498ed8b3760a372b73c3601a737e11c989805ef6bf74ba87bd293a28ac156009.png",
+      "winner": [
+        7,
+        12,
+        173,
+        155,
+        90,
+        67,
+        147,
+        181
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          80,
+          24,
+          122,
+          93
+        ],
+        "hdmi": [
+          639,
+          74,
+          975,
+          627
+        ]
+      },
+      "actual_native": [
+        80,
+        24,
+        122,
+        93
+      ],
+      "actual_hdmi": [
+        639,
+        74,
+        975,
+        627
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 84,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4c2e5e878f607e1b8ae0093e4fb2697fdbe88265df9bcd663a30ec6065d62e66.jpeg",
+      "winner": [
+        8,
+        2,
+        202,
+        156,
+        145,
+        42,
+        131,
+        243
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          8,
+          38,
+          34,
+          99
+        ],
+        "hdmi": [
+          62,
+          182,
+          273,
+          675
+        ]
+      },
+      "actual_native": [
+        8,
+        38,
+        34,
+        99
+      ],
+      "actual_hdmi": [
+        62,
+        182,
+        273,
+        675
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 85,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4c3f3a2bbd2632442d3531fe3ce4299bfadd8e4c65a0d1df8d328ca97cd223ec.png",
+      "winner": [
+        8,
+        3,
+        168,
+        82,
+        111,
+        32,
+        85,
+        213
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          17,
+          47,
+          37,
+          87
+        ],
+        "hdmi": [
+          132,
+          260,
+          293,
+          580
+        ]
+      },
+      "actual_native": [
+        17,
+        47,
+        37,
+        87
+      ],
+      "actual_hdmi": [
+        132,
+        260,
+        293,
+        580
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 86,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4cc05505e799e564dbf025cccbeb36698ac959d9f743bb383574e76f1c0d0619.png",
+      "winner": [
+        7,
+        5,
+        217,
+        109,
+        138,
+        110,
+        171,
+        252
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          9,
+          20,
+          78,
+          101
+        ],
+        "hdmi": [
+          71,
+          41,
+          623,
+          685
+        ]
+      },
+      "actual_native": [
+        9,
+        20,
+        78,
+        101
+      ],
+      "actual_hdmi": [
+        71,
+        41,
+        623,
+        685
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 87,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4d88fa94768c86b77941bbc855ae7b34c3b98061ba5d489e65c2932e5060f93b.jpg",
+      "winner": [
+        10,
+        16,
+        44,
+        123,
+        141,
+        105,
+        127,
+        103
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          99,
+          55,
+          159,
+          114
+        ],
+        "hdmi": [
+          791,
+          316,
+          1279,
+          719
+        ]
+      },
+      "actual_native": [
+        99,
+        55,
+        159,
+        114
+      ],
+      "actual_hdmi": [
+        791,
+        316,
+        1279,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 88,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4dfb95e5d231c6c9ccd16b94eebbe1d3de80d0c89d3c07f935ef3b49174f9d6a.png",
+      "winner": [
+        7,
+        15,
+        196,
+        139,
+        140,
+        72,
+        154,
+        224
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          102,
+          24,
+          147,
+          97
+        ],
+        "hdmi": [
+          814,
+          73,
+          1176,
+          653
+        ]
+      },
+      "actual_native": [
+        102,
+        24,
+        147,
+        97
+      ],
+      "actual_hdmi": [
+        814,
+        73,
+        1176,
+        653
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 89,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_4f25bb3642708a5a00b96ae97edd4b4f6afd02eaa33bd458d8822af364f78a36.jpeg",
+      "winner": [
+        7,
+        13,
+        205,
+        128,
+        157,
+        49,
+        133,
+        226
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          93,
+          30,
+          123,
+          92
+        ],
+        "hdmi": [
+          741,
+          117,
+          987,
+          618
+        ]
+      },
+      "actual_native": [
+        93,
+        30,
+        123,
+        92
+      ],
+      "actual_hdmi": [
+        741,
+        117,
+        987,
+        618
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 90,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_53b893adbf49fc5944510fd942bc03ba2b9aee70ca30194452d908ca25f184f6.jpg",
+      "winner": [
+        10,
+        6,
+        247,
+        171,
+        51,
+        29,
+        94,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          44,
+          59,
+          62,
+          104
+        ],
+        "hdmi": [
+          354,
+          356,
+          500,
+          710
+        ]
+      },
+      "actual_native": [
+        44,
+        59,
+        62,
+        104
+      ],
+      "actual_hdmi": [
+        354,
+        356,
+        500,
+        710
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 91,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_53d38feef2609847cdac57c834d05558edc5d3ea6cfa7aeb25fefb528da97078.jpg",
+      "winner": [
+        8,
+        10,
+        185,
+        96,
+        130,
+        12,
+        50,
+        209
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          79,
+          56,
+          87,
+          80
+        ],
+        "hdmi": [
+          634,
+          331,
+          694,
+          519
+        ]
+      },
+      "actual_native": [
+        79,
+        56,
+        87,
+        80
+      ],
+      "actual_hdmi": [
+        634,
+        331,
+        694,
+        519
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 92,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_5406714e21a257ad6818449690b9d079f6a46cfc30ac869e058393e31c0be170.jpeg",
+      "winner": [
+        11,
+        15,
+        77,
+        130,
+        92,
+        47,
+        97,
+        27
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          109,
+          68,
+          139,
+          114
+        ],
+        "hdmi": [
+          875,
+          425,
+          1111,
+          719
+        ]
+      },
+      "actual_native": [
+        109,
+        68,
+        139,
+        114
+      ],
+      "actual_hdmi": [
+        875,
+        425,
+        1111,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 93,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_55e911d8a19b54f15de0e1d712c6cd4ddc2d8d2ebf83228c53724fa978849c3d.jpg",
+      "winner": [
+        9,
+        13,
+        211,
+        173,
+        150,
+        26,
+        94,
+        249
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          101,
+          55,
+          118,
+          99
+        ],
+        "hdmi": [
+          810,
+          317,
+          941,
+          671
+        ]
+      },
+      "actual_native": [
+        101,
+        55,
+        118,
+        99
+      ],
+      "actual_hdmi": [
+        810,
+        317,
+        941,
+        671
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 94,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_5c7b86d559e6441b463b34b99d45ee5f0c984173592244278a5e11203b91a127.jpg",
+      "winner": [
+        9,
+        13,
+        218,
+        190,
+        147,
+        22,
+        79,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          103,
+          58,
+          117,
+          95
+        ],
+        "hdmi": [
+          824,
+          344,
+          935,
+          642
+        ]
+      },
+      "actual_native": [
+        103,
+        58,
+        117,
+        95
+      ],
+      "actual_hdmi": [
+        824,
+        344,
+        935,
+        642
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 95,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_5df539028a6f42d55efd0f35affc06551821372bda5f9d554bfcf62c691d7788.png",
+      "winner": [
+        7,
+        15,
+        222,
+        113,
+        173,
+        69,
+        164,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          102,
+          23,
+          145,
+          100
+        ],
+        "hdmi": [
+          815,
+          63,
+          1162,
+          680
+        ]
+      },
+      "actual_native": [
+        102,
+        23,
+        145,
+        100
+      ],
+      "actual_hdmi": [
+        815,
+        63,
+        1162,
+        680
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 96,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_659ff0d99f355f25539a5feea89f6e8a450e92d9f4d74c28ae17506ae5e114c4.png",
+      "winner": [
+        7,
+        6,
+        196,
+        136,
+        83,
+        87,
+        163,
+        230
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          25,
+          20,
+          80,
+          97
+        ],
+        "hdmi": [
+          200,
+          42,
+          636,
+          656
+        ]
+      },
+      "actual_native": [
+        25,
+        20,
+        80,
+        97
+      ],
+      "actual_hdmi": [
+        200,
+        42,
+        636,
+        656
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 97,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_65a9fe41e30458749692cb7acf60abef1e40aadf8fed0a1f5f4906e1ac7b7b8c.jpg",
+      "winner": [
+        9,
+        15,
+        247,
+        136,
+        132,
+        36,
+        109,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          113,
+          50,
+          136,
+          102
+        ],
+        "hdmi": [
+          904,
+          284,
+          1084,
+          694
+        ]
+      },
+      "actual_native": [
+        113,
+        50,
+        136,
+        102
+      ],
+      "actual_hdmi": [
+        904,
+        284,
+        1084,
+        694
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 98,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_674b4bb5ae83115c4bd2b201a581a40f2c2f649bf2399507d861f9a6526eb798.jpg",
+      "winner": [
+        11,
+        14,
+        46,
+        137,
+        135,
+        54,
+        104,
+        0
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          99,
+          68,
+          133,
+          117
+        ],
+        "hdmi": [
+          795,
+          422,
+          1066,
+          719
+        ]
+      },
+      "actual_native": [
+        99,
+        68,
+        133,
+        117
+      ],
+      "actual_hdmi": [
+        795,
+        422,
+        1066,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 99,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_68ae56c77337bff29fe652bf15a9568852a8e73a6729330cbb7bce9841f9054f.png",
+      "winner": [
+        8,
+        10,
+        216,
+        136,
+        92,
+        59,
+        152,
+        237
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          66,
+          31,
+          103,
+          103
+        ],
+        "hdmi": [
+          526,
+          129,
+          822,
+          701
+        ]
+      },
+      "actual_native": [
+        66,
+        31,
+        103,
+        103
+      ],
+      "actual_hdmi": [
+        526,
+        129,
+        822,
+        701
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 100,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_6b90d12818232a8b5ea8b4262d48f7baac29f9dcffb802812ca3a02acd499845.png",
+      "winner": [
+        7,
+        9,
+        166,
+        177,
+        109,
+        102,
+        162,
+        168
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          46,
+          21,
+          110,
+          98
+        ],
+        "hdmi": [
+          364,
+          50,
+          876,
+          660
+        ]
+      },
+      "actual_native": [
+        46,
+        21,
+        110,
+        98
+      ],
+      "actual_hdmi": [
+        364,
+        50,
+        876,
+        660
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 101,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_6d3d88e810d1bf6e3db48aa2c7e1b95dea435cd40f1839d14b6588ea503ae8f3.jpeg",
+      "winner": [
+        8,
+        9,
+        200,
+        82,
+        142,
+        40,
+        113,
+        252
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          62,
+          42,
+          87,
+          95
+        ],
+        "hdmi": [
+          496,
+          215,
+          697,
+          640
+        ]
+      },
+      "actual_native": [
+        62,
+        42,
+        87,
+        95
+      ],
+      "actual_hdmi": [
+        496,
+        215,
+        697,
+        640
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 102,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_6d91e0e981d59ba8a78ae7315ce7970a17953a8d0c31d74f71f05a1c77c76c3c.jpeg",
+      "winner": [
+        8,
+        13,
+        160,
+        120,
+        94,
+        63,
+        136,
+        212
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          88,
+          35,
+          128,
+          99
+        ],
+        "hdmi": [
+          704,
+          160,
+          1020,
+          672
+        ]
+      },
+      "actual_native": [
+        88,
+        35,
+        128,
+        99
+      ],
+      "actual_hdmi": [
+        704,
+        160,
+        1020,
+        672
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 103,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_73d75ecb688f5d665060629d56be33379c4e6b82ee0deaffd38267bad988dee5.jpg",
+      "winner": [
+        9,
+        8,
+        218,
+        197,
+        180,
+        21,
+        93,
+        252
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          64,
+          56,
+          77,
+          100
+        ],
+        "hdmi": [
+          509,
+          326,
+          614,
+          676
+        ]
+      },
+      "actual_native": [
+        64,
+        56,
+        77,
+        100
+      ],
+      "actual_hdmi": [
+        509,
+        326,
+        614,
+        676
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 104,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_7466ddb85bc1301da4b8cb2530610d17576509d4f6ca486575f396edc79e9312.jpeg",
+      "winner": [
+        8,
+        3,
+        198,
+        121,
+        127,
+        42,
+        135,
+        217
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          15,
+          36,
+          41,
+          100
+        ],
+        "hdmi": [
+          117,
+          170,
+          328,
+          678
+        ]
+      },
+      "actual_native": [
+        15,
+        36,
+        41,
+        100
+      ],
+      "actual_hdmi": [
+        117,
+        170,
+        328,
+        678
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 105,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_766ee0ff5c7a922f3f00b5585ce29aa519a831304651d50ccb59d785c37e968d.jpg",
+      "winner": [
+        9,
+        9,
+        135,
+        198,
+        95,
+        47,
+        97,
+        163
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          63,
+          52,
+          93,
+          98
+        ],
+        "hdmi": [
+          508,
+          297,
+          744,
+          662
+        ]
+      },
+      "actual_native": [
+        63,
+        52,
+        93,
+        98
+      ],
+      "actual_hdmi": [
+        508,
+        297,
+        744,
+        662
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 106,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_7936947dff444f5de4a36821e282bfdce5704500567598df27357ebb89bd68a6.jpg",
+      "winner": [
+        10,
+        4,
+        179,
+        118,
+        74,
+        47,
+        110,
+        190
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          21,
+          56,
+          50,
+          108
+        ],
+        "hdmi": [
+          168,
+          332,
+          404,
+          719
+        ]
+      },
+      "actual_native": [
+        21,
+        56,
+        50,
+        108
+      ],
+      "actual_hdmi": [
+        168,
+        332,
+        404,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 107,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_7b5b874dc8940fc62afe7fb57b8e99dccc8908c8e8177609afdc1d5436c353a7.png",
+      "winner": [
+        8,
+        16,
+        220,
+        150,
+        139,
+        88,
+        168,
+        251
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          105,
+          29,
+          159,
+          108
+        ],
+        "hdmi": [
+          841,
+          111,
+          1279,
+          719
+        ]
+      },
+      "actual_native": [
+        105,
+        29,
+        159,
+        108
+      ],
+      "actual_hdmi": [
+        841,
+        111,
+        1279,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 108,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_810f7a4fc5ece893a82425f55188cde7f096dabb6ec5df3997746418f236ceed.jpg",
+      "winner": [
+        8,
+        5,
+        136,
+        106,
+        110,
+        103,
+        157,
+        127
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          11,
+          31,
+          76,
+          104
+        ],
+        "hdmi": [
+          88,
+          124,
+          605,
+          715
+        ]
+      },
+      "actual_native": [
+        11,
+        31,
+        76,
+        104
+      ],
+      "actual_hdmi": [
+        88,
+        124,
+        605,
+        715
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 109,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_81d1dfb16f1fb6cdf7c7f4fc534b86f67dd7ce167e010d21715cd32f648d52f0.jpg",
+      "winner": [
+        8,
+        10,
+        97,
+        122,
+        55,
+        91,
+        156,
+        34
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          55,
+          29,
+          112,
+          102
+        ],
+        "hdmi": [
+          442,
+          112,
+          899,
+          699
+        ]
+      },
+      "actual_native": [
+        55,
+        29,
+        112,
+        102
+      ],
+      "actual_hdmi": [
+        442,
+        112,
+        899,
+        699
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 110,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_83037755eba29ef82d52d1a60b9ce9cd79c6598aa5c1e79ed6626fff62943e2f.jpg",
+      "winner": [
+        11,
+        5,
+        48,
+        115,
+        149,
+        95,
+        117,
+        108
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          14,
+          65,
+          73,
+          119
+        ],
+        "hdmi": [
+          110,
+          401,
+          587,
+          719
+        ]
+      },
+      "actual_native": [
+        14,
+        65,
+        73,
+        119
+      ],
+      "actual_hdmi": [
+        110,
+        401,
+        587,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 111,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_83a5a775dc1d57832ca5232a52aaabc6ab7367e88766be8288c238d1491e5cd7.jpg",
+      "winner": [
+        10,
+        6,
+        234,
+        80,
+        43,
+        24,
+        86,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          43,
+          61,
+          58,
+          102
+        ],
+        "hdmi": [
+          344,
+          369,
+          464,
+          693
+        ]
+      },
+      "actual_native": [
+        43,
+        61,
+        58,
+        102
+      ],
+      "actual_hdmi": [
+        344,
+        369,
+        464,
+        693
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 112,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_8b2aca4b928636f356cd533a384591c105b6133fdb7485bd614c887ddceae20c.jpg",
+      "winner": [
+        8,
+        11,
+        56,
+        122,
+        132,
+        100,
+        119,
+        125
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          60,
+          40,
+          123,
+          96
+        ],
+        "hdmi": [
+          484,
+          201,
+          986,
+          649
+        ]
+      },
+      "actual_native": [
+        60,
+        40,
+        123,
+        96
+      ],
+      "actual_hdmi": [
+        484,
+        201,
+        986,
+        649
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 113,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_8f93939b88e8da067db2fb688e3080367306383db9423f9db2492d875f4d46d1.jpg",
+      "winner": [
+        10,
+        9,
+        215,
+        100,
+        89,
+        29,
+        93,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          66,
+          61,
+          84,
+          105
+        ],
+        "hdmi": [
+          528,
+          367,
+          674,
+          717
+        ]
+      },
+      "actual_native": [
+        66,
+        61,
+        84,
+        105
+      ],
+      "actual_hdmi": [
+        528,
+        367,
+        674,
+        717
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 114,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_90a68f6a089628fd1dac8b15c931a3030a5c6f9eed32a5283c8ae08a31c3271e.png",
+      "winner": [
+        8,
+        7,
+        214,
+        75,
+        146,
+        54,
+        140,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          41,
+          36,
+          75,
+          102
+        ],
+        "hdmi": [
+          331,
+          165,
+          602,
+          692
+        ]
+      },
+      "actual_native": [
+        41,
+        36,
+        75,
+        102
+      ],
+      "actual_hdmi": [
+        331,
+        165,
+        602,
+        692
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 115,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_90b0d600f87345555e4264e55137389ddb8a75e847b1828d13e31de5f812c45e.png",
+      "winner": [
+        9,
+        16,
+        182,
+        115,
+        84,
+        51,
+        132,
+        205
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          116,
+          44,
+          148,
+          106
+        ],
+        "hdmi": [
+          925,
+          229,
+          1181,
+          719
+        ]
+      },
+      "actual_native": [
+        116,
+        44,
+        148,
+        106
+      ],
+      "actual_hdmi": [
+        925,
+        229,
+        1181,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 116,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_927cc1a37a4058a313c82d2b4cfb9e84a03cff7b0ac8080314d2add57bb1c4ac.jpg",
+      "winner": [
+        9,
+        7,
+        217,
+        184,
+        151,
+        37,
+        104,
+        250
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          50,
+          52,
+          73,
+          101
+        ],
+        "hdmi": [
+          401,
+          298,
+          587,
+          690
+        ]
+      },
+      "actual_native": [
+        50,
+        52,
+        73,
+        101
+      ],
+      "actual_hdmi": [
+        401,
+        298,
+        587,
+        690
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 117,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_932e97b8d33e3c58c604b850fcb6a9a68fd6998ec92d1dd1a268edac76d6d86c.png",
+      "winner": [
+        9,
+        17,
+        198,
+        176,
+        126,
+        40,
+        109,
+        233
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          129,
+          50,
+          154,
+          102
+        ],
+        "hdmi": [
+          1032,
+          282,
+          1233,
+          693
+        ]
+      },
+      "actual_native": [
+        129,
+        50,
+        154,
+        102
+      ],
+      "actual_hdmi": [
+        1032,
+        282,
+        1233,
+        693
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 118,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_99dc0710a23903d981bb9393209ae088ab425aa70c93dc7c823f1da890ca2bb0.jpeg",
+      "winner": [
+        10,
+        9,
+        179,
+        122,
+        148,
+        34,
+        97,
+        216
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          65,
+          62,
+          86,
+          107
+        ],
+        "hdmi": [
+          521,
+          375,
+          692,
+          719
+        ]
+      },
+      "actual_native": [
+        65,
+        62,
+        86,
+        107
+      ],
+      "actual_hdmi": [
+        521,
+        375,
+        692,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 119,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_9b3f13e3a7d1583cbd9870456999f37624f9b671115fd4261a6a3479d9cd9678.jpeg",
+      "winner": [
+        8,
+        13,
+        189,
+        146,
+        144,
+        63,
+        143,
+        219
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          89,
+          35,
+          128,
+          102
+        ],
+        "hdmi": [
+          711,
+          159,
+          1027,
+          697
+        ]
+      },
+      "actual_native": [
+        89,
+        35,
+        128,
+        102
+      ],
+      "actual_hdmi": [
+        711,
+        159,
+        1027,
+        697
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 120,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a0963c7e7bf4a96fa55853da159a40f9ef2fb5c1f269c6978ce9407f172e64f3.jpg",
+      "winner": [
+        11,
+        2,
+        61,
+        128,
+        137,
+        105,
+        121,
+        124
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          0,
+          64,
+          53,
+          119
+        ],
+        "hdmi": [
+          0,
+          391,
+          424,
+          719
+        ]
+      },
+      "actual_native": [
+        0,
+        64,
+        53,
+        119
+      ],
+      "actual_hdmi": [
+        0,
+        391,
+        424,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 121,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a19c7e689a78122451eea13c653b45531e7c64208d9aedc6dece2cf125e8b579.jpeg",
+      "winner": [
+        7,
+        7,
+        212,
+        128,
+        113,
+        109,
+        176,
+        235
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          26,
+          18,
+          94,
+          101
+        ],
+        "hdmi": [
+          207,
+          25,
+          754,
+          688
+        ]
+      },
+      "actual_native": [
+        26,
+        18,
+        94,
+        101
+      ],
+      "actual_hdmi": [
+        207,
+        25,
+        754,
+        688
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 122,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a215fd244836296ba7b35a1645fee4328f7d4444bc72eba11ca669cd0a902dba.png",
+      "winner": [
+        8,
+        2,
+        195,
+        163,
+        93,
+        58,
+        143,
+        229
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          3,
+          33,
+          39,
+          101
+        ],
+        "hdmi": [
+          23,
+          146,
+          314,
+          685
+        ]
+      },
+      "actual_native": [
+        3,
+        33,
+        39,
+        101
+      ],
+      "actual_hdmi": [
+        23,
+        146,
+        314,
+        685
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 123,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a3040b95f8a0e1684ffa1625bc3fac51723a566bd2da270e81a911d15e26951c.jpg",
+      "winner": [
+        9,
+        13,
+        66,
+        128,
+        135,
+        100,
+        118,
+        121
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          77,
+          48,
+          139,
+          104
+        ],
+        "hdmi": [
+          613,
+          268,
+          1115,
+          712
+        ]
+      },
+      "actual_native": [
+        77,
+        48,
+        139,
+        104
+      ],
+      "actual_hdmi": [
+        613,
+        268,
+        1115,
+        712
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 124,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a745a2454a1e1b708df84a6e1695e6e9449726a33af855eea94a1e494634ac7a.jpeg",
+      "winner": [
+        8,
+        9,
+        187,
+        150,
+        94,
+        57,
+        147,
+        193
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          59,
+          32,
+          95,
+          102
+        ],
+        "hdmi": [
+          471,
+          139,
+          757,
+          692
+        ]
+      },
+      "actual_native": [
+        59,
+        32,
+        95,
+        102
+      ],
+      "actual_hdmi": [
+        471,
+        139,
+        757,
+        692
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 125,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a7d8ce780f6a103c58c8920edfb60ea6dda001cf20c3de787cb80b2138da13d6.jpg",
+      "winner": [
+        9,
+        11,
+        217,
+        66,
+        91,
+        20,
+        75,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          84,
+          57,
+          96,
+          93
+        ],
+        "hdmi": [
+          670,
+          338,
+          771,
+          620
+        ]
+      },
+      "actual_native": [
+        84,
+        57,
+        96,
+        93
+      ],
+      "actual_hdmi": [
+        670,
+        338,
+        771,
+        620
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 126,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_a8c4b3de91c7b49e9a501ef8364547a4944a378258bd279adfc2638c8b95c50b.jpg",
+      "winner": [
+        9,
+        7,
+        98,
+        126,
+        100,
+        52,
+        107,
+        86
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          44,
+          50,
+          76,
+          100
+        ],
+        "hdmi": [
+          349,
+          280,
+          610,
+          683
+        ]
+      },
+      "actual_native": [
+        44,
+        50,
+        76,
+        100
+      ],
+      "actual_hdmi": [
+        349,
+        280,
+        610,
+        683
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 127,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_aef0bab472bac61c91e11afbfe264f950e1b7b495c031be80b61d32eb477008b.png",
+      "winner": [
+        8,
+        8,
+        189,
+        142,
+        180,
+        49,
+        135,
+        200
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          53,
+          38,
+          84,
+          101
+        ],
+        "hdmi": [
+          425,
+          183,
+          671,
+          691
+        ]
+      },
+      "actual_native": [
+        53,
+        38,
+        84,
+        101
+      ],
+      "actual_hdmi": [
+        425,
+        183,
+        671,
+        691
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 128,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_af0d03314dc5f9a90c89bd19a3585ad473fb90a1e0dbd39a424fc92e542ceb07.jpg",
+      "winner": [
+        9,
+        6,
+        221,
+        34,
+        184,
+        26,
+        104,
+        245
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          41,
+          53,
+          57,
+          102
+        ],
+        "hdmi": [
+          327,
+          306,
+          458,
+          698
+        ]
+      },
+      "actual_native": [
+        41,
+        53,
+        57,
+        102
+      ],
+      "actual_hdmi": [
+        327,
+        306,
+        458,
+        698
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 129,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_af2dfd6ca0e27005d25d563b27b9a44229b7da7be1be2c766b22eb7c016ddd59.png",
+      "winner": [
+        8,
+        12,
+        203,
+        150,
+        86,
+        42,
+        120,
+        234
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          88,
+          38,
+          114,
+          95
+        ],
+        "hdmi": [
+          700,
+          188,
+          911,
+          639
+        ]
+      },
+      "actual_native": [
+        88,
+        38,
+        114,
+        95
+      ],
+      "actual_hdmi": [
+        700,
+        188,
+        911,
+        639
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 130,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_b22813057b2911177656b666b5b8bc1b3629c02f1687bc8a08b3b4575c8dfe29.jpg",
+      "winner": [
+        8,
+        10,
+        205,
+        159,
+        174,
+        37,
+        126,
+        232
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          73,
+          40,
+          97,
+          99
+        ],
+        "hdmi": [
+          587,
+          198,
+          773,
+          673
+        ]
+      },
+      "actual_native": [
+        73,
+        40,
+        97,
+        99
+      ],
+      "actual_hdmi": [
+        587,
+        198,
+        773,
+        673
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 131,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_b23c7fb156824761bd1e214c8c2298c1f25351441f97735d49a3ee887e04cafe.jpg",
+      "winner": [
+        9,
+        5,
+        178,
+        125,
+        126,
+        39,
+        100,
+        210
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          32,
+          52,
+          56,
+          99
+        ],
+        "hdmi": [
+          253,
+          299,
+          449,
+          676
+        ]
+      },
+      "actual_native": [
+        32,
+        52,
+        56,
+        99
+      ],
+      "actual_hdmi": [
+        253,
+        299,
+        449,
+        676
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 132,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_b50a8c6e43368d93d05de72d71041af45626a6ebbbe6659ac8243da2edfe88d6.jpeg",
+      "winner": [
+        8,
+        15,
+        222,
+        131,
+        118,
+        56,
+        145,
+        250
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          107,
+          34,
+          142,
+          102
+        ],
+        "hdmi": [
+          852,
+          149,
+          1133,
+          695
+        ]
+      },
+      "actual_native": [
+        107,
+        34,
+        142,
+        102
+      ],
+      "actual_hdmi": [
+        852,
+        149,
+        1133,
+        695
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 133,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_b8b40fe0fc72ed905c1a010a9be6e238d737776b7feef209ec2a85fd64f5907c.jpg",
+      "winner": [
+        9,
+        13,
+        208,
+        43,
+        124,
+        27,
+        90,
+        249
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          97,
+          55,
+          114,
+          97
+        ],
+        "hdmi": [
+          775,
+          318,
+          911,
+          657
+        ]
+      },
+      "actual_native": [
+        97,
+        55,
+        114,
+        97
+      ],
+      "actual_hdmi": [
+        775,
+        318,
+        911,
+        657
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 134,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_bc12e150a972308d87356e57f5e0aea246b18c4dd99826a581729a5e8686b6a2.png",
+      "winner": [
+        8,
+        15,
+        206,
+        106,
+        133,
+        57,
+        142,
+        248
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          105,
+          35,
+          141,
+          102
+        ],
+        "hdmi": [
+          844,
+          158,
+          1130,
+          693
+        ]
+      },
+      "actual_native": [
+        105,
+        35,
+        141,
+        102
+      ],
+      "actual_hdmi": [
+        844,
+        158,
+        1130,
+        693
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 135,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_c32e4d4dd1e13a723188da7306994b76e4b208f1f43f7818dacbec4058a810fd.jpg",
+      "winner": [
+        11,
+        8,
+        74,
+        115,
+        147,
+        91,
+        111,
+        147
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          39,
+          66,
+          96,
+          119
+        ],
+        "hdmi": [
+          312,
+          412,
+          769,
+          719
+        ]
+      },
+      "actual_native": [
+        39,
+        66,
+        96,
+        119
+      ],
+      "actual_hdmi": [
+        312,
+        412,
+        769,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 136,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_c3790484b568541930b671317e4390987b2780ed2b3cb15aa6226d3c47ba74c0.jpg",
+      "winner": [
+        9,
+        15,
+        238,
+        96,
+        133,
+        33,
+        96,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          113,
+          54,
+          133,
+          99
+        ],
+        "hdmi": [
+          901,
+          309,
+          1067,
+          670
+        ]
+      },
+      "actual_native": [
+        113,
+        54,
+        133,
+        99
+      ],
+      "actual_hdmi": [
+        901,
+        309,
+        1067,
+        670
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 137,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_cb1f13be5d6d9a55b7f06a55833c3bc7e10f8f7f86b107d4e0358333e3e6950b.jpg",
+      "winner": [
+        9,
+        13,
+        230,
+        206,
+        148,
+        27,
+        96,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          102,
+          54,
+          119,
+          99
+        ],
+        "hdmi": [
+          816,
+          312,
+          951,
+          674
+        ]
+      },
+      "actual_native": [
+        102,
+        54,
+        119,
+        99
+      ],
+      "actual_hdmi": [
+        816,
+        312,
+        951,
+        674
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 138,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_cbf9ce9d9e933c10998130a81e0ab33e9ef984bd05cbbf120c8d9990b869d984.jpg",
+      "winner": [
+        11,
+        2,
+        53,
+        115,
+        149,
+        103,
+        124,
+        115
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          0,
+          63,
+          52,
+          119
+        ],
+        "hdmi": [
+          0,
+          388,
+          415,
+          719
+        ]
+      },
+      "actual_native": [
+        0,
+        63,
+        52,
+        119
+      ],
+      "actual_hdmi": [
+        0,
+        388,
+        415,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 139,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_cc7075ae5f8c5ba439462d1445b62af45627bb3e639e59a7a5a8101282b6fa59.jpg",
+      "winner": [
+        9,
+        6,
+        227,
+        27,
+        160,
+        33,
+        105,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          38,
+          52,
+          59,
+          102
+        ],
+        "hdmi": [
+          308,
+          299,
+          474,
+          694
+        ]
+      },
+      "actual_native": [
+        38,
+        52,
+        59,
+        102
+      ],
+      "actual_hdmi": [
+        308,
+        299,
+        474,
+        694
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 140,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_ccf3abf452f7274fb3449d9b99724fd463a4429b8f3129ab4656817755b3f2bd.jpeg",
+      "winner": [
+        9,
+        3,
+        194,
+        120,
+        133,
+        40,
+        115,
+        230
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          15,
+          49,
+          40,
+          103
+        ],
+        "hdmi": [
+          122,
+          273,
+          323,
+          706
+        ]
+      },
+      "actual_native": [
+        15,
+        49,
+        40,
+        103
+      ],
+      "actual_hdmi": [
+        122,
+        273,
+        323,
+        706
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 141,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_d078d4e4f05a4a0f6798dcf17d05d73e647a8e0310c720e60f7b4a1855714fbb.jpg",
+      "winner": [
+        9,
+        8,
+        210,
+        88,
+        174,
+        38,
+        110,
+        246
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          55,
+          52,
+          79,
+          103
+        ],
+        "hdmi": [
+          439,
+          293,
+          629,
+          707
+        ]
+      },
+      "actual_native": [
+        55,
+        52,
+        79,
+        103
+      ],
+      "actual_hdmi": [
+        439,
+        293,
+        629,
+        707
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 142,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_d0f6e384112c8619eb23f511b18dbf5bd7ffb5853604abfc33be6b5c19384cf9.jpg",
+      "winner": [
+        9,
+        5,
+        235,
+        147,
+        183,
+        32,
+        95,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          35,
+          55,
+          55,
+          100
+        ],
+        "hdmi": [
+          277,
+          323,
+          437,
+          681
+        ]
+      },
+      "actual_native": [
+        35,
+        55,
+        55,
+        100
+      ],
+      "actual_hdmi": [
+        277,
+        323,
+        437,
+        681
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 143,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_d12e900d1c2fdb1fb6d06d51e398c77c1dfc02bc552608bab46050b4fc3fca3b.jpeg",
+      "winner": [
+        7,
+        12,
+        204,
+        161,
+        192,
+        106,
+        172,
+        220
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          68,
+          22,
+          134,
+          102
+        ],
+        "hdmi": [
+          542,
+          52,
+          1074,
+          700
+        ]
+      },
+      "actual_native": [
+        68,
+        22,
+        134,
+        102
+      ],
+      "actual_hdmi": [
+        542,
+        52,
+        1074,
+        700
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 144,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_d5c2f780ed73f259e6a143ec1db0a79470565ec03f506f5ef9b54bc8e723c25c.jpg",
+      "winner": [
+        9,
+        13,
+        195,
+        210,
+        73,
+        25,
+        80,
+        224
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          103,
+          55,
+          118,
+          93
+        ],
+        "hdmi": [
+          822,
+          324,
+          947,
+          625
+        ]
+      },
+      "actual_native": [
+        103,
+        55,
+        118,
+        93
+      ],
+      "actual_hdmi": [
+        822,
+        324,
+        947,
+        625
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 145,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_d63e40c616288ad05dd4a31a5d52b181e06b2b93833eb45d3063998b626543b4.jpeg",
+      "winner": [
+        10,
+        6,
+        187,
+        123,
+        118,
+        33,
+        79,
+        222
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          42,
+          65,
+          62,
+          102
+        ],
+        "hdmi": [
+          332,
+          401,
+          498,
+          698
+        ]
+      },
+      "actual_native": [
+        42,
+        65,
+        62,
+        102
+      ],
+      "actual_hdmi": [
+        332,
+        401,
+        498,
+        698
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 146,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_da2663a4eaf5fa294ff0d53b172cde50746857d873ee2ad1dc111d08908406a8.png",
+      "winner": [
+        7,
+        7,
+        203,
+        149,
+        123,
+        73,
+        148,
+        241
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          38,
+          25,
+          84,
+          95
+        ],
+        "hdmi": [
+          302,
+          80,
+          669,
+          637
+        ]
+      },
+      "actual_native": [
+        38,
+        25,
+        84,
+        95
+      ],
+      "actual_hdmi": [
+        302,
+        80,
+        669,
+        637
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 147,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_db74f21928363ebe24e4a527da6f915f0e7eab59383802d5b18f6c39fbdd8a66.png",
+      "winner": [
+        7,
+        16,
+        216,
+        81,
+        165,
+        65,
+        155,
+        254
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          110,
+          25,
+          151,
+          98
+        ],
+        "hdmi": [
+          881,
+          78,
+          1207,
+          661
+        ]
+      },
+      "actual_native": [
+        110,
+        25,
+        151,
+        98
+      ],
+      "actual_hdmi": [
+        881,
+        78,
+        1207,
+        661
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 148,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_dbd67282eb910f4b5ef412e1a8255fc83cf40044ea0d4dff7c12c09c231eeb66.png",
+      "winner": [
+        7,
+        12,
+        201,
+        111,
+        152,
+        97,
+        162,
+        237
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          69,
+          23,
+          130,
+          99
+        ],
+        "hdmi": [
+          552,
+          61,
+          1039,
+          671
+        ]
+      },
+      "actual_native": [
+        69,
+        23,
+        130,
+        99
+      ],
+      "actual_hdmi": [
+        552,
+        61,
+        1039,
+        671
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 149,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_dc9735fe3d573e23e9c9ae03cb4e1e74bdf536e3a224d2d7c894954c0e0bf41a.jpg",
+      "winner": [
+        8,
+        11,
+        238,
+        128,
+        147,
+        16,
+        65,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          87,
+          53,
+          97,
+          84
+        ],
+        "hdmi": [
+          696,
+          307,
+          776,
+          551
+        ]
+      },
+      "actual_native": [
+        87,
+        53,
+        97,
+        84
+      ],
+      "actual_hdmi": [
+        696,
+        307,
+        776,
+        551
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 150,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_dcce270c15ff5f3aabbe30cd15bb71c5c794494ad56fbf49be88045d6b284657.png",
+      "winner": [
+        8,
+        4,
+        217,
+        111,
+        66,
+        56,
+        145,
+        254
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          18,
+          32,
+          53,
+          100
+        ],
+        "hdmi": [
+          143,
+          136,
+          424,
+          682
+        ]
+      },
+      "actual_native": [
+        18,
+        32,
+        53,
+        100
+      ],
+      "actual_hdmi": [
+        143,
+        136,
+        424,
+        682
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 151,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_deac99c59abcd01246dcb0cd8bd75f43cbcf474b3986fcdaf03659e55b23007d.png",
+      "winner": [
+        7,
+        4,
+        179,
+        111,
+        119,
+        108,
+        170,
+        211
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          2,
+          20,
+          69,
+          100
+        ],
+        "hdmi": [
+          13,
+          38,
+          555,
+          678
+        ]
+      },
+      "actual_native": [
+        2,
+        20,
+        69,
+        100
+      ],
+      "actual_hdmi": [
+        13,
+        38,
+        555,
+        678
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 152,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e04017a168a28699876ae9d7aabafcbfe213df610ee6a4645065610faf11fe43.jpeg",
+      "winner": [
+        6,
+        10,
+        161,
+        129,
+        173,
+        64,
+        138,
+        194
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          64,
+          21,
+          104,
+          86
+        ],
+        "hdmi": [
+          512,
+          48,
+          833,
+          567
+        ]
+      },
+      "actual_native": [
+        64,
+        21,
+        104,
+        86
+      ],
+      "actual_hdmi": [
+        512,
+        48,
+        833,
+        567
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 153,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e2383d58bbb78c8aae60002d4a2cf061c4fd30da96e884a6682a9fd244e70b12.png",
+      "winner": [
+        8,
+        5,
+        206,
+        144,
+        135,
+        43,
+        135,
+        220
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          31,
+          36,
+          58,
+          100
+        ],
+        "hdmi": [
+          248,
+          172,
+          464,
+          680
+        ]
+      },
+      "actual_native": [
+        31,
+        36,
+        58,
+        100
+      ],
+      "actual_hdmi": [
+        248,
+        172,
+        464,
+        680
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 154,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e29bddef292a634eb4b4a32469b5cb5b35d6e30c730e65874dbeb0e8175aad15.jpeg",
+      "winner": [
+        8,
+        11,
+        194,
+        105,
+        74,
+        77,
+        149,
+        217
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          67,
+          31,
+          115,
+          101
+        ],
+        "hdmi": [
+          537,
+          130,
+          924,
+          691
+        ]
+      },
+      "actual_native": [
+        67,
+        31,
+        115,
+        101
+      ],
+      "actual_hdmi": [
+        537,
+        130,
+        924,
+        691
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 155,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e709c41872b490b3cc2120b9251b8bad29c3f0d47e7b928dc98a292191688ec6.png",
+      "winner": [
+        7,
+        15,
+        189,
+        155,
+        91,
+        90,
+        161,
+        211
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          97,
+          21,
+          153,
+          97
+        ],
+        "hdmi": [
+          773,
+          48,
+          1225,
+          654
+        ]
+      },
+      "actual_native": [
+        97,
+        21,
+        153,
+        97
+      ],
+      "actual_hdmi": [
+        773,
+        48,
+        1225,
+        654
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 156,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e86e63cd98308f51f9be1f30993316bc4f48e464a5c8ef8f1ff70c28ddbda692.jpg",
+      "winner": [
+        6,
+        11,
+        34,
+        129,
+        144,
+        83,
+        112,
+        59
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          66,
+          26,
+          118,
+          79
+        ],
+        "hdmi": [
+          528,
+          89,
+          945,
+          511
+        ]
+      },
+      "actual_native": [
+        66,
+        26,
+        118,
+        79
+      ],
+      "actual_hdmi": [
+        528,
+        89,
+        945,
+        511
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 157,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_e90fa1c97292e3bda7949e18b7a64effa6641521da2b95c6c15a6ad116cf3b86.jpg",
+      "winner": [
+        10,
+        13,
+        63,
+        117,
+        135,
+        102,
+        121,
+        105
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          76,
+          56,
+          140,
+          113
+        ],
+        "hdmi": [
+          605,
+          326,
+          1117,
+          719
+        ]
+      },
+      "actual_native": [
+        76,
+        56,
+        140,
+        113
+      ],
+      "actual_hdmi": [
+        605,
+        326,
+        1117,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 158,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_eb54903cb07c82f0fbec8771237b94b54e86e17b1fd6594523e8d7cb911fda1f.jpg",
+      "winner": [
+        9,
+        7,
+        197,
+        199,
+        171,
+        37,
+        108,
+        220
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          51,
+          52,
+          74,
+          103
+        ],
+        "hdmi": [
+          405,
+          296,
+          591,
+          702
+        ]
+      },
+      "actual_native": [
+        51,
+        52,
+        74,
+        103
+      ],
+      "actual_hdmi": [
+        405,
+        296,
+        591,
+        702
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 159,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_ed3dc0a535fc5efcfd89733888df01fd13c065401450a02459e2f6c8dc46081b.jpg",
+      "winner": [
+        7,
+        10,
+        198,
+        171,
+        159,
+        47,
+        128,
+        228
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          71,
+          31,
+          100,
+          91
+        ],
+        "hdmi": [
+          565,
+          127,
+          801,
+          609
+        ]
+      },
+      "actual_native": [
+        71,
+        31,
+        100,
+        91
+      ],
+      "actual_hdmi": [
+        565,
+        127,
+        801,
+        609
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 160,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_eed0a76c75ff048a8c0cb9901241e6a627710435bb374cf0e4c1c9df92355ab1.jpg",
+      "winner": [
+        8,
+        10,
+        231,
+        198,
+        206,
+        15,
+        69,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          82,
+          54,
+          91,
+          87
+        ],
+        "hdmi": [
+          652,
+          314,
+          727,
+          574
+        ]
+      },
+      "actual_native": [
+        82,
+        54,
+        91,
+        87
+      ],
+      "actual_hdmi": [
+        628,
+        314,
+        727,
+        574
+      ],
+      "native_pass": true,
+      "hdmi_pass": false
+    },
+    {
+      "index": 161,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_f0f60957c4929423bd8b37ba46b4b33c68255203b1430d93745a5040cffd4705.jpg",
+      "winner": [
+        9,
+        14,
+        213,
+        154,
+        224,
+        26,
+        91,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          109,
+          58,
+          125,
+          100
+        ],
+        "hdmi": [
+          869,
+          341,
+          1000,
+          684
+        ]
+      },
+      "actual_native": [
+        109,
+        58,
+        125,
+        100
+      ],
+      "actual_hdmi": [
+        869,
+        341,
+        1000,
+        684
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 162,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_f967300ad1b6f62ae29d1dc5779b8f089ba36744435d1092c7bac71e6808fc1e.png",
+      "winner": [
+        7,
+        16,
+        182,
+        127,
+        200,
+        82,
+        167,
+        179
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          106,
+          23,
+          158,
+          102
+        ],
+        "hdmi": [
+          850,
+          64,
+          1262,
+          693
+        ]
+      },
+      "actual_native": [
+        106,
+        23,
+        158,
+        102
+      ],
+      "actual_hdmi": [
+        850,
+        64,
+        1262,
+        693
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 163,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_f99b74238e60352d73c87c3528282c70d44e386c3a8fe5db8ab3e96216c1311e.jpg",
+      "winner": [
+        10,
+        9,
+        218,
+        203,
+        69,
+        26,
+        87,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          70,
+          62,
+          87,
+          103
+        ],
+        "hdmi": [
+          562,
+          374,
+          692,
+          701
+        ]
+      },
+      "actual_native": [
+        70,
+        62,
+        87,
+        103
+      ],
+      "actual_hdmi": [
+        562,
+        374,
+        692,
+        701
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 164,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_facdeafe8142db71085f3ae86c811fecd9a3aa00e0cd419ae88b00dbf93b5491.png",
+      "winner": [
+        8,
+        14,
+        212,
+        136,
+        132,
+        74,
+        148,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          93,
+          33,
+          139,
+          103
+        ],
+        "hdmi": [
+          744,
+          147,
+          1116,
+          704
+        ]
+      },
+      "actual_native": [
+        93,
+        33,
+        139,
+        103
+      ],
+      "actual_hdmi": [
+        744,
+        147,
+        1116,
+        704
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 165,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_fbdc6926a77318eccad511302805f12a0ea73526a94d1cae37bd910b6fb850dd.jpg",
+      "winner": [
+        10,
+        8,
+        230,
+        174,
+        92,
+        31,
+        96,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          60,
+          60,
+          79,
+          105
+        ],
+        "hdmi": [
+          478,
+          362,
+          633,
+          719
+        ]
+      },
+      "actual_native": [
+        60,
+        60,
+        79,
+        105
+      ],
+      "actual_hdmi": [
+        478,
+        362,
+        633,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 166,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_fd99fcabe4d2829defc9f3f68df1d4e4719164b99dd7cfc1e2e6b8da322d1679.jpg",
+      "winner": [
+        10,
+        2,
+        204,
+        139,
+        71,
+        41,
+        92,
+        233
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          7,
+          61,
+          33,
+          104
+        ],
+        "hdmi": [
+          60,
+          365,
+          266,
+          711
+        ]
+      },
+      "actual_native": [
+        7,
+        61,
+        33,
+        104
+      ],
+      "actual_hdmi": [
+        60,
+        365,
+        266,
+        711
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 167,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_fda27e98f6ed614ebb4d7e08d1f4c40af057c74c818d7497c7f41a77955ee8b9.jpg",
+      "winner": [
+        9,
+        6,
+        233,
+        61,
+        180,
+        27,
+        100,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          41,
+          54,
+          58,
+          101
+        ],
+        "hdmi": [
+          332,
+          313,
+          467,
+          689
+        ]
+      },
+      "actual_native": [
+        41,
+        54,
+        58,
+        101
+      ],
+      "actual_hdmi": [
+        332,
+        313,
+        467,
+        689
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 168,
+      "name": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_ffd1ca57a976f6c014fb1a74dffd931352c2aa5b5dda458e892fa1c8da09b139.jpg",
+      "winner": [
+        10,
+        15,
+        212,
+        67,
+        47,
+        31,
+        89,
+        238
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          112,
+          61,
+          132,
+          102
+        ],
+        "hdmi": [
+          899,
+          364,
+          1055,
+          699
+        ]
+      },
+      "actual_native": [
+        112,
+        61,
+        132,
+        102
+      ],
+      "actual_hdmi": [
+        899,
+        364,
+        1055,
+        699
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 169,
+      "name": "original_person",
+      "winner": [
+        9,
+        8,
+        218,
+        197,
+        180,
+        21,
+        93,
+        252
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          64,
+          56,
+          77,
+          100
+        ],
+        "hdmi": [
+          509,
+          326,
+          614,
+          676
+        ]
+      },
+      "actual_native": [
+        64,
+        56,
+        77,
+        100
+      ],
+      "actual_hdmi": [
+        509,
+        326,
+        614,
+        676
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 170,
+      "name": "original_background",
+      "winner": [
+        10,
+        15,
+        58,
+        130,
+        131,
+        95,
+        115,
+        108
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          94,
+          57,
+          154,
+          111
+        ],
+        "hdmi": [
+          754,
+          336,
+          1231,
+          719
+        ]
+      },
+      "actual_native": [
+        94,
+        57,
+        154,
+        111
+      ],
+      "actual_hdmi": [
+        754,
+        336,
+        1231,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 171,
+      "name": "sc500_person",
+      "winner": [
+        7,
+        6,
+        209,
+        108,
+        129,
+        147,
+        184,
+        255
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          5,
+          17,
+          98,
+          103
+        ],
+        "hdmi": [
+          42,
+          14,
+          780,
+          707
+        ]
+      },
+      "actual_native": [
+        5,
+        17,
+        98,
+        103
+      ],
+      "actual_hdmi": [
+        42,
+        14,
+        780,
+        707
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 172,
+      "name": "sc500_background",
+      "winner": [
+        5,
+        7,
+        48,
+        117,
+        147,
+        83,
+        107,
+        104
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          269,
+          35,
+          686,
+          438
+        ]
+      },
+      "actual_native": [
+        34,
+        19,
+        86,
+        70
+      ],
+      "actual_hdmi": [
+        269,
+        35,
+        686,
+        438
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 173,
+      "name": "zero",
+      "winner": [
+        11,
+        4,
+        26,
+        132,
+        127,
+        107,
+        130,
+        47
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          3,
+          61,
+          70,
+          119
+        ],
+        "hdmi": [
+          21,
+          371,
+          558,
+          719
+        ]
+      },
+      "actual_native": [
+        3,
+        61,
+        70,
+        119
+      ],
+      "actual_hdmi": [
+        21,
+        371,
+        558,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 174,
+      "name": "white_active",
+      "winner": [
+        3,
+        5,
+        30,
+        145,
+        123,
+        100,
+        135,
+        30
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          13,
+          0,
+          76,
+          60
+        ],
+        "hdmi": [
+          105,
+          0,
+          607,
+          357
+        ]
+      },
+      "actual_native": [
+        13,
+        0,
+        76,
+        60
+      ],
+      "actual_hdmi": [
+        105,
+        0,
+        607,
+        357
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 175,
+      "name": "rgb_ramp",
+      "winner": [
+        13,
+        17,
+        39,
+        133,
+        130,
+        99,
+        121,
+        72
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          109,
+          80,
+          159,
+          119
+        ],
+        "hdmi": [
+          873,
+          517,
+          1279,
+          719
+        ]
+      },
+      "actual_native": [
+        109,
+        80,
+        159,
+        119
+      ],
+      "actual_hdmi": [
+        873,
+        517,
+        1279,
+        719
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 176,
+      "name": "boundary_obj63_person255",
+      "winner": [
+        7,
+        10,
+        63,
+        128,
+        128,
+        40,
+        32,
+        255
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 177,
+      "name": "boundary_obj64_person31",
+      "winner": [
+        7,
+        10,
+        64,
+        128,
+        128,
+        40,
+        32,
+        31
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 178,
+      "name": "boundary_obj64_person32",
+      "winner": [
+        7,
+        10,
+        64,
+        128,
+        128,
+        40,
+        32,
+        32
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 179,
+      "name": "boundary_obj64_person63",
+      "winner": [
+        7,
+        10,
+        64,
+        128,
+        128,
+        40,
+        32,
+        63
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 180,
+      "name": "boundary_obj64_person64",
+      "winner": [
+        7,
+        10,
+        64,
+        128,
+        128,
+        40,
+        32,
+        64
+      ],
+      "expected": {
+        "detected": true,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 181,
+      "name": "boundary_obj255_person0",
+      "winner": [
+        7,
+        10,
+        255,
+        128,
+        128,
+        40,
+        32,
+        0
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    },
+    {
+      "index": 182,
+      "name": "boundary_obj0_person255",
+      "winner": [
+        7,
+        10,
+        0,
+        128,
+        128,
+        40,
+        32,
+        255
+      ],
+      "expected": {
+        "detected": false,
+        "native": [
+          71,
+          52,
+          97,
+          68
+        ],
+        "hdmi": [
+          572,
+          300,
+          773,
+          420
+        ]
+      },
+      "actual_native": [
+        71,
+        52,
+        97,
+        68
+      ],
+      "actual_hdmi": [
+        572,
+        300,
+        773,
+        420
+      ],
+      "native_pass": true,
+      "hdmi_pass": true
+    }
+  ],
+  "existing_bug": "HDMI left-edge logic subtracts the absolute span even when DX>10*W. Native padded decoder handles sign correctly. Overlay source unchanged by V5 deployment."
+}

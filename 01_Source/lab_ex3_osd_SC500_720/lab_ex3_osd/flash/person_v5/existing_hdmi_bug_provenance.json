@@ -1,0 +1,7 @@
+{
+  "reference_backup": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\person_v3_obj64_person32_20261015\\before\\td_project\\import\\npu_result_overlay.v",
+  "normalized_threshold32_text_equals_current": true,
+  "byte_hash_changed_since_previous_manifest": true,
+  "current_overlay_sha256": "28e96439504e618a2f331e50267dfa0972eadcdae307200ddb3d073504c960bd",
+  "note": "V5 only changes descriptor header and CRC in top/bridge; overlay left-edge logic was present in previous source. Any prior hash differences are reported, not assumed absent."
+}

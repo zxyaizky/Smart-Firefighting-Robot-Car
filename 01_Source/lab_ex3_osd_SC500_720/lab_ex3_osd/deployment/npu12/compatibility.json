@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "layer_count": 12,
+  "source_model_id": "safety_grid12_fire_only_v1_rgb",
+  "parameter_bytes": 327680,
+  "beats128": 20480,
+  "active_bytes": 62640,
+  "u33_flash_base_address": "0x200000",
+  "u33_flash_image": "u33_npu_params.bin",
+  "manifest_to_descriptor_relocation_words": 66260,
+  "prefix_bytes": 265040,
+  "sha256": "dd3a95f89a9e3be9d6fbcadea0d735a17d8d2740e1e2fc1c0ab7d2969732cba3",
+  "crc32": "f918606b",
+  "source_hashes": {
+    "deployment.json": "29961aee9ed366c2a1fe807227f21c5829aabebeb73fbf430f51951f4f052d27",
+    "npu_params.hex": "d483185fccfd76383edbfcbbfd147e43ccb930676cab8dafdf5bd8a248abf549",
+    "npu_desc.hex": "a24684ed9b962c737790464986f7603bb4f1e3acece000f38cff24665304e7e0"
+  },
+  "production_config_sha256": "87131f16255506827c256dc32689bbba442d04bc57882b54474118743db400b1",
+  "descriptor_words_loaded": 256,
+  "descriptor_words_preserved": true,
+  "final_reduce_max_grid": true,
+  "weight_bias_address_unit": "32-bit word offsets",
+  "npu_halfword_address": "0xc00000 + 2 * word_offset",
+  "ddr_native_halfword_address": "0x1800000 + 2 * word_offset",
+  "byte_order": "HEX32 word little endian; HEX128 block byte 0 at data[7:0]"
+}

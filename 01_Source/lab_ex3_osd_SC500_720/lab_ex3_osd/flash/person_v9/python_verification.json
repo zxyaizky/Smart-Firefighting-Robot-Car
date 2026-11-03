@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "empty_chair",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181709_616074.png",
+      "decoded": [
+        102,
+        95,
+        144,
+        70,
+        119,
+        142
+      ],
+      "final_byte_comparisons": 1800,
+      "result": "PASS"
+    },
+    {
+      "name": "standing_person",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181724_283848.png",
+      "decoded": [
+        153,
+        108,
+        128,
+        100,
+        161,
+        202
+      ],
+      "final_byte_comparisons": 1800,
+      "result": "PASS"
+    },
+    {
+      "name": "seated_person",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181731_703218.png",
+      "decoded": [
+        157,
+        157,
+        112,
+        52,
+        114,
+        183
+      ],
+      "final_byte_comparisons": 1800,
+      "result": "PASS"
+    },
+    {
+      "name": "new_photo",
+      "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\new_photo\\frame_1792760458928879000_udp06328_src12729.png",
+      "decoded": [
+        158,
+        95,
+        128,
+        98,
+        163,
+        190
+      ],
+      "final_byte_comparisons": 1800,
+      "result": "PASS"
+    }
+  ],
+  "final_byte_comparisons": 7200,
+  "mismatches": 0
+}

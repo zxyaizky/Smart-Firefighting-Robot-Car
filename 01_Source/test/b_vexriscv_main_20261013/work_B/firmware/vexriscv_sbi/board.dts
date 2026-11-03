@@ -1,0 +1,66 @@
+/dts-v1/;
+/memreserve/ 0x40000000 0x00200000;
+/ {
+    #address-cells = <1>;
+    #size-cells = <1>;
+    model = "Anlu HX1P35 B VexRiscv single hart";
+    compatible = "anlogic,hx1p35-b-vexriscv";
+    chosen {
+        bootargs = "console=hvc0 earlycon=sbi keep_bootcon loglevel=7";
+    };
+    memory@40000000 {
+        device_type = "memory";
+        reg = <0x40000000 0x02000000>;
+    };
+    reserved-memory {
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+        sbi@40000000 {
+            reg = <0x40000000 0x00200000>;
+            no-map;
+        };
+    };
+    cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        timebase-frequency = <50000000>;
+        cpu0: cpu@0 {
+            device_type = "cpu";
+            reg = <0>;
+            status = "okay";
+            compatible = "riscv";
+            riscv,isa = "rv32ima_zicsr_zifencei";
+            riscv,isa-base = "rv32i";
+            riscv,isa-extensions = "i", "m", "a", "zicsr", "zifencei";
+            mmu-type = "riscv,sv32";
+            i-cache-size = <1024>;
+            i-cache-block-size = <32>;
+            i-cache-sets = <32>;
+            d-cache-size = <1024>;
+            d-cache-block-size = <32>;
+            d-cache-sets = <32>;
+            cpu_intc: interrupt-controller {
+                #address-cells = <0>;
+                #interrupt-cells = <1>;
+                interrupt-controller;
+                compatible = "riscv,cpu-intc";
+            };
+        };
+    };
+    soc {
+        #address-cells = <1>;
+        #size-cells = <1>;
+        compatible = "simple-bus";
+        ranges;
+        clint@f0010000 {
+            compatible = "riscv,clint0";
+            reg = <0xf0010000 0x10000>;
+            interrupts-extended = <&cpu_intc 3 &cpu_intc 7>;
+            status = "reserved";
+        };
+        /* UART is owned by M-mode SBI; hvc0 polls SBI console calls.
+         * No PLIC, UART IRQ or unimplemented ns16550 controller is advertised.
+         */
+    };
+};

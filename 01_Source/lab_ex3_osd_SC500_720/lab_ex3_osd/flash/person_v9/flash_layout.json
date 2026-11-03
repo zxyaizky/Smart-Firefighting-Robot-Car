@@ -1,0 +1,26 @@
+{
+  "model": "Person V9 new-photo fine-tune",
+  "parameter_file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v9\\npu_params.bin",
+  "size_bytes": 327680,
+  "sha256": "4a2a017902636861e7dc6cad045e94579c373eda77453bae91df6590453a1100",
+  "crc32": "3198c5f2",
+  "flash_device": "U33",
+  "flash_start": "0x200000",
+  "flash_end_exclusive": "0x250000",
+  "word_byte_order": "little endian; raw binary file order",
+  "rtl_project": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display.al",
+  "new_fpga_bitstream_required": true,
+  "fpga_config_offset": "0x000000",
+  "fpga_config_reserved_end_exclusive": "0x200000",
+  "mcu_firmware": {
+    "existing_compatible_file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\deployment\\npu12\\u33_boot_fw.bin",
+    "offset": "0xe00000",
+    "sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c",
+    "unchanged": true
+  },
+  "descriptor_storage": "npu_model_config.vh compiled into FPGA; no separate Flash address",
+  "combined_flash_image_generated": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "physical_board_verified": false
+}

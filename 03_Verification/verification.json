@@ -1,0 +1,57 @@
+{
+  "source": "D:\\7\\qiansai_last",
+  "destination": "D:\\7\\Smart Firefighting Robot Car",
+  "date": "2026-11-03",
+  "copied_files": 3093,
+  "copied_bytes": 196289260,
+  "excluded_files": 12092,
+  "source_files_unchanged": true,
+  "file_hash_checks_passed": true,
+  "projects": [
+    {
+      "project": "01_Source/lab_ex3_osd_SC500_720/lab_ex3_osd/td_project/camera_to_dsi_display.al",
+      "file_references": 161,
+      "root_directory_correct": true
+    },
+    {
+      "project": "01_Source/test/b_vexriscv_main_20261013/work_B/td_project/camera_to_dsi_display_lidar.al",
+      "file_references": 214,
+      "root_directory_correct": true
+    },
+    {
+      "project": "01_Source/test/lab_ex3_osd_SC500_720P/lab_ex3_osd/td_project/camera_to_dsi_display.al",
+      "file_references": 184,
+      "root_directory_correct": true
+    },
+    {
+      "project": "01_Source/test8_udp_legacy_diag/td_project/camera_to_dsi_display.al",
+      "file_references": 161,
+      "root_directory_correct": true
+    }
+  ],
+  "missing_project_file_references": [],
+  "changes": [
+    {
+      "file": "01_Source\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display.al",
+      "reason": "Update TD project directory to its new location; registered relative file paths unchanged."
+    },
+    {
+      "file": "01_Source\\test\\b_vexriscv_main_20261013\\work_B\\td_project\\camera_to_dsi_display_lidar.al",
+      "reason": "Update TD project directory to its new location; registered relative file paths unchanged."
+    },
+    {
+      "file": "01_Source\\test\\lab_ex3_osd_SC500_720P\\lab_ex3_osd\\td_project\\camera_to_dsi_display.al",
+      "reason": "Update TD project directory to its new location; registered relative file paths unchanged."
+    },
+    {
+      "file": "01_Source\\test8_udp_legacy_diag\\td_project\\camera_to_dsi_display.al",
+      "reason": "Update TD project directory to its new location; registered relative file paths unchanged."
+    }
+  ],
+  "spray_seconds": 10,
+  "ultrasonic": {
+    "Trig": "T3 / J1 pin 6",
+    "Echo": "T2 / J1 pin 7"
+  },
+  "validation": "Offline file/hash/project reference checks only; no synthesis, simulation, programming or hardware control."
+}

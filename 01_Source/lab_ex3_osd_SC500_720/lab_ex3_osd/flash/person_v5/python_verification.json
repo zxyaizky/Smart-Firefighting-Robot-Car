@@ -1,0 +1,337 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "original_person",
+      "result": "PASS",
+      "source": {
+        "index": 103,
+        "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_73d75ecb688f5d665060629d56be33379c4e6b82ee0deaffd38267bad988dee5.jpg",
+        "label": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\labels\\original_73d75ecb688f5d665060629d56be33379c4e6b82ee0deaffd38267bad988dee5.txt",
+        "group": "original",
+        "positive": true,
+        "skip": false,
+        "obj": 218,
+        "person": 252,
+        "iou": 0.9026590585708618,
+        "winner": [
+          9,
+          8,
+          218,
+          197,
+          180,
+          21,
+          93,
+          252
+        ]
+      },
+      "winner": [
+        9,
+        8,
+        218,
+        197,
+        180,
+        21,
+        93,
+        252
+      ],
+      "bbox": {
+        "detected": true,
+        "native": [
+          64,
+          56,
+          77,
+          100
+        ],
+        "hdmi": [
+          509,
+          326,
+          614,
+          676
+        ]
+      },
+      "max_obj_tied_cells": 1,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "03e1c9fc07f32c175dcce6a3eca3a19188c513a8a3297ee53689162a4176cb9e"
+    },
+    {
+      "name": "original_background",
+      "result": "PASS",
+      "source": {
+        "index": 56,
+        "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\original_1f37727fa44651c967eb25fac9e946f9d040bba3f4a6622b00d2520ad56a7666.jpg",
+        "label": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\labels\\original_1f37727fa44651c967eb25fac9e946f9d040bba3f4a6622b00d2520ad56a7666.txt",
+        "group": "original",
+        "positive": false,
+        "skip": false,
+        "obj": 58,
+        "person": 108,
+        "iou": null,
+        "winner": [
+          10,
+          15,
+          58,
+          130,
+          131,
+          95,
+          115,
+          108
+        ]
+      },
+      "winner": [
+        10,
+        15,
+        58,
+        130,
+        131,
+        95,
+        115,
+        108
+      ],
+      "bbox": {
+        "detected": false,
+        "native": [
+          94,
+          57,
+          154,
+          111
+        ],
+        "hdmi": [
+          754,
+          336,
+          1231,
+          719
+        ]
+      },
+      "max_obj_tied_cells": 1,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "123f75c27cfa36b5a202e58ca4e5fb431ce1e75fa4948b6faf1f66084fda6919"
+    },
+    {
+      "name": "sc500_person",
+      "result": "PASS",
+      "source": {
+        "index": 24,
+        "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_9c456a21fe93aef3d6a1946bd4f567cbbd2a247531b5bcfb4616c72a4505a967.png",
+        "label": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\labels\\camera_9c456a21fe93aef3d6a1946bd4f567cbbd2a247531b5bcfb4616c72a4505a967.txt",
+        "group": "SC500",
+        "positive": true,
+        "skip": false,
+        "obj": 209,
+        "person": 255,
+        "iou": 0.9580125212669373,
+        "winner": [
+          7,
+          6,
+          209,
+          108,
+          129,
+          147,
+          184,
+          255
+        ]
+      },
+      "winner": [
+        7,
+        6,
+        209,
+        108,
+        129,
+        147,
+        184,
+        255
+      ],
+      "bbox": {
+        "detected": true,
+        "native": [
+          5,
+          17,
+          98,
+          103
+        ],
+        "hdmi": [
+          42,
+          14,
+          780,
+          707
+        ]
+      },
+      "max_obj_tied_cells": 1,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "12063ed99a2c510c8e622b137e23d403b0a68022d99e86ce1f96d84da00bf678"
+    },
+    {
+      "name": "sc500_background",
+      "result": "PASS",
+      "source": {
+        "index": 1,
+        "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\images\\camera_0339a2afc0aadfc5d13dd72268a27e90ff14c266628a017b53a5df0cda64967d.png",
+        "label": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed\\valid\\labels\\camera_0339a2afc0aadfc5d13dd72268a27e90ff14c266628a017b53a5df0cda64967d.txt",
+        "group": "SC500",
+        "positive": false,
+        "skip": false,
+        "obj": 48,
+        "person": 104,
+        "iou": null,
+        "winner": [
+          5,
+          7,
+          48,
+          117,
+          147,
+          83,
+          107,
+          104
+        ]
+      },
+      "winner": [
+        5,
+        7,
+        48,
+        117,
+        147,
+        83,
+        107,
+        104
+      ],
+      "bbox": {
+        "detected": false,
+        "native": [
+          34,
+          19,
+          86,
+          70
+        ],
+        "hdmi": [
+          269,
+          35,
+          686,
+          438
+        ]
+      },
+      "max_obj_tied_cells": 1,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "391f844a538a2a1e10ce49693c9701b57db585edc7e31f94c136f6b5b489b35e"
+    },
+    {
+      "name": "zero",
+      "result": "PASS",
+      "source": "synthetic",
+      "winner": [
+        11,
+        4,
+        26,
+        132,
+        127,
+        107,
+        130,
+        47
+      ],
+      "bbox": {
+        "detected": false,
+        "native": [
+          3,
+          61,
+          70,
+          119
+        ],
+        "hdmi": [
+          21,
+          371,
+          558,
+          719
+        ]
+      },
+      "max_obj_tied_cells": 12,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "c72274a22cba2dcef62e0f62834446ee39b0cd95ad0faa27a89b3b49f48aa390"
+    },
+    {
+      "name": "white_active",
+      "result": "PASS",
+      "source": "synthetic",
+      "winner": [
+        3,
+        5,
+        30,
+        145,
+        123,
+        100,
+        135,
+        30
+      ],
+      "bbox": {
+        "detected": false,
+        "native": [
+          13,
+          0,
+          76,
+          60
+        ],
+        "hdmi": [
+          105,
+          0,
+          607,
+          357
+        ]
+      },
+      "max_obj_tied_cells": 10,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "e8767b704fc326a254cb6bf03877cc5a66413210883a9586976e70683c5435d6"
+    },
+    {
+      "name": "rgb_ramp",
+      "result": "PASS",
+      "source": "synthetic distinct RGB channels",
+      "winner": [
+        13,
+        17,
+        39,
+        133,
+        130,
+        99,
+        121,
+        72
+      ],
+      "bbox": {
+        "detected": false,
+        "native": [
+          109,
+          80,
+          159,
+          119
+        ],
+        "hdmi": [
+          873,
+          517,
+          1279,
+          719
+        ]
+      },
+      "max_obj_tied_cells": 1,
+      "final_bytes": 1800,
+      "mismatches": 0,
+      "max_absolute_error": 0,
+      "stage_values": 1655400,
+      "input_sha256": "8e14f0edf12ae2c7fa354e8232c7a5ff4c735b6b98e71fb1d9597b654dfe817c"
+    }
+  ]
+}

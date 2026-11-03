@@ -1,0 +1,7 @@
+{
+  "checkpoint": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\qat_person_v5\\best_qat.pth",
+  "sha256": "3dad459cb82bab3ad6de82c85884f73ffc31e893e101fec50209238d361a4579",
+  "variant": "best",
+  "reason": "Compared SC500 localization and false alarms at all requested gates, then original validation; best wins ties. Full byte differences are reported separately.",
+  "status": "EXPERIMENTAL_CANDIDATE_NOT_BOARD_ACCEPTED"
+}

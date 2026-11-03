@@ -1,0 +1,2 @@
+set_pin_assignment { O_wifi_uart_tx } { LOCATION = R5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_wifi_uart_rx } { LOCATION = R3; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }

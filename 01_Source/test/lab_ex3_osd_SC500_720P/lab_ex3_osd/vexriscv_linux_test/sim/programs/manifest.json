@@ -1,0 +1,87 @@
+[
+  {
+    "name": "basic",
+    "labels": {
+      "loop": 304,
+      "return": 328,
+      "done": 356,
+      "subroutine": 1536,
+      "fail": 1792,
+      "failed_loop": 1812
+    },
+    "first_instruction": 17826195
+  },
+  {
+    "name": "atomic",
+    "labels": {
+      "done": 132,
+      "fail": 1792,
+      "failed_loop": 1812
+    },
+    "first_instruction": 13111
+  },
+  {
+    "name": "csr_exception",
+    "labels": {
+      "resume0": 108,
+      "resume1": 124,
+      "misaligned_done": 148,
+      "load_error_done": 172,
+      "fetch_error_done": 196,
+      "done": 224,
+      "trap": 1024,
+      "fail": 1792,
+      "failed_loop": 1812
+    },
+    "first_instruction": 439
+  },
+  {
+    "name": "interrupt",
+    "labels": {
+      "wait_timer": 56,
+      "wait_software": 72,
+      "wait_external": 88,
+      "done": 116,
+      "trap": 1024,
+      "irq_ok": 1064,
+      "fail": 1792,
+      "failed_loop": 1812
+    },
+    "first_instruction": 439
+  },
+  {
+    "name": "privilege",
+    "labels": {
+      "supervisor": 256,
+      "user": 512,
+      "user_resume": 516,
+      "supervisor_trap": 1024,
+      "leave_user": 1064,
+      "supervisor_resume": 1280,
+      "machine_trap": 1536,
+      "done": 1576,
+      "fail": 1792,
+      "failed_loop": 1812
+    },
+    "first_instruction": 439
+  },
+  {
+    "name": "mmu",
+    "labels": {
+      "supervisor": 256,
+      "page_fault_resume0": 384,
+      "page_fault_resume1": 416,
+      "store_fault_resume": 448,
+      "supervisor_trap": 1024,
+      "user_ecall": 1060,
+      "supervisor_fail": 1072,
+      "machine_trap": 1536,
+      "done": 1568,
+      "fail": 1792,
+      "failed_loop": 1812,
+      "user": 4096,
+      "user_fault_resume": 4128
+    },
+    "first_instruction": 439
+  }
+]

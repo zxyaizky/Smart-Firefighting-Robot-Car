@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "obj": 128,
+  "person": 128,
+  "tests": [
+    {
+      "test": "tb_npu_result_overlay",
+      "result": "PASS"
+    },
+    {
+      "test": "tb_npu_bbox_threshold",
+      "result": "PASS"
+    }
+  ]
+}

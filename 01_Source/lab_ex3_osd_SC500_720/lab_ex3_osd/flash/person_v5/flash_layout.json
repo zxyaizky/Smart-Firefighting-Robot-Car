@@ -1,0 +1,56 @@
+{
+  "device": "U33 GD25WQ128ESIGR",
+  "declared_flash_capacity_bytes": 16777216,
+  "capacity_source": "existing deployment/npu12/u33_flash_manifest.json and sim/build_u33_image.py; physical JEDEC ID not read",
+  "binaries": [
+    {
+      "file": "npu_params.bin",
+      "absolute_path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_params.bin",
+      "size_bytes": 327680,
+      "flash_start": "0x200000",
+      "flash_end_exclusive": "0x250000",
+      "flash_end_inclusive": "0x24ffff",
+      "crc32": "e27c4b4d",
+      "sha256": "a661813e90036e5072cd93f8ccaaf76cc4cdda4a01d3d4ae94d95572b4cba097",
+      "model": "Person V5 geometry_fixed",
+      "quantization": "safety-grid-person-v1-rtl-integer-ste-v2",
+      "purpose": "Person V5 INT8 weights, INT32 biases, shifts and loader padding"
+    },
+    {
+      "file": "u33_boot_fw.bin",
+      "absolute_path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\u33_boot_fw.bin",
+      "size_bytes": 40,
+      "flash_start": "0xe00000",
+      "flash_end_exclusive": "0xe00028",
+      "flash_end_inclusive": "0xe00027",
+      "crc32": "ba15afe3",
+      "sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c",
+      "model": "Person V5 geometry_fixed",
+      "quantization": "safety-grid-person-v1-rtl-integer-ste-v2",
+      "purpose": "Existing compatible U33 MCU copy firmware, copied byte-identical"
+    }
+  ],
+  "offsets_reused": true,
+  "regions_nonoverlapping": true,
+  "new_combined_flash_image_generated": false,
+  "fpga_configuration": {
+    "start": "0x000000",
+    "reserved_end_exclusive": "0x200000",
+    "existing_bitstream_size_bytes": 1789136,
+    "existing_bitstream_sha256": "64cae20fdd7614340032b2cb509d9194c9f6798d393a695771b6db2a90aa2984",
+    "existing_bitstream_is_v5": false,
+    "new_bitstream_required": true,
+    "user_must_check_new_bitstream_size_at_merge": true
+  },
+  "descriptors": {
+    "file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_desc.hex",
+    "storage": "compiled npu_model_config.vh ROM, not a separate Flash region",
+    "flash_offset": null
+  },
+  "mcu_xip_parameter_source": "0x20200000..0x20250000",
+  "mcu_reset_vector": "0x20e00000",
+  "ahb_destination": "0x80000000",
+  "npu_ddr_halfword_base": "0xc00000",
+  "native_ddr_halfword_base": "0x1800000",
+  "native_ddr_byte_base": "0x3000000"
+}

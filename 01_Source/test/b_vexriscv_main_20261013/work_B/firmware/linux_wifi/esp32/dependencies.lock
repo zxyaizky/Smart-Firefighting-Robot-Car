@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp_serial_slave_link:
+    component_hash: ac1776806de0a6e371c84e87898bb983e19ce62aa7f1e2e5c4a3b0234a575d2c
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.1.2
+  idf:
+    source:
+      type: idf
+    version: 5.5.6
+direct_dependencies:
+- espressif/esp_serial_slave_link
+- idf
+manifest_hash: 52c0eef32c284f32999f665b6a9efc68e23e4062e5a0cedd5f897b7ca29c9399
+target: esp32c3
+version: 2.0.0

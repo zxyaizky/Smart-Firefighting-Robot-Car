@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "layers": 12,
+  "int8_weights": 57368,
+  "int32_biases": 398,
+  "shift_words": 12,
+  "padded_weights_and_biases_zero": true,
+  "address_overlap": false,
+  "address_overflow": false,
+  "disk_hex_binary_equal": true,
+  "disk_roundtrip_equal": true,
+  "checkpoint_unchanged": true,
+  "accumulator_bounds_proved_for_all_uint8_inputs": true,
+  "source_sha256": {
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\scripts\\compiler_person_v11.py": "2f324fa9bcef1b0bf039df8728544c958ed69c987296972237a85bf097b8edeb",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\contract_person.py": "d6dc958364dbd15f47d068a79f41b46f59c962d75df22d03c01388e5d1445d41",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\model_person.py": "87d29aac563388c1407f1bdde67f34792ca91b5804f412f3d277b774df61dcaa",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\qat_person_v4.py": "579ed5903392c5cf1af37296621c19644b74f51dddce63b6e789c5490511132c"
+  },
+  "fp32_checkpoint_sha256": "ef189d62e664e4928c9336583a67986643dda469e010915127dadc039eed000e"
+}

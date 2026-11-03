@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/SpinalHDL/VexRiscv",
+  "commit": "b6118e5cc2a33323425df6455697139021d50c72",
+  "files": {
+    "config.h": "bf92fc2013816a77f2be5f98eaa4d1b245b8e2c6ec9e8ec371d3a09656188e25",
+    "hal.c": "39b92c075b204678a3663a39328265b30ac5e8cca20c72a50fdaae960ff45ff8",
+    "hal.h": "8c7b5c02b0ef070cd247297c07d3c475859ea00e3570d282792d57892b7d5c68",
+    "main.c": "30cd7d9ff788dc21f660bfd962c2e76af84ce9c0ce9991c9772617dedb3b9f7d",
+    "riscv.h": "4b41495c74d6feb3b80b965ff1ee86b58bf5420fc8c59e66cbc007cd876949cf",
+    "start.S": "066bf15a3acc63506e78572e0761170a904b3bbaf3e752c32e0e4b0fbf10e9b8",
+    "trap.S": "ca1fda1783f751aa644cb4f18f06eb86da1f34e187934e7a1066c13f9b84c277",
+    "utils.S": "92062ec87ee49e5220c4093c060114edec52de997f5d2d23273cb788f0fd2ae5"
+  }
+}

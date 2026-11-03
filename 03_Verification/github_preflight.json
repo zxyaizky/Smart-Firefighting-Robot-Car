@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-03",
+  "repository": "https://github.com/zxyaizky/Smart-Firefighting-Robot-Car",
+  "visibility": "public",
+  "branch": "main",
+  "tracked_files_before_this_report": 3006,
+  "tracked_bytes_before_this_report": 138104502,
+  "private_key_or_token_signatures": 0,
+  "files_over_github_100MiB_limit": 0,
+  "untracked_td_project_file_references": [],
+  "device_credentials_and_precompiled_firmware": "Excluded using .gitignore; retained locally",
+  "validation_scope": "Offline tracked-file signature/size checks and all TD project file references. No synthesis or hardware execution."
+}

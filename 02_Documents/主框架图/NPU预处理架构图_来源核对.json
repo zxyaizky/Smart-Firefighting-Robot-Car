@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_rgb_input.v": "6d017924fba74c2dea4eb2b44bb4f61722e96ebb3ce2936bd96e6f2eeae074f8",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\lbp_to_ping_packer.v": "53d2da47b949d253783b7ba1560289436e68b2d440c2a05890510e02ead32c14",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_video_input.v": "e9d5c64caa44a45e7335f0f545565a58e10f5cc3f2f2f92daeec203751390881",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_top_with_sdram_dma.v": "9e38dbd9102910e446a9f5aca23eed97d49fd877801b140255dba4e615f4bf92"
+  },
+  "source_and_geometry_checks": "PASS",
+  "tensor_layout_arithmetic": "PASS",
+  "vsdx_package_check": "PASS"
+}

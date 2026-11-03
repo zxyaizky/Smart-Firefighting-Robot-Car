@@ -1,0 +1,52 @@
+[
+  {
+    "address": "0x20e00000",
+    "word": "0x202002b7",
+    "instruction": "lui t0,0x20200"
+  },
+  {
+    "address": "0x20e00004",
+    "word": "0x80000337",
+    "instruction": "lui t1,0x80000"
+  },
+  {
+    "address": "0x20e00008",
+    "word": "0x202503b7",
+    "instruction": "lui t2,0x20250"
+  },
+  {
+    "address": "0x20e0000c",
+    "word": "0x0002ae03",
+    "instruction": "lw t3,0(t0)"
+  },
+  {
+    "address": "0x20e00010",
+    "word": "0x01c32023",
+    "instruction": "sw t3,0(t1)"
+  },
+  {
+    "address": "0x20e00014",
+    "word": "0x00428293",
+    "instruction": "addi t0,t0,4"
+  },
+  {
+    "address": "0x20e00018",
+    "word": "0x00430313",
+    "instruction": "addi t1,t1,4"
+  },
+  {
+    "address": "0x20e0001c",
+    "word": "0xfe7298e3",
+    "instruction": "bne t0,t2,-16"
+  },
+  {
+    "address": "0x20e00020",
+    "word": "0x0ff0000f",
+    "instruction": "fence iorw,iorw"
+  },
+  {
+    "address": "0x20e00024",
+    "word": "0x0000006f",
+    "instruction": "jal zero,0"
+  }
+]

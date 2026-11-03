@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lx292/Desktop/anlu/lab_ex3_osd_SC500_720/lab_ex3_osd/flash/person_v5/bbox_simulation
+T_opt
+!s110 1792143409
+VjDNf9Ueh8<XU=Yl5hR`E^2
+04 17 4 work tb_v5_bbox_review fast 0
+=1-6c0b5e162fdf-6ad1f031-273-8a74
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vnpu_bbox_overlay_160x120
+Z2 !s110 1792143408
+!i10b 1
+!s100 CjzVbH;m3_^7fS[PkOY6;2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGQ8YTC0I`bVa8kc1UF2D<0
+R0
+Z4 w1792076173
+8C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_bbox_overlay_160x120.v
+FC:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_bbox_overlay_160x120.v
+!i122 0
+L0 20 304
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1792143408.000000
+Z8 !s107 tb_v5_bbox_review.v|C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_bbox_overlay_160x120.v|C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_result_overlay.v|
+Z9 !s90 -work|work|C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_result_overlay.v|C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_bbox_overlay_160x120.v|tb_v5_bbox_review.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vnpu_result_overlay
+R2
+!i10b 1
+!s100 HLZZS4UXjUHnPzg;BffDn1
+R3
+IB9iS43h4G7BDH7Y^L:_LM1
+R0
+R4
+8C:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_result_overlay.v
+FC:\Users\lx292\Desktop\anlu\lab_ex3_osd_SC500_720\lab_ex3_osd\td_project\import\npu_result_overlay.v
+!i122 0
+L0 22 420
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtb_v5_bbox_review
+R2
+!i10b 1
+!s100 0zSOaUO01i`a`=EXk7^?21
+R3
+I7LT7TX;KE9b[8XI1VYjDB1
+R0
+w1792143408
+8tb_v5_bbox_review.v
+Ftb_v5_bbox_review.v
+!i122 0
+L0 2 39
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

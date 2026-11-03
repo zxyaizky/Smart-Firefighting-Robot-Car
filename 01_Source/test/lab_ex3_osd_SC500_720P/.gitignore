@@ -1,0 +1,49 @@
+# Local scratch files and document previews
+/tmp/
+/.codex_doc_review/
+/.docx_pin_render/
+
+# Downloaded simulation tools and Python caches
+.tools/
+__pycache__/
+*.py[cod]
+
+# FPGA synthesis, implementation, and local IDE state
+*_Runs/
+log/
+.lock.f
+.recent_user_depot.ini
+*.log
+*.logw
+*.dmp
+*.bit
+*.db
+*.timing
+*.timingsummary
+
+# Simulator build outputs; retain testbenches and runner sources
+obj_dir/
+xsim.dir/
+.Xil/
+work/
+car_uart_work/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+*.vvp
+*.vcd
+*.fst
+*.wdb
+*.jou
+*.wlf
+transcript
+vsim_stacktrace.vstf
+/lab_ex3_osd/simulation/max30102/build/
+/lab_ex3_osd/simulation/max30102/td_synthesis/*.prj
+/lab_ex3_osd/simulation/max30102/td_synthesis/*.qor
+/lab_ex3_osd/simulation/max30102/td_synthesis/*.area
+*.pb

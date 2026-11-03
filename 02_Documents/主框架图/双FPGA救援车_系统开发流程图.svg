@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 双FPGA救援车_系统开发流程图.svg 系统开发流程图 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11in" height="22in" viewBox="0 0 792 1584"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr13-6);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#000000;font-family:宋体;font-size:2.33334em;font-weight:bold}
+		.st5 {font-family:Times New Roman;font-size:1em}
+		.st6 {fill:#92d050;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#000000;font-family:宋体;font-size:1.83334em}
+		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.83334em}
+		.st9 {font-family:宋体;font-size:1em}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-6" class="st2" v:arrowType="13" v:arrowSize="2" v:setback="8.81538" refX="-8.8153846153846"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>系统开发流程图</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape24-1" v:mID="24" v:groupContext="shape" transform="translate(396,-156.6)">
+			<title>next_11</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape22-7" v:mID="22" v:groupContext="shape" transform="translate(396,-275.4)">
+			<title>next_10</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape20-12" v:mID="20" v:groupContext="shape" transform="translate(396,-394.2)">
+			<title>next_09</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape18-17" v:mID="18" v:groupContext="shape" transform="translate(396,-513)">
+			<title>next_08</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape16-22" v:mID="16" v:groupContext="shape" transform="translate(396,-631.8)">
+			<title>next_07</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape14-27" v:mID="14" v:groupContext="shape" transform="translate(396,-750.6)">
+			<title>next_06</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape12-32" v:mID="12" v:groupContext="shape" transform="translate(396,-869.4)">
+			<title>next_05</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape10-37" v:mID="10" v:groupContext="shape" transform="translate(396,-988.2)">
+			<title>next_04</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape8-42" v:mID="8" v:groupContext="shape" transform="translate(396,-1107)">
+			<title>next_03</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape6-47" v:mID="6" v:groupContext="shape" transform="translate(396,-1225.8)">
+			<title>next_02</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape4-52" v:mID="4" v:groupContext="shape" transform="translate(396,-1344.6)">
+			<title>next_01</title>
+			<path d="M0 1540.8 L0 1572.54" class="st1"/>
+		</g>
+		<g id="shape1-57" v:mID="1" v:groupContext="shape" transform="translate(36,-1499.4)">
+			<title>title</title>
+			<desc>双FPGA救援车系统开发流程图</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="360" cy="1560.6" width="720" height="46.8"/>
+			<rect x="0" y="1537.2" width="720" height="46.8" class="st3"/>
+			<text x="167.3" y="1569.85" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>双<tspan class="st5">FPGA</tspan>救援车系统开发流程图</text>		</g>
+		<g id="shape2-61" v:mID="2" v:groupContext="shape" transform="translate(82.8,-1387.8)">
+			<title>stage_01</title>
+			<desc>需求分析</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="269.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>需求分析</text>		</g>
+		<g id="shape3-64" v:mID="3" v:groupContext="shape" transform="translate(82.8,-1269)">
+			<title>stage_02</title>
+			<desc>双FPGA系统架构设计</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="208.08" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>双<tspan class="st5">FPGA</tspan>系统架构设计</text>		</g>
+		<g id="shape5-68" v:mID="5" v:groupContext="shape" transform="translate(82.8,-1150.2)">
+			<title>stage_03</title>
+			<desc>硬件平台搭建</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="247.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>硬件平台搭建</text>		</g>
+		<g id="shape7-71" v:mID="7" v:groupContext="shape" transform="translate(82.8,-1031.4)">
+			<title>stage_04</title>
+			<desc>图像采集与处理</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="236.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>图像采集与处理</text>		</g>
+		<g id="shape9-74" v:mID="9" v:groupContext="shape" transform="translate(82.8,-912.6)">
+			<title>stage_05</title>
+			<desc>轻量化NPU设计</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="236.19" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>轻量化<tspan
+						class="st5">NPU</tspan>设计</text>		</g>
+		<g id="shape11-78" v:mID="11" v:groupContext="shape" transform="translate(82.8,-793.8)">
+			<title>stage_06</title>
+			<desc>YOLO人物识别与火焰检测部署</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="161.65" y="1553.44" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>YOLO<tspan
+						class="st9">人物识别与火焰检测部署</tspan></text>		</g>
+		<g id="shape13-82" v:mID="13" v:groupContext="shape" transform="translate(82.8,-675)">
+			<title>stage_07</title>
+			<desc>RISC-V CPU协同及通信设计</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="175.99" y="1553.44" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RISC-V CPU<tspan
+						class="st9">协同及通信设计</tspan></text>		</g>
+		<g id="shape15-86" v:mID="15" v:groupContext="shape" transform="translate(82.8,-556.2)">
+			<title>stage_08</title>
+			<desc>视觉引导的小车运动与机械臂控制</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="148.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>视觉引导的小车运动与机械臂控制</text>		</g>
+		<g id="shape17-89" v:mID="17" v:groupContext="shape" transform="translate(82.8,-437.4)">
+			<title>stage_09</title>
+			<desc>自动灭火系统开发</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="225.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>自动灭火系统开发</text>		</g>
+		<g id="shape19-92" v:mID="19" v:groupContext="shape" transform="translate(82.8,-318.6)">
+			<title>stage_10</title>
+			<desc>RTL仿真与综合</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="237.42" y="1553.44" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RTL<tspan
+						class="st9">仿真与综合</tspan></text>		</g>
+		<g id="shape21-96" v:mID="21" v:groupContext="shape" transform="translate(82.8,-199.8)">
+			<title>stage_11</title>
+			<desc>FPGA上板调试</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="241.08" y="1553.44" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FPGA<tspan
+						class="st9">上板调试</tspan></text>		</g>
+		<g id="shape23-100" v:mID="23" v:groupContext="shape" transform="translate(82.8,-81)">
+			<title>stage_12</title>
+			<desc>整机联调与性能优化</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="313.2" cy="1546.2" width="626.4" height="75.6"/>
+			<rect x="0" y="1508.4" width="626.4" height="75.6" class="st6"/>
+			<text x="214.2" y="1553.44" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>整机联调与性能优化</text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\conv_engine_top.v": "3af7d47d06cea2ca1af3345e3e59adf2ba9b8bef5c8c2ea78c364cad7088db2c",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\pe_array.v": "4a89d4dd39fb3fb642a86d6e97f3e170d48a4696741a33505ebe5a9a503466da",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\mac_tree_3x3.v": "5a0f84a0be7007a6615533a3f63ae7d19186ba7b69fa9333ebfc1a592f4176f6",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\channel_accumulator.v": "67afb0c0c5d6a448e03ccd7e191cfe63f36931246dbfc06458553d6077a11234",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\activation_quant_fused.v": "7707e9d24b587bba5812642e76839a6007785667f9a163a28d285a997465c0b7",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\weight_buffer.v": "1833e1d275970820f1320c4c664bc1a6d0906c742bd64a8cdd1807d079c749dd",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\bias_buffer.v": "d8f8760df887249369fb4e95cf669749db5d54e2a9d0024a9b70079bb9d9bb7f",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\line_buffer_conv.v": "d26a5c6605ea89ef67aac301c65481a51d2aa9cb5a055963d71e46f265e449df",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\line_buffer_pool.v": "d5a75952d7a0b88dbd25059f20c89377e22f41fc49eefb0140f804aea80096f3"
+  },
+  "skill": "C:\\Users\\lx292\\.codex\\skills\\visio-skill\\SKILL.md",
+  "json": "C:\\Users\\lx292\\Desktop\\qiansai_last\\主框架图_20261031\\NPU核心计算架构图_蓝橙配色.json",
+  "single_page": true,
+  "source_structure_and_vsdx": "PASS",
+  "native_shapes": 107,
+  "scope": "Drawing only; no RTL changes or new synthesis/board validation"
+}

@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "case": "empty_chair",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181709_616074.png",
+      "source_sha256": "f86373e1082b454c2980b284a25011e7a2f78ed753d2d6b5f7255716047b80be",
+      "decoded": [
+        95,
+        95,
+        161,
+        74,
+        127,
+        163
+      ],
+      "compared_final_bytes": 1800,
+      "result": "PASS"
+    },
+    {
+      "case": "standing_person",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181724_283848.png",
+      "source_sha256": "fe8996599637c638275d5a753b462f3f3a0fe920e348cddbd48db6e9d8000e98",
+      "decoded": [
+        147,
+        108,
+        140,
+        98,
+        161,
+        203
+      ],
+      "compared_final_bytes": 1800,
+      "result": "PASS"
+    },
+    {
+      "case": "seated_person",
+      "image": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\person_v7_hardneg_20261023\\preview\\raw\\camera_20261023_181731_703218.png",
+      "source_sha256": "155239eb70f9775c6e84244fd86366bb52b8eacf21d727be071241a5d461d828",
+      "decoded": [
+        154,
+        157,
+        112,
+        51,
+        114,
+        188
+      ],
+      "compared_final_bytes": 1800,
+      "result": "PASS"
+    },
+    {
+      "case": "v11_new_photo",
+      "image": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v11_photo_20261024\\test\\images\\camera_photo_frame_1792809620560995200_udp06678_src13452_53f2f78e969a.png",
+      "source_sha256": "408cb1e052a6f178980267c76b6af285d67766f4c806cd8fc79ef57dbccffd85",
+      "decoded": [
+        161,
+        160,
+        112,
+        26,
+        59,
+        199
+      ],
+      "compared_final_bytes": 1800,
+      "result": "PASS"
+    }
+  ],
+  "final_byte_comparisons": 7200,
+  "mismatches": 0,
+  "qat_checkpoint_sha256": "e595a361c34689f63634ad1fd7a189657a23c065d4949494e73db23d078988d1",
+  "integer_reference_source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v9\\scripts\\verify_person_v9_helpers.py",
+  "integer_reference_sha256": "de1be48629f6cfed9a5100e3096edfc0dc414fe837a12e2201b296ce857d334f",
+  "rtl_simulation_run": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "physical_board_verified": false
+}

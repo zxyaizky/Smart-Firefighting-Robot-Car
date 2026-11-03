@@ -1,0 +1,7 @@
+{
+  "source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\deployment\\npu12\\u33_boot_fw.bin",
+  "sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c",
+  "size_bytes": 40,
+  "copied_unchanged": true,
+  "compatibility": "same copy size, same XIP parameter source 0x20200000..0x20250000, same AHB destination and reset vector 0x20e00000"
+}

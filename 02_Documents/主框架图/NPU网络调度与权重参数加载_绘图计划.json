@@ -1,0 +1,1282 @@
+{
+  "page": {
+    "name": "网络调度与权重参数加载",
+    "width": 24,
+    "height": 17.5
+  },
+  "shapes": [
+    {
+      "id": "boot_region",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "container",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 12,
+      "y": 13.65,
+      "width": 22.3,
+      "height": 3.2,
+      "fill": "#CBE5FE",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18
+    },
+    {
+      "id": "schedule_region",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "container",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 6.1,
+      "y": 6.65,
+      "width": 10.5,
+      "height": 9.6,
+      "fill": "#CBE5FE",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18
+    },
+    {
+      "id": "runtime_region",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "container",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 17.55,
+      "y": 6.65,
+      "width": 11.2,
+      "height": 9.6,
+      "fill": "#CBE5FE",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 12,
+      "y": 16.55,
+      "width": 22,
+      "height": 0.7,
+      "text": "NPU 网络调度与权重参数加载",
+      "fontFamily": "SimSun",
+      "fontSize": 36,
+      "fontColor": "#000000",
+      "bold": true
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 12,
+      "y": 15.85,
+      "width": 22,
+      "height": 0.4,
+      "text": "Flash 参数装载  ·  描述符驱动层调度  ·  DDR 权重 / 偏置按需供给",
+      "fontFamily": "SimSun",
+      "fontSize": 17,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "boot_title",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 12,
+      "y": 14.86,
+      "width": 20,
+      "height": 0.42,
+      "text": "① 启动参数装载与校验",
+      "fontFamily": "SimSun",
+      "fontSize": 23,
+      "fontColor": "#000000",
+      "bold": true
+    },
+    {
+      "id": "schedule_title",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 6.1,
+      "y": 10.95,
+      "width": 9.8,
+      "height": 0.45,
+      "text": "② 网络层序与分组调度",
+      "fontFamily": "SimSun",
+      "fontSize": 23,
+      "fontColor": "#000000",
+      "bold": true
+    },
+    {
+      "id": "runtime_title",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 15.65,
+      "y": 10.95,
+      "width": 6.5,
+      "height": 0.45,
+      "text": "③ 运行期参数读取与供给",
+      "fontFamily": "SimSun",
+      "fontSize": 23,
+      "fontColor": "#000000",
+      "bold": true
+    },
+    {
+      "id": "flash",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 3.4,
+      "y": 13.3,
+      "width": 4.2,
+      "height": 1.8,
+      "fill": "#FFFFFF",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "U33 Flash 模型参数",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n人员模型权重 / 偏置",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n参数镜像：327680 字节",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "U33 Flash 模型参数\n人员模型权重 / 偏置\n参数镜像：327680 字节"
+    },
+    {
+      "id": "ahb",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 8.3,
+      "y": 13.3,
+      "width": 4.2,
+      "height": 1.8,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "MCU / AHB 参数桥",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n32 位写入 → 128 位打包",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n跨时钟 FIFO",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_u33_mcu_bridge",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "MCU / AHB 参数桥\n32 位写入 → 128 位打包\n跨时钟 FIFO\nnpu_u33_mcu_bridge"
+    },
+    {
+      "id": "loader",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 13.5,
+      "y": 13.3,
+      "width": 4.7,
+      "height": 1.8,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "参数装载与读回校验",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n暂停推理 → 写入 → CRC32",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n通过置 params_ready；失败拦截",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_param_loader",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "参数装载与读回校验\n暂停推理 → 写入 → CRC32\n通过置 params_ready；失败拦截\nnpu_param_loader"
+    },
+    {
+      "id": "ddr",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 19.3,
+      "y": 13.3,
+      "width": 5.4,
+      "height": 1.8,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "共享 DDR 参数分区",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n视频与参数分区存储",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n128 位数据读写",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_ddr_scheduler",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "共享 DDR 参数分区\n视频与参数分区存储\n128 位数据读写\nnpu_ddr_scheduler"
+    },
+    {
+      "id": "desc",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 3.45,
+      "y": 9.5,
+      "width": 4.4,
+      "height": 1.7,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "模型描述符 ROM / RAM",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n当前 12 层；启动写入描述符",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_model_config.vh",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "模型描述符 ROM / RAM\n当前 12 层；启动写入描述符\nnpu_model_config.vh"
+    },
+    {
+      "id": "sequencer",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 8.6,
+      "y": 9.5,
+      "width": 4.8,
+      "height": 1.7,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "层描述符读取与解析",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n卷积 / 池化 / 量化及参数地址",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_sequencer",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "层描述符读取与解析\n卷积 / 池化 / 量化及参数地址\nnpu_sequencer"
+    },
+    {
+      "id": "admit",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 3.45,
+      "y": 6.9,
+      "width": 4.4,
+      "height": 1.7,
+      "fill": "#FFFFFF",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "模型就绪与帧接纳",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n参数校验 + 描述符就绪",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n空闲时接收；输入预装载完成",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "模型就绪与帧接纳\n参数校验 + 描述符就绪\n空闲时接收；输入预装载完成"
+    },
+    {
+      "id": "iterate",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 8.6,
+      "y": 6.9,
+      "width": 4.8,
+      "height": 1.7,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "层 / Tile / 通道分组",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n计算地址、长度与分组边界",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n等待 DMA 完成后启动计算",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_sequencer",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "层 / Tile / 通道分组\n计算地址、长度与分组边界\n等待 DMA 完成后启动计算\nnpu_sequencer"
+    },
+    {
+      "id": "core",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 8.6,
+      "y": 3.9,
+      "width": 4.8,
+      "height": 1.8,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "计算核心与完成反馈",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\nBCU / conv_engine_top",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n完成当前 Cin 分组与 Tile",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\ntile_error 阻止继续推进",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "计算核心与完成反馈\nBCU / conv_engine_top\n完成当前 Cin 分组与 Tile\ntile_error 阻止继续推进"
+    },
+    {
+      "id": "done",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 3.45,
+      "y": 3.9,
+      "width": 4.4,
+      "height": 1.8,
+      "fill": "#FFFFFF",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "下一层 / 推理完成",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n本层结束：读取下一层描述符",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n末层结束：inference_done",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "下一层 / 推理完成\n本层结束：读取下一层描述符\n末层结束：inference_done"
+    },
+    {
+      "id": "bridge",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 19.3,
+      "y": 9.5,
+      "width": 6.1,
+      "height": 1.7,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "DDR 读桥与跨时钟",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n请求范围校验；DDR 128 位 → NPU 16 位",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nnpu_ddr_read_bridge",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "DDR 读桥与跨时钟\n请求范围校验；DDR 128 位 → NPU 16 位\nnpu_ddr_read_bridge"
+    },
+    {
+      "id": "dma",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 19.3,
+      "y": 6.9,
+      "width": 6.1,
+      "height": 1.7,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "权重 / 偏置 DMA",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n32 位参数字 → 每次读取 2 个 16 位半字",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n先提交权重，再读取并提交偏置",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nweight_sdram_dma",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "权重 / 偏置 DMA\n32 位参数字 → 每次读取 2 个 16 位半字\n先提交权重，再读取并提交偏置\nweight_sdram_dma"
+    },
+    {
+      "id": "cache",
+      "kind": "rounded-rectangle",
+      "shapeIntent": "module",
+      "preferredSource": "stencil",
+      "stencil": "BASIC_M.VSSX",
+      "master": "Rounded Rectangle",
+      "x": 19.3,
+      "y": 3.9,
+      "width": 6.1,
+      "height": 1.8,
+      "fill": "#FFCB99",
+      "line": "#202020",
+      "lineWeight": 1,
+      "fontColor": "#000000",
+      "fontFamily": "SimSun",
+      "fontSize": 18,
+      "richText": [
+        {
+          "text": "片上权重与偏置缓存",
+          "fontFamily": "SimSun",
+          "fontSize": 22
+        },
+        {
+          "text": "\n144 位权重：2 × 9 × 8 bit",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\n32 位 Bias；按 OC 组更新",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        },
+        {
+          "text": "\nweight_buffer / bias_buffer",
+          "fontFamily": "SimSun",
+          "fontSize": 17
+        }
+      ],
+      "text": "片上权重与偏置缓存\n144 位权重：2 × 9 × 8 bit\n32 位 Bias；按 OC 组更新\nweight_buffer / bias_buffer"
+    },
+    {
+      "id": "priority_note",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 14.1,
+      "y": 9.5,
+      "width": 3.6,
+      "height": 1.55,
+      "text": "DDR 仲裁顺序\n视频 → 参数装载 → NPU\n由 npu_ddr_scheduler 仲裁",
+      "fontFamily": "SimSun",
+      "fontSize": 15,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "schedule_note",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 6.1,
+      "y": 2.35,
+      "width": 9.8,
+      "height": 0.6,
+      "text": "循环推进：Cin 分组 → 空间 Tile → OC 分组 → 下一层",
+      "fontFamily": "SimSun",
+      "fontSize": 16,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "reuse_note",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 17.55,
+      "y": 2.35,
+      "width": 10.4,
+      "height": 0.6,
+      "text": "单 Cin 组层可跨 Tile 复用参数，跳过重复 DMA 读取",
+      "fontFamily": "SimSun",
+      "fontSize": 16,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "legend",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 12,
+      "y": 1.05,
+      "width": 22,
+      "height": 0.45,
+      "text": "实线：参数 / 计算数据流     虚线：调度与握手     |     依据当前 A 板 RTL 绘制",
+      "fontFamily": "SimSun",
+      "fontSize": 16,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "desc_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 6.03,
+      "y": 9.88,
+      "width": 1.02,
+      "height": 0.3,
+      "text": "层配置",
+      "fontFamily": "SimSun",
+      "fontSize": 13,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "desc_ready_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 4.68,
+      "y": 8.15,
+      "width": 2.1,
+      "height": 0.3,
+      "text": "model_ready",
+      "fontFamily": "SimSun",
+      "fontSize": 13,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "req_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 13.65,
+      "y": 7.65,
+      "width": 4.5,
+      "height": 0.35,
+      "text": "dma_req / base_addr / length",
+      "fontFamily": "SimSun",
+      "fontSize": 15,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "done_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 13.65,
+      "y": 6.03,
+      "width": 4.5,
+      "height": 0.35,
+      "text": "dma_ack / dma_done",
+      "fontFamily": "SimSun",
+      "fontSize": 15,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "ddr_stream_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 17.85,
+      "y": 11.83,
+      "width": 2.5,
+      "height": 0.3,
+      "text": "128 位读返回",
+      "fontFamily": "SimSun",
+      "fontSize": 14,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "ddr_req_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 22.1,
+      "y": 11.83,
+      "width": 1.6,
+      "height": 0.3,
+      "text": "读请求",
+      "fontFamily": "SimSun",
+      "fontSize": 14,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "stream_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 16.6,
+      "y": 8.19,
+      "width": 2.3,
+      "height": 0.35,
+      "text": "16 位数据流",
+      "fontFamily": "SimSun",
+      "fontSize": 14,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "read_req_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 21.95,
+      "y": 8.19,
+      "width": 2.25,
+      "height": 0.35,
+      "text": "req / ready",
+      "fontFamily": "SimSun",
+      "fontSize": 14,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "commit_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 21,
+      "y": 5.35,
+      "width": 3,
+      "height": 0.4,
+      "text": "权重 / 偏置写入与更新",
+      "fontFamily": "SimSun",
+      "fontSize": 14,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "cache_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 13.7,
+      "y": 4.3,
+      "width": 4.5,
+      "height": 0.35,
+      "text": "144 位权重 / 32 位偏置",
+      "fontFamily": "SimSun",
+      "fontSize": 15,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "start_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 10.65,
+      "y": 5.35,
+      "width": 1.55,
+      "height": 0.32,
+      "text": "layer_start",
+      "fontFamily": "SimSun",
+      "fontSize": 13,
+      "fontColor": "#000000",
+      "bold": false
+    },
+    {
+      "id": "feedback_label",
+      "kind": "text",
+      "shapeIntent": "caption",
+      "preferredSource": "primitive",
+      "x": 6.5,
+      "y": 5.35,
+      "width": 1.4,
+      "height": 0.32,
+      "text": "layer_done",
+      "fontFamily": "SimSun",
+      "fontSize": 13,
+      "fontColor": "#000000",
+      "bold": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "flash_to_ahb",
+      "from": "flash",
+      "to": "ahb",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.5,
+      "toX": 0,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        5.5,
+        13.3,
+        6.200000000000001,
+        13.3
+      ],
+      "text": ""
+    },
+    {
+      "id": "ahb_to_loader",
+      "from": "ahb",
+      "to": "loader",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.5,
+      "toX": 0,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        10.4,
+        13.3,
+        11.15,
+        13.3
+      ],
+      "text": ""
+    },
+    {
+      "id": "load_write",
+      "from": "loader",
+      "to": "ddr",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.72,
+      "toX": 0,
+      "toY": 0.72,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        15.85,
+        13.696000000000002,
+        16.6,
+        13.696000000000002
+      ],
+      "text": ""
+    },
+    {
+      "id": "load_readback",
+      "from": "ddr",
+      "to": "loader",
+      "kind": "dynamic",
+      "fromX": 0,
+      "fromY": 0.25,
+      "toX": 1,
+      "toY": 0.25,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        16.6,
+        12.850000000000001,
+        15.85,
+        12.850000000000001
+      ],
+      "text": ""
+    },
+    {
+      "id": "ddr_to_bridge",
+      "from": "ddr",
+      "to": "bridge",
+      "kind": "dynamic",
+      "fromX": 0.5,
+      "fromY": 0,
+      "toX": 0.5,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        19.3,
+        12.4,
+        19.3,
+        10.35
+      ],
+      "text": ""
+    },
+    {
+      "id": "bridge_read_request",
+      "from": "bridge",
+      "to": "ddr",
+      "kind": "dynamic",
+      "fromX": 0.8,
+      "fromY": 1,
+      "toX": 0.8,
+      "toY": 0,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        21.130000000000003,
+        10.35,
+        20.92,
+        12.4
+      ],
+      "text": ""
+    },
+    {
+      "id": "desc_to_decode",
+      "from": "desc",
+      "to": "sequencer",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.5,
+      "toX": 0,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        5.65,
+        9.5,
+        6.199999999999999,
+        9.5
+      ],
+      "text": ""
+    },
+    {
+      "id": "desc_ready",
+      "from": "desc",
+      "to": "admit",
+      "kind": "dynamic",
+      "fromX": 0.5,
+      "fromY": 0,
+      "toX": 0.5,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        3.45,
+        8.65,
+        3.45,
+        7.75
+      ],
+      "text": ""
+    },
+    {
+      "id": "decode_to_iterate",
+      "from": "sequencer",
+      "to": "iterate",
+      "kind": "dynamic",
+      "fromX": 0.5,
+      "fromY": 0,
+      "toX": 0.5,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        8.6,
+        8.65,
+        8.6,
+        7.75
+      ],
+      "text": ""
+    },
+    {
+      "id": "frame_to_iterate",
+      "from": "admit",
+      "to": "iterate",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.5,
+      "toX": 0,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        5.65,
+        6.9,
+        6.199999999999999,
+        6.9
+      ],
+      "text": ""
+    },
+    {
+      "id": "dma_req",
+      "from": "iterate",
+      "to": "dma",
+      "kind": "dynamic",
+      "fromX": 1,
+      "fromY": 0.73,
+      "toX": 0,
+      "toY": 0.73,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        11.0,
+        7.291,
+        16.25,
+        7.291
+      ],
+      "text": ""
+    },
+    {
+      "id": "dma_done",
+      "from": "dma",
+      "to": "iterate",
+      "kind": "dynamic",
+      "fromX": 0,
+      "fromY": 0.23,
+      "toX": 1,
+      "toY": 0.23,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        16.25,
+        6.441000000000001,
+        11.0,
+        6.441000000000001
+      ],
+      "text": ""
+    },
+    {
+      "id": "read_stream",
+      "from": "bridge",
+      "to": "dma",
+      "kind": "dynamic",
+      "fromX": 0.29,
+      "fromY": 0,
+      "toX": 0.29,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        18.019000000000002,
+        8.65,
+        18.019000000000002,
+        7.75
+      ],
+      "text": ""
+    },
+    {
+      "id": "read_request",
+      "from": "dma",
+      "to": "bridge",
+      "kind": "dynamic",
+      "fromX": 0.73,
+      "fromY": 1,
+      "toX": 0.73,
+      "toY": 0,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        20.703,
+        7.75,
+        20.703,
+        8.65
+      ],
+      "text": ""
+    },
+    {
+      "id": "commit_to_cache",
+      "from": "dma",
+      "to": "cache",
+      "kind": "dynamic",
+      "fromX": 0.5,
+      "fromY": 0,
+      "toX": 0.5,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        19.3,
+        6.050000000000001,
+        19.3,
+        4.8
+      ],
+      "text": ""
+    },
+    {
+      "id": "cache_to_core",
+      "from": "cache",
+      "to": "core",
+      "kind": "dynamic",
+      "fromX": 0,
+      "fromY": 0.5,
+      "toX": 1,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": false,
+      "points": [
+        16.25,
+        3.9,
+        11.0,
+        3.9
+      ],
+      "text": ""
+    },
+    {
+      "id": "layer_start",
+      "from": "iterate",
+      "to": "core",
+      "kind": "dynamic",
+      "fromX": 0.72,
+      "fromY": 0,
+      "toX": 0.72,
+      "toY": 1,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        9.655999999999999,
+        6.050000000000001,
+        9.655999999999999,
+        4.8
+      ],
+      "text": ""
+    },
+    {
+      "id": "layer_feedback",
+      "from": "core",
+      "to": "iterate",
+      "kind": "dynamic",
+      "fromX": 0.25,
+      "fromY": 1,
+      "toX": 0.25,
+      "toY": 0,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        7.3999999999999995,
+        4.8,
+        7.3999999999999995,
+        6.050000000000001
+      ],
+      "text": ""
+    },
+    {
+      "id": "core_to_done",
+      "from": "core",
+      "to": "done",
+      "kind": "dynamic",
+      "fromX": 0,
+      "fromY": 0.5,
+      "toX": 1,
+      "toY": 0.5,
+      "arrow": true,
+      "line": "#202020",
+      "lineWeight": 1.3,
+      "dashed": true,
+      "points": [
+        6.199999999999999,
+        3.9,
+        5.65,
+        3.9
+      ],
+      "text": ""
+    }
+  ]
+}

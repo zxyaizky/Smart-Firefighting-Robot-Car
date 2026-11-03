@@ -1,0 +1,376 @@
+{
+  "package_integrity": "PASS",
+  "activation": "NOT_ACTIVATED",
+  "compatible_with_current_descriptors": false,
+  "current_layers": 12,
+  "candidate_layers": 24,
+  "parameter_bytes": 327680,
+  "crc32": "b5bf7d07",
+  "sha256": "da227f75e0460dda6d0e226fec3cc9e6f6ded712442defefdb15ff4f05a013bf",
+  "current_first_weight_byte_offset": 557056,
+  "current_first_weight_outside_candidate": true,
+  "production_config_sha256": "8aaba5a52df1a435858586462642d541cb3cd178c837ee3b0fbfb3151375fe8a",
+  "descriptor_differences": [
+    {
+      "layer": 0,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 0,
+      "field": "channels",
+      "current": 524291,
+      "candidate": 1048579
+    },
+    {
+      "layer": 0,
+      "field": "weight_word_offset",
+      "current": 139264,
+      "candidate": 0
+    },
+    {
+      "layer": 0,
+      "field": "bias_word_offset",
+      "current": 139840,
+      "candidate": 576
+    },
+    {
+      "layer": 1,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 1,
+      "field": "channels",
+      "current": 1048584,
+      "candidate": 1048592
+    },
+    {
+      "layer": 1,
+      "field": "weight_word_offset",
+      "current": 139856,
+      "candidate": 593
+    },
+    {
+      "layer": 1,
+      "field": "bias_word_offset",
+      "current": 140432,
+      "candidate": 1169
+    },
+    {
+      "layer": 1,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 2,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 2,
+      "field": "weight_word_offset",
+      "current": 140448,
+      "candidate": 1186
+    },
+    {
+      "layer": 2,
+      "field": "bias_word_offset",
+      "current": 141600,
+      "candidate": 2338
+    },
+    {
+      "layer": 2,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 3,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 3,
+      "field": "channels",
+      "current": 4194336,
+      "candidate": 6291488
+    },
+    {
+      "layer": 3,
+      "field": "weight_word_offset",
+      "current": 141632,
+      "candidate": 2371
+    },
+    {
+      "layer": 3,
+      "field": "bias_word_offset",
+      "current": 146240,
+      "candidate": 9283
+    },
+    {
+      "layer": 3,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 4,
+      "field": "operation_flags",
+      "current": 269488401,
+      "candidate": 1052945
+    },
+    {
+      "layer": 4,
+      "field": "channels",
+      "current": 1048640,
+      "candidate": 2097248
+    },
+    {
+      "layer": 4,
+      "field": "weight_word_offset",
+      "current": 146304,
+      "candidate": 9380
+    },
+    {
+      "layer": 4,
+      "field": "bias_word_offset",
+      "current": 146560,
+      "candidate": 10148
+    },
+    {
+      "layer": 4,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 5,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 5,
+      "field": "channels",
+      "current": 4194320,
+      "candidate": 6291488
+    },
+    {
+      "layer": 5,
+      "field": "weight_word_offset",
+      "current": 146576,
+      "candidate": 10181
+    },
+    {
+      "layer": 5,
+      "field": "bias_word_offset",
+      "current": 148880,
+      "candidate": 17093
+    },
+    {
+      "layer": 5,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 6,
+      "field": "operation_flags",
+      "current": 269488401,
+      "candidate": 1052945
+    },
+    {
+      "layer": 6,
+      "field": "channels",
+      "current": 1048640,
+      "candidate": 2097248
+    },
+    {
+      "layer": 6,
+      "field": "weight_word_offset",
+      "current": 148944,
+      "candidate": 17190
+    },
+    {
+      "layer": 6,
+      "field": "bias_word_offset",
+      "current": 149200,
+      "candidate": 17958
+    },
+    {
+      "layer": 7,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 7,
+      "field": "channels",
+      "current": 4194320,
+      "candidate": 6291488
+    },
+    {
+      "layer": 7,
+      "field": "weight_word_offset",
+      "current": 149216,
+      "candidate": 17991
+    },
+    {
+      "layer": 7,
+      "field": "bias_word_offset",
+      "current": 151520,
+      "candidate": 24903
+    },
+    {
+      "layer": 7,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 8,
+      "field": "operation_flags",
+      "current": 269488401,
+      "candidate": 1052945
+    },
+    {
+      "layer": 8,
+      "field": "channels",
+      "current": 1048640,
+      "candidate": 2097248
+    },
+    {
+      "layer": 8,
+      "field": "weight_word_offset",
+      "current": 151584,
+      "candidate": 25000
+    },
+    {
+      "layer": 8,
+      "field": "bias_word_offset",
+      "current": 151840,
+      "candidate": 25768
+    },
+    {
+      "layer": 8,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 9,
+      "field": "operation_flags",
+      "current": 269497105,
+      "candidate": 1061649
+    },
+    {
+      "layer": 9,
+      "field": "channels",
+      "current": 4194320,
+      "candidate": 6291488
+    },
+    {
+      "layer": 9,
+      "field": "weight_word_offset",
+      "current": 151856,
+      "candidate": 25801
+    },
+    {
+      "layer": 9,
+      "field": "bias_word_offset",
+      "current": 154160,
+      "candidate": 32713
+    },
+    {
+      "layer": 9,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 10,
+      "field": "operation_flags",
+      "current": 269488401,
+      "candidate": 1052945
+    },
+    {
+      "layer": 10,
+      "field": "channels",
+      "current": 2097216,
+      "candidate": 2097248
+    },
+    {
+      "layer": 10,
+      "field": "weight_word_offset",
+      "current": 154224,
+      "candidate": 32810
+    },
+    {
+      "layer": 10,
+      "field": "bias_word_offset",
+      "current": 154736,
+      "candidate": 33578
+    },
+    {
+      "layer": 10,
+      "field": "shift",
+      "current": 7,
+      "candidate": 8
+    },
+    {
+      "layer": 11,
+      "field": "operation_flags",
+      "current": 272634129,
+      "candidate": 1061649
+    },
+    {
+      "layer": 11,
+      "field": "pool_padding",
+      "current": 0,
+      "candidate": 1
+    },
+    {
+      "layer": 11,
+      "field": "channels",
+      "current": 589856,
+      "candidate": 6291488
+    },
+    {
+      "layer": 11,
+      "field": "weight_word_offset",
+      "current": 154768,
+      "candidate": 33611
+    },
+    {
+      "layer": 11,
+      "field": "bias_word_offset",
+      "current": 154896,
+      "candidate": 40523
+    },
+    {
+      "layer": 11,
+      "field": "shift",
+      "current": 0,
+      "candidate": 9
+    }
+  ],
+  "imported_files": {
+    "parameters128.hex": "3d2fe69a7d0be424a244e561a3531034125b2e8dbee8ebe8a20194d43c6e726a",
+    "parameters_ddr.bin": "da227f75e0460dda6d0e226fec3cc9e6f6ded712442defefdb15ff4f05a013bf",
+    "manifest.json": "4081717d429f40d5bd007c1d969a9d3fbd28e2a59918c3834217bcba784bd021",
+    "deployment.json": "7d9f45f37a6dce458fe16fd0e490480c42c3a1e9e740fed579e1f915b243134c",
+    "npu_desc.hex": "3a4e533dc750094ab1d0e64fba13f0ea7100745ac3609697148c685c6eb51d9b"
+  },
+  "source": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\deploy\\params\\parameters128.hex",
+  "limitations": [
+    "24-layer inference not verified",
+    "Physical loading transport not connected",
+    "Exact training preprocessing sample phase not verified"
+  ]
+}

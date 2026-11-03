@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "roots": [
+    {
+      "root": "C:\\Users\\lx292\\Desktop\\safety_grid_v1",
+      "protected_files": 788,
+      "metadata_unchanged": true
+    },
+    {
+      "root": "C:\\Users\\lx292\\Desktop\\Safety_Dataset\\person_v5_geometry_fixed",
+      "protected_files": 4147,
+      "metadata_unchanged": true
+    }
+  ],
+  "critical_sha256_unchanged": {
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\fp32_person_v5_geometry_fixed\\best.pth": "c604449fd2d26a2c1d5a06212175dccc10fec80e1ceb82ea2d0097b1f6e7dd65",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\qat_person_v5\\initial_qat.pth": "021c2b11de465b97f9467d5ea092ffadd2efada9921b38063fcb5f28f499e39d",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\qat_person_v5\\best_qat.pth": "3dad459cb82bab3ad6de82c85884f73ffc31e893e101fec50209238d361a4579",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\compiler_person_v3.py": "be49d6f8f3e179f9dff27dcb1aa15c217b3af7117016aa31beb882dacce78d6a",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\verify_person_v3.py": "e5857793ce664022561d7d6a1f00b5a803030429239afdc30f646e0df83f52e9",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\qat_person_v4.py": "579ed5903392c5cf1af37296621c19644b74f51dddce63b6e789c5490511132c",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\model_person.py": "87d29aac563388c1407f1bdde67f34792ca91b5804f412f3d277b774df61dcaa",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\contract_person.py": "d6dc958364dbd15f47d068a79f41b46f59c962d75df22d03c01388e5d1445d41",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\grid_person.py": "62aa5a4c8719c8db63908b043d09df3628961eb35ace12953bd4cc777b561dac",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\preprocess.py": "661053fb63c58e651a59f4adeeb69bb2594836e760d33ca1e1934a82bf55189f",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\deploy\\person_v3\\npu_params.bin": "ec7e736e1f67f2178d8d94fec18bc031871675dc9eb7534e086524bef3061679",
+    "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\deploy\\person_v3\\npu_model_config.vh": "9c985ff4a43e7312d77996bfce64929d43cc275972e32f45c5be2bed506b1b92"
+  }
+}

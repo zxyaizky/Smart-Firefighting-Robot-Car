@@ -1,0 +1,877 @@
+{
+  "format": "person-v5-fpga-candidate-v1",
+  "status": "EXPERIMENTAL_CANDIDATE_WITH_KNOWN_RTL_FAILURES",
+  "selected_checkpoint": {
+    "checkpoint": "C:\\Users\\lx292\\Desktop\\safety_grid_v1\\runs\\qat_person_v5\\best_qat.pth",
+    "sha256": "3dad459cb82bab3ad6de82c85884f73ffc31e893e101fec50209238d361a4579",
+    "variant": "best",
+    "reason": "Compared SC500 localization and false alarms at all requested gates, then original validation; best wins ties. Full byte differences are reported separately.",
+    "status": "EXPERIMENTAL_CANDIDATE_NOT_BOARD_ACCEPTED"
+  },
+  "model_topology": "safety-grid-person-v1-l-12layer-rgb-npu",
+  "quantization": "safety-grid-person-v1-rtl-integer-ste-v2",
+  "active_gates": {
+    "td_project/import/npu_result_overlay.v": [
+      64,
+      32
+    ],
+    "td_project/import/npu_bbox_overlay_160x120.v": [
+      64,
+      32
+    ],
+    "user_source/hdl_source/design_top_wrapper.v": [
+      64,
+      32
+    ]
+  },
+  "flash_binaries": [
+    {
+      "file": "npu_params.bin",
+      "absolute_path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_params.bin",
+      "size_bytes": 327680,
+      "flash_start": "0x200000",
+      "flash_end_exclusive": "0x250000",
+      "flash_end_inclusive": "0x24ffff",
+      "crc32": "e27c4b4d",
+      "sha256": "a661813e90036e5072cd93f8ccaaf76cc4cdda4a01d3d4ae94d95572b4cba097",
+      "model": "Person V5 geometry_fixed",
+      "quantization": "safety-grid-person-v1-rtl-integer-ste-v2",
+      "purpose": "Person V5 INT8 weights, INT32 biases, shifts and loader padding"
+    },
+    {
+      "file": "u33_boot_fw.bin",
+      "absolute_path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\u33_boot_fw.bin",
+      "size_bytes": 40,
+      "flash_start": "0xe00000",
+      "flash_end_exclusive": "0xe00028",
+      "flash_end_inclusive": "0xe00027",
+      "crc32": "ba15afe3",
+      "sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c",
+      "model": "Person V5 geometry_fixed",
+      "quantization": "safety-grid-person-v1-rtl-integer-ste-v2",
+      "purpose": "Existing compatible U33 MCU copy firmware, copied byte-identical"
+    }
+  ],
+  "modified_active_files": [
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_model_config.vh",
+      "before_sha256": "9c985ff4a43e7312d77996bfce64929d43cc275972e32f45c5be2bed506b1b92",
+      "after_sha256": "5c1f94437d124728532a026534522690a960724f1a00fe41ba442e3752638557"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\user_source\\hdl_source\\design_top_wrapper.v",
+      "before_sha256": "d2ce1a14853a3f1cde807ce61974f07d27f18a44babb0fa0435da528d0a2bcab",
+      "after_sha256": "c459320985780a854cc0f0f1a83f5f7cea14ad5f4b1017b4f21e3201e925a2cb"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "before_sha256": "6517a130478e2011f6ddb759fda2a6b0238e182dbba73e3f00126b0126462a9f",
+      "after_sha256": "391c903f29a40e4ded8668350613c03040a7d27cb659b841c872339890a41afa"
+    }
+  ],
+  "new_files_root": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5",
+  "files": [
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_compile.log",
+      "relative_path": "bbox_compile.log",
+      "size_bytes": 606,
+      "sha256": "cbced52c8097674585c58ca827ed17e25e211090ea85612babf3891871389ca8"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_simulation\\inputs.hex",
+      "relative_path": "bbox_simulation\\inputs.hex",
+      "size_bytes": 3294,
+      "sha256": "724a01a7835e46668ec1073958681eafffed21f9efd0a0018bdbec0aa5444f85"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_simulation\\observed.txt",
+      "relative_path": "bbox_simulation\\observed.txt",
+      "size_bytes": 8722,
+      "sha256": "229205f686b563f1c0c0b8ffb264bb72c20f8a99684e78f552544da8457bfd8f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_simulation\\tb_v5_bbox_review.v",
+      "relative_path": "bbox_simulation\\tb_v5_bbox_review.v",
+      "size_bytes": 1885,
+      "sha256": "a2665def5b752fb2dc891fb4b72c3281fe23944a7db4879a9e1ed07948bf4baf"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_simulation\\transcript",
+      "relative_path": "bbox_simulation\\transcript",
+      "size_bytes": 1148,
+      "sha256": "62da1511d666a1e0bb1281092547b7041923aecc3eac17f7b44e4a80252e59aa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_simulation.log",
+      "relative_path": "bbox_simulation.log",
+      "size_bytes": 1180,
+      "sha256": "99575bb1875a9a0c774a5aa1b3ad8afc60f4308eedcebf8ed427bbbb5a1c8630"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_verification.json",
+      "relative_path": "bbox_verification.json",
+      "size_bytes": 151460,
+      "sha256": "d9103bed9832eef074452b0d705265c02b50000e6b2e5b6cce931686f3816aec"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bbox_vlib.log",
+      "relative_path": "bbox_vlib.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\bundle_manifest.json",
+      "relative_path": "bundle_manifest.json",
+      "size_bytes": 2536,
+      "sha256": "78ba6f965b298644fa4b7c7ec096936abde3430bb5e329e6de22afa5b15fb23a"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\commands.jsonl",
+      "relative_path": "commands.jsonl",
+      "size_bytes": 13427,
+      "sha256": "b9e56665cd6113091ef665b70df87849e202f91a4590b669be21cc19f298aa24"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\compiler_checks.json",
+      "relative_path": "compiler_checks.json",
+      "size_bytes": 1050,
+      "sha256": "866aa948d38e7472567e61815ceefeae5165a52a85e4cc5750eb05026c0fb455"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\deployment.json",
+      "relative_path": "deployment.json",
+      "size_bytes": 13123,
+      "sha256": "c7f24b22525848df62a40f16e0c593e833626024c8b4a79842ea25fa6ec843ef"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\evaluation.json",
+      "relative_path": "evaluation.json",
+      "size_bytes": 376346,
+      "sha256": "f88e01a6ebf44e3812f83b9a3309a20f1368760dc8200ab1d202927632ef0296"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\existing_hdmi_bug_provenance.json",
+      "relative_path": "existing_hdmi_bug_provenance.json",
+      "size_bytes": 546,
+      "sha256": "146e75078c6eb59b9f265ec994a4e274073e938f8110c54245626a2b7c7412c9"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\firmware_provenance.json",
+      "relative_path": "firmware_provenance.json",
+      "size_bytes": 394,
+      "sha256": "3b3336060f9486a673f222460ab809db3435a481ac6647070c721e90c129e137"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\flash_layout.json",
+      "relative_path": "flash_layout.json",
+      "size_bytes": 2499,
+      "sha256": "d84b90b7eaed101abbfe4bcebb8a38a84299854b35f3f2a15bb2fd98e7a6deb8"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\flash_layout.md",
+      "relative_path": "flash_layout.md",
+      "size_bytes": 1174,
+      "sha256": "bc5397b7d98be8e64ef6944b622eaff818d2781261dc0cb7698f5cfd8b768418"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\integer_boundaries.log",
+      "relative_path": "integer_boundaries.log",
+      "size_bytes": 306,
+      "sha256": "9112441d7e790bace922ff215601377cc162aa9a36ea2f30ab68b96d5986ca5b"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\network_compile.log",
+      "relative_path": "network_compile.log",
+      "size_bytes": 6118,
+      "sha256": "e0567d2509dc732dc9e48be09d99d2c52e6f177e83ff2db56b0e49047d66f1d1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\network_vlib.log",
+      "relative_path": "network_vlib.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_desc.hex",
+      "relative_path": "npu_desc.hex",
+      "size_bytes": 2560,
+      "sha256": "1f39e23e85141dfdd07f1206e5b9ef1398de8ab83d3430cf318f5bab34b3e609"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_model_config.vh",
+      "relative_path": "npu_model_config.vh",
+      "size_bytes": 4487,
+      "sha256": "5c1f94437d124728532a026534522690a960724f1a00fe41ba442e3752638557"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_params.bin",
+      "relative_path": "npu_params.bin",
+      "size_bytes": 327680,
+      "sha256": "a661813e90036e5072cd93f8ccaaf76cc4cdda4a01d3d4ae94d95572b4cba097"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\npu_params.hex",
+      "relative_path": "npu_params.hex",
+      "size_bytes": 819200,
+      "sha256": "843c00081a4ab0cefe6633b3ffdcb566aa6cce3c75963bc767d09711e5d6544b"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\original_A\\td_project\\import\\npu_model_config.vh",
+      "relative_path": "original_A\\td_project\\import\\npu_model_config.vh",
+      "size_bytes": 4444,
+      "sha256": "9c985ff4a43e7312d77996bfce64929d43cc275972e32f45c5be2bed506b1b92"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\original_A\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "relative_path": "original_A\\td_project\\import\\npu_u33_mcu_bridge.v",
+      "size_bytes": 7236,
+      "sha256": "6517a130478e2011f6ddb759fda2a6b0238e182dbba73e3f00126b0126462a9f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\original_A\\user_source\\hdl_source\\design_top_wrapper.v",
+      "relative_path": "original_A\\user_source\\hdl_source\\design_top_wrapper.v",
+      "size_bytes": 58601,
+      "sha256": "d2ce1a14853a3f1cde807ce61974f07d27f18a44babb0fa0435da528d0a2bcab"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\parameters128.hex",
+      "relative_path": "parameters128.hex",
+      "size_bytes": 696320,
+      "sha256": "592e62ca3a2c8f1f25ad79e5b1ae7a1e1c8456c1a92fa04f04d5e21e191c8fd7"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\python_verification.json",
+      "relative_path": "python_verification.json",
+      "size_bytes": 7837,
+      "sha256": "1d22bd37863839c77e9346ecd54cf8ecce921b936519b1f8e6d0819c7f3b663f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\quant_config.json",
+      "relative_path": "quant_config.json",
+      "size_bytes": 12156,
+      "sha256": "bb606fcf1d608a23f951231c6ffd1d48c7e5642567ba29260aa45ff332435617"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\readonly_before.json",
+      "relative_path": "readonly_before.json",
+      "size_bytes": 758651,
+      "sha256": "3df79f40b5244647c88d4bb28ae17b2c62afe2f5e3d6dc903dd3df5c814bd66e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\readonly_verification.json",
+      "relative_path": "readonly_verification.json",
+      "size_bytes": 2132,
+      "sha256": "afdfcec0016a8da9b1f49c4ff40583012146ae35cc57520d10c51a47545175b9"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\network12\\boundaries.json",
+      "relative_path": "regression\\sim\\network12\\boundaries.json",
+      "size_bytes": 457,
+      "sha256": "0adffe5bcf78b669581675fa73ca845070545065595f083a3c1ec702ca8b2aa3"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\network12\\boundary_compile.log",
+      "relative_path": "regression\\sim\\network12\\boundary_compile.log",
+      "size_bytes": 482,
+      "sha256": "721e59b7cf7a8fb9cd693ef0a3ac8297bd9c30f6853cea250ac7189c13b15d86"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\network12\\boundary_simulation.log",
+      "relative_path": "regression\\sim\\network12\\boundary_simulation.log",
+      "size_bytes": 1107,
+      "sha256": "44789605c683a4fb0f3034fec37c07ce4162e8e76a4c05055da77e6b6cc715f8"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\compile.log",
+      "relative_path": "regression\\sim\\rgb_input\\compile.log",
+      "size_bytes": 5942,
+      "sha256": "11edc491cddc0f54cb65945b9dce88dc8d95a1f41ada459f30b252e32f6842be"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\continuous\\observed.txt",
+      "relative_path": "regression\\sim\\rgb_input\\continuous\\observed.txt",
+      "size_bytes": 13321917,
+      "sha256": "acfed35d5949ff13207deae8d3d4504b85ae064ad269af2ee1d3d78f7638a2fa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\continuous\\simulation.log",
+      "relative_path": "regression\\sim\\rgb_input\\continuous\\simulation.log",
+      "size_bytes": 2500,
+      "sha256": "635e15106d763fcbf37c68c8bfc47ad590881e84903078bb90c6e34796e8caa2"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\continuous\\summary.json",
+      "relative_path": "regression\\sim\\rgb_input\\continuous\\summary.json",
+      "size_bytes": 241,
+      "sha256": "be0bcaae2fb2399a1d177eba15f721eb1367a612e5c57f7ad90ec66219ca27e6"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\continuous.json",
+      "relative_path": "regression\\sim\\rgb_input\\continuous.json",
+      "size_bytes": 267,
+      "sha256": "b028a4571b688e429a92cc2548c4d68dd28d016602f975b56d86bbe4cf49f170"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\edge_compile.log",
+      "relative_path": "regression\\sim\\rgb_input\\edge_compile.log",
+      "size_bytes": 374,
+      "sha256": "770c7e811a861843689517234e860c9ae0a33ac5d5db0247787bc98e9b436aa1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\edge_simulation.log",
+      "relative_path": "regression\\sim\\rgb_input\\edge_simulation.log",
+      "size_bytes": 1520,
+      "sha256": "fa870e5a4f2fc0ad6b891a7f1cd8e76b3d03422836cbd326b48553b08e555500"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\edge_summary.json",
+      "relative_path": "regression\\sim\\rgb_input\\edge_summary.json",
+      "size_bytes": 194,
+      "sha256": "6e0993abda5646dda56599c8730efa4da8366fed6ce9c1a8a596bf297675d877"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\packer.log",
+      "relative_path": "regression\\sim\\rgb_input\\packer.log",
+      "size_bytes": 1076,
+      "sha256": "653004ea925131af2a4ed92f334fb476348f8f4f37018db161c07d6fe3b036ad"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\reset\\observed.txt",
+      "relative_path": "regression\\sim\\rgb_input\\reset\\observed.txt",
+      "size_bytes": 15418087,
+      "sha256": "e751f95a2e8e6a3b1d32fc57ea77afb61343536da910c7a86aa880c84ce26359"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\reset\\simulation.log",
+      "relative_path": "regression\\sim\\rgb_input\\reset\\simulation.log",
+      "size_bytes": 2122,
+      "sha256": "e1f4f94db47d281f4bdd3e3076ecd7e62cdb7b0b68e5aa4b5aeb0bdf245e3512"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\reset\\summary.json",
+      "relative_path": "regression\\sim\\rgb_input\\reset\\summary.json",
+      "size_bytes": 237,
+      "sha256": "4713e9de26bb11988b7b73b624641722ec4c6539f8408850d3f2059373a193fb"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\reset.json",
+      "relative_path": "regression\\sim\\rgb_input\\reset.json",
+      "size_bytes": 263,
+      "sha256": "25cee4efb55932353d4f6c07de2954bb31bc1edd7d774eacf06315fec6cad25c"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\slow_npu\\observed.txt",
+      "relative_path": "regression\\sim\\rgb_input\\slow_npu\\observed.txt",
+      "size_bytes": 220985,
+      "sha256": "e0d1c50f7cae7afe04746d00f268df38fc0b722f5cebfac464fdb9b75b8185f6"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression\\sim\\rgb_input\\slow_npu\\simulation.log",
+      "relative_path": "regression\\sim\\rgb_input\\slow_npu\\simulation.log",
+      "size_bytes": 2102,
+      "sha256": "062c45abdfc6503fbca69a72d6db3f9aea91d3b794b8e1381f6d40757faa2f2f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression_compile.log",
+      "relative_path": "regression_compile.log",
+      "size_bytes": 6330,
+      "sha256": "3d790f283f720c5e4f9d20f4ca9e3f4c8a94ea1a6b54a2109d2d522683e0c464"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression_verification.json",
+      "relative_path": "regression_verification.json",
+      "size_bytes": 1784,
+      "sha256": "a6978499408bbfcc614828bb8433a287c2a5a81eda6df5c5c244fed11f3f71d3"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\regression_vlib.log",
+      "relative_path": "regression_vlib.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rgb_continuous.log",
+      "relative_path": "rgb_continuous.log",
+      "size_bytes": 216,
+      "sha256": "ce462b5cdafb05852b362208046bba0301cb589b15b89dd8bf375a74fcfcddf2"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rgb_edges.log",
+      "relative_path": "rgb_edges.log",
+      "size_bytes": 175,
+      "sha256": "6d22784cb77aa7132496056fd0812994a8e4dfff598e3ab2fb4d1fb8b4ea2ebd"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rgb_reset.log",
+      "relative_path": "rgb_reset.log",
+      "size_bytes": 212,
+      "sha256": "592b35fb972523aa30854c554a8783afa420bc6eaecf6e4d82dbe3b31eb512e2"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rgb_slow_npu.log",
+      "relative_path": "rgb_slow_npu.log",
+      "size_bytes": 629,
+      "sha256": "1b4987edbb8718b00739b73ed91b37f44a4fc7447b74b2c1a3c64a2409305b36"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rtl_changes.json",
+      "relative_path": "rtl_changes.json",
+      "size_bytes": 954,
+      "sha256": "2ec3c48f570b3a2905e7d40a68d8558a18c17c00443e62af0f065854145b84ec"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rtl_changes.patch",
+      "relative_path": "rtl_changes.patch",
+      "size_bytes": 1504,
+      "sha256": "776f8982d1a78efeb6b393c4c75f09364f208c8a2fc3eeb4931af7a300515bb7"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\rtl_network_verification.json",
+      "relative_path": "rtl_network_verification.json",
+      "size_bytes": 17405,
+      "sha256": "3bfc6cb151d133747a54c211118ddec4889e514884ab025eef8883e2f7572dd1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\check_bbox_v5.py",
+      "relative_path": "scripts\\check_bbox_v5.py",
+      "size_bytes": 5098,
+      "sha256": "4b547109d770da1b698fb25ef14fde5ec5593d27f07e78d4963f61e8bdbfb45f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\compiler_person_v5.py",
+      "relative_path": "scripts\\compiler_person_v5.py",
+      "size_bytes": 14660,
+      "sha256": "af4448ae3d35b4763d4a39f1399a0c11008fb40fd70c592bdec7f6423bca04fa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\evaluate_v5.py",
+      "relative_path": "scripts\\evaluate_v5.py",
+      "size_bytes": 7082,
+      "sha256": "6d72b91933b0362df7a8bd1cb080909180ad6ecaf2aaaad90cd2ed224fa943c0"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\finalize_v5.py",
+      "relative_path": "scripts\\finalize_v5.py",
+      "size_bytes": 15662,
+      "sha256": "19ad78dc6bc0031d9f3d440ac944c7af306a55e91e4477eec18eb3bb29a1e9ae"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\prepare_v5.py",
+      "relative_path": "scripts\\prepare_v5.py",
+      "size_bytes": 8891,
+      "sha256": "847462fb11b586c57d3d3c3c7a91bce56d95d06ceb1599dc7d7166985cc311fa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\run_network_v5.py",
+      "relative_path": "scripts\\run_network_v5.py",
+      "size_bytes": 1542,
+      "sha256": "839ce4b408cd7933447f752896ccc742423be0d29dbb17872f88586ece049b14"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\run_regressions_v5.py",
+      "relative_path": "scripts\\run_regressions_v5.py",
+      "size_bytes": 5407,
+      "sha256": "e3c37aae66f150c1036cdbe61e40b8df996609d1458680616c6bf68b52668464"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\verify_person_v5_helpers.py",
+      "relative_path": "scripts\\verify_person_v5_helpers.py",
+      "size_bytes": 10652,
+      "sha256": "bd735a31d0f0197e8ef01c4e9526edb63ce752b4796632d26f2fe1d46f0b9641"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\selection.json",
+      "relative_path": "selection.json",
+      "size_bytes": 437,
+      "sha256": "264d5ce3a6f7a871fffbfa325ee5faf7f621028af3b312e5231c856268a51f14"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\simulated_rtl_hashes.json",
+      "relative_path": "simulated_rtl_hashes.json",
+      "size_bytes": 6764,
+      "sha256": "77367b7ec9516c8356900dc9dc4fa2b68f142984a3163bea293f38ff353c8812"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\tb_npu_bbox_threshold.log",
+      "relative_path": "tb_npu_bbox_threshold.log",
+      "size_bytes": 1158,
+      "sha256": "a32959cbdcf18a774cd175852f3adef40cd547ef1183319a19f517ec0842f648"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\tb_npu_result_overlay.log",
+      "relative_path": "tb_npu_result_overlay.log",
+      "size_bytes": 1179,
+      "sha256": "ff4e076f3bfa47206c16de4602647e2324113aa57b6e050fef0e83a2ea86f286"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\tb_u33_bridge.log",
+      "relative_path": "tb_u33_bridge.log",
+      "size_bytes": 1161,
+      "sha256": "b1581e210d3e782ba42486a19903d2ddf28e00cad16c955a668e5746bee4b215"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\tb_u33_ddr_boot.log",
+      "relative_path": "tb_u33_ddr_boot.log",
+      "size_bytes": 4348,
+      "sha256": "07e42f612d2d4913e5238f9f3b3079c9a999e90f2544425d9ad1be3ebbf9b876"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\u33_boot_fw.bin",
+      "relative_path": "u33_boot_fw.bin",
+      "size_bytes": 40,
+      "sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\actual_final.bin",
+      "relative_path": "vectors\\original_background\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "5cd76ef0082375cce1db9ad06a9fde50ac336662ef2c1a40cd56cb3979628ca4"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\expected_final.bin",
+      "relative_path": "vectors\\original_background\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "5cd76ef0082375cce1db9ad06a9fde50ac336662ef2c1a40cd56cb3979628ca4"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\input.bin",
+      "relative_path": "vectors\\original_background\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "123f75c27cfa36b5a202e58ca4e5fb431ce1e75fa4948b6faf1f66084fda6919"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\input.hex",
+      "relative_path": "vectors\\original_background\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "3bee083016c44c68a3ee77954cd96aa34128e761967aaed83f3b81f31a86fdb3"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\observed.txt",
+      "relative_path": "vectors\\original_background\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "0f08b1b2591bea5e8ee8d6b6eb6e2332dfdfbe56ea1310bdaf23ddb5da7398b1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\reference.npz",
+      "relative_path": "vectors\\original_background\\reference.npz",
+      "size_bytes": 2257744,
+      "sha256": "a4c2e8550d5b8476a3e888bebb81f6e7277ac0e10fe8704dad973ad8c2b2e2c0"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\rtl_summary.json",
+      "relative_path": "vectors\\original_background\\rtl_summary.json",
+      "size_bytes": 1971,
+      "sha256": "11bae11ce25aebc4c8e32b08ed5b0d96fdb7a9d6967f4e1f2485386b19b05abf"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_background\\simulation.log",
+      "relative_path": "vectors\\original_background\\simulation.log",
+      "size_bytes": 5691,
+      "sha256": "9b1dcd465f8f34068dc247b01a6446f1499360939a49a04b39a6beacf42c4134"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\actual_final.bin",
+      "relative_path": "vectors\\original_person\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "858148f7751367edba93fa7c8d8e44a5d0546ee9090f9cf7fd81df37c3274daa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\expected_final.bin",
+      "relative_path": "vectors\\original_person\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "858148f7751367edba93fa7c8d8e44a5d0546ee9090f9cf7fd81df37c3274daa"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\input.bin",
+      "relative_path": "vectors\\original_person\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "03e1c9fc07f32c175dcce6a3eca3a19188c513a8a3297ee53689162a4176cb9e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\input.hex",
+      "relative_path": "vectors\\original_person\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "b08b02e801fb4edf17ba76944023f09009c68d558a8b7a166a1b8259e1b2886d"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\observed.txt",
+      "relative_path": "vectors\\original_person\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "240821e16163c9a009d79456393360a204d1dddc8246a411098ca97fa4fc765c"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\reference.npz",
+      "relative_path": "vectors\\original_person\\reference.npz",
+      "size_bytes": 2332277,
+      "sha256": "ecfaa12dc00ca833a39fb7fb988acbfa12f81b7cc51941345f5ddddce9b7044e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\rtl_summary.json",
+      "relative_path": "vectors\\original_person\\rtl_summary.json",
+      "size_bytes": 1965,
+      "sha256": "c5cc94cd9b9c3ff708c0e8f479ac589131bf3f98e241de552369817406b3eec7"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\original_person\\simulation.log",
+      "relative_path": "vectors\\original_person\\simulation.log",
+      "size_bytes": 10692,
+      "sha256": "167d642d324b228f49cd5e6cc8a51ec76b0a3057bccb0928d9981821e22be64b"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\actual_final.bin",
+      "relative_path": "vectors\\rgb_ramp\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "2a84ccb8b97e5ce8bb06a336f0895c84c80ec93bff6a2d285bbd8f05219e0833"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\expected_final.bin",
+      "relative_path": "vectors\\rgb_ramp\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "2a84ccb8b97e5ce8bb06a336f0895c84c80ec93bff6a2d285bbd8f05219e0833"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\input.bin",
+      "relative_path": "vectors\\rgb_ramp\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "8e14f0edf12ae2c7fa354e8232c7a5ff4c735b6b98e71fb1d9597b654dfe817c"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\input.hex",
+      "relative_path": "vectors\\rgb_ramp\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "f15e9d4d29628f8c8b3a53d1281ad39a5f5906025013b0e2c4ce9a03f328b0f2"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\observed.txt",
+      "relative_path": "vectors\\rgb_ramp\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "6c0a3d6b6384deb429b2af59644380e7bf99bdbc12d4533901d3634df55b1d7a"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\reference.npz",
+      "relative_path": "vectors\\rgb_ramp\\reference.npz",
+      "size_bytes": 1696137,
+      "sha256": "eda7d85f6fb319a8a93449deaef69acfdc8b280dab3d8feaf918297f2a6026cb"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\rtl_summary.json",
+      "relative_path": "vectors\\rgb_ramp\\rtl_summary.json",
+      "size_bytes": 1959,
+      "sha256": "0fc585a51d6f60b7fa88833d0184382332682c90d99ed39bc365c1f894567e0e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\rgb_ramp\\simulation.log",
+      "relative_path": "vectors\\rgb_ramp\\simulation.log",
+      "size_bytes": 5669,
+      "sha256": "0263a1b31d8672dfc607e86f5df90dc95e018cc3efd1ccf1b1ec3cdf5eb6456c"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\actual_final.bin",
+      "relative_path": "vectors\\sc500_background\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "492d43ab579ba4a9f27bbacb164f7019155b7485e24377dfe275a4fc4de86add"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\expected_final.bin",
+      "relative_path": "vectors\\sc500_background\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "492d43ab579ba4a9f27bbacb164f7019155b7485e24377dfe275a4fc4de86add"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\input.bin",
+      "relative_path": "vectors\\sc500_background\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "391f844a538a2a1e10ce49693c9701b57db585edc7e31f94c136f6b5b489b35e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\input.hex",
+      "relative_path": "vectors\\sc500_background\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "e68b7641eb8bb555b6cd4a12ccb42fa1b1717485636eeb05669c9aab3f5bb2ba"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\observed.txt",
+      "relative_path": "vectors\\sc500_background\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "f964c6aee2fd7a03680d520eeb7b04d87b85dc551eb33670c864fc7266ce41c1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\reference.npz",
+      "relative_path": "vectors\\sc500_background\\reference.npz",
+      "size_bytes": 2348009,
+      "sha256": "c551cec277e52e83b2d048e933683cc01a0ed9c86e2ada76f1bae07ff0287647"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\rtl_summary.json",
+      "relative_path": "vectors\\sc500_background\\rtl_summary.json",
+      "size_bytes": 1966,
+      "sha256": "5a54264b0c8c00ead3e3c7130cc346366b93ec565a4dc9d8a833f43edf26b12d"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_background\\simulation.log",
+      "relative_path": "vectors\\sc500_background\\simulation.log",
+      "size_bytes": 5685,
+      "sha256": "d70c7e32741fd98e4067744d12d95d875eddde96dc8b733d8fa0c79db29d672e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\actual_final.bin",
+      "relative_path": "vectors\\sc500_person\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "a64315322a1cb832c758099dd029bb7634f2742620a67e5a4df203707f9b7738"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\expected_final.bin",
+      "relative_path": "vectors\\sc500_person\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "a64315322a1cb832c758099dd029bb7634f2742620a67e5a4df203707f9b7738"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\input.bin",
+      "relative_path": "vectors\\sc500_person\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "12063ed99a2c510c8e622b137e23d403b0a68022d99e86ce1f96d84da00bf678"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\input.hex",
+      "relative_path": "vectors\\sc500_person\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "ddb705298462c22c00522e8df7531d3f556f896ff201bafbb5c8cd269f63989f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\observed.txt",
+      "relative_path": "vectors\\sc500_person\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "805dad730e16982b9edb44a8e3e9e8c6633bca10dab678929bebf63973da95d2"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\reference.npz",
+      "relative_path": "vectors\\sc500_person\\reference.npz",
+      "size_bytes": 2290349,
+      "sha256": "173e4522663809a357ae7270d4b92c52f1ced401b55121461f953f31cefe273e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\rtl_summary.json",
+      "relative_path": "vectors\\sc500_person\\rtl_summary.json",
+      "size_bytes": 1964,
+      "sha256": "daa1fa4f9d80936e6b7b17a7c3788703eddb6c426b59134781e3b6bc84570cab"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\sc500_person\\simulation.log",
+      "relative_path": "vectors\\sc500_person\\simulation.log",
+      "size_bytes": 5677,
+      "sha256": "c39ae1993a98356a9c4251564b64ca892c3fd55f813c94fbfd53584ca9d7b8f5"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\actual_final.bin",
+      "relative_path": "vectors\\white_active\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "2d8c7980d1cd42cb7f60d242a8cde46d33726072d6f5ea2b84540988276440d1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\expected_final.bin",
+      "relative_path": "vectors\\white_active\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "2d8c7980d1cd42cb7f60d242a8cde46d33726072d6f5ea2b84540988276440d1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\input.bin",
+      "relative_path": "vectors\\white_active\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "e8767b704fc326a254cb6bf03877cc5a66413210883a9586976e70683c5435d6"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\input.hex",
+      "relative_path": "vectors\\white_active\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "bb9316a8efcf8d25e19737d99866471a9fa91ebe517e5564390504a8369816ba"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\observed.txt",
+      "relative_path": "vectors\\white_active\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "c1037cdeb2ffa168ac77f930dc67bf897116c0b49ac7ddfc2507e2165fc3660f"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\reference.npz",
+      "relative_path": "vectors\\white_active\\reference.npz",
+      "size_bytes": 385280,
+      "sha256": "6077292a73f20f09e1b52243e90039409ce8bd042c52a5d0fa61831c503add31"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\rtl_summary.json",
+      "relative_path": "vectors\\white_active\\rtl_summary.json",
+      "size_bytes": 1962,
+      "sha256": "06ba5549ed5b6ed1d3e79ceb7d4e3a8c971d1a5922c24e413efc219255de9a05"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\white_active\\simulation.log",
+      "relative_path": "vectors\\white_active\\simulation.log",
+      "size_bytes": 5677,
+      "sha256": "78237de01ba40197ac67dea6647ddb5419074e616f8de3709bb6cf61ece98ff1"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\actual_final.bin",
+      "relative_path": "vectors\\zero\\actual_final.bin",
+      "size_bytes": 1800,
+      "sha256": "3e568c63614fe915a224a7fae02fd0192729ad0c945e9f5704c233e024011255"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\expected_final.bin",
+      "relative_path": "vectors\\zero\\expected_final.bin",
+      "size_bytes": 1800,
+      "sha256": "3e568c63614fe915a224a7fae02fd0192729ad0c945e9f5704c233e024011255"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\input.bin",
+      "relative_path": "vectors\\zero\\input.bin",
+      "size_bytes": 57600,
+      "sha256": "c72274a22cba2dcef62e0f62834446ee39b0cd95ad0faa27a89b3b49f48aa390"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\input.hex",
+      "relative_path": "vectors\\zero\\input.hex",
+      "size_bytes": 230400,
+      "sha256": "8ee967b9338b6731ceeec4c00455cf612c548b29607cc974fd2314f10b793591"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\observed.txt",
+      "relative_path": "vectors\\zero\\observed.txt",
+      "size_bytes": 16172621,
+      "sha256": "0686aed65d9af18cf5215644eacad740245cd9c0bc50470f05fe97ffdb8b1cc7"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\reference.npz",
+      "relative_path": "vectors\\zero\\reference.npz",
+      "size_bytes": 266592,
+      "sha256": "57a9482a69af6f61bca167d8e8f52a61f3ce75a66e671194977ee75dfcb2cf8e"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\rtl_summary.json",
+      "relative_path": "vectors\\zero\\rtl_summary.json",
+      "size_bytes": 1955,
+      "sha256": "56914a7be10928b6ad4596b85900da2814cbc53f733fb72be164296511c76844"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\vectors\\zero\\simulation.log",
+      "relative_path": "vectors\\zero\\simulation.log",
+      "size_bytes": 5661,
+      "sha256": "5b6c019973ca0bc54393a007aaddb63024fe2ee9e5fd05773ffe937c0140f7dc"
+    },
+    {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\verification_report.md",
+      "relative_path": "verification_report.md",
+      "size_bytes": 10396,
+      "sha256": "7416b0024f827683e12f0ec6eafd91a8c1b60b9c78d8d26ab5cedce1bd06b4e8"
+    }
+  ],
+  "validation": {
+    "compiler": "PASS",
+    "python": "PASS",
+    "network": "PASS",
+    "bbox": "FAIL_EXISTING_HDMI_COORDINATE_BUG",
+    "regression": "PASS_WITH_KNOWN_FAILURE",
+    "physical_board": "NOT_TESTED"
+  },
+  "forbidden_operations_executed": [],
+  "requires_new_bitstream": true
+}

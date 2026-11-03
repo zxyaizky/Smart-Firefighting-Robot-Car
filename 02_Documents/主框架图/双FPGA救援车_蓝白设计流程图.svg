@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 双FPGA救援车_蓝白设计流程图.svg 蓝白设计流程图 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="20in" height="18.6in" viewBox="0 0 1440 1339.2"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st24">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#f6f9fe;stroke:#b7cfea;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {marker-end:url(#mrkr13-12);stroke:#2769b3;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st3 {fill:#2769b3;fill-opacity:1;stroke:#2769b3;stroke-opacity:1;stroke-width:0.37313432835821}
+		.st4 {marker-end:url(#mrkr13-18);stroke:#2769b3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st5 {marker-end:url(#mrkr13-12);stroke:#2769b3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#183a67;font-family:微软雅黑;font-size:2.41667em;font-weight:bold}
+		.st8 {fill:#5e7793;font-family:微软雅黑;font-size:1.08334em}
+		.st9 {fill:#2769b3;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#ffffff;font-family:微软雅黑;font-size:1.16666em;font-weight:bold}
+		.st11 {fill:#183a67;font-family:微软雅黑;font-size:1.24999em;font-weight:bold}
+		.st12 {fill:#5e7793;font-family:微软雅黑;font-size:0.916672em}
+		.st13 {font-size:1em}
+		.st14 {fill:#183a67;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st15 {fill:#ffffff;font-family:微软雅黑;font-size:1.41666em;font-weight:bold}
+		.st16 {fill:#eaf3fd;stroke:#b7cfea;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st17 {fill:#183a67;font-family:微软雅黑;font-size:1.33333em;font-weight:bold}
+		.st18 {fill:#ffffff;font-family:微软雅黑;font-size:1.24999em;font-weight:bold}
+		.st19 {fill:#ffffff;stroke:#b7cfea;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {fill:#5e7793;font-family:微软雅黑;font-size:1.00001em}
+		.st21 {fill:#eaf3fd;stroke:#2769b3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st22 {fill:#2769b3;font-family:微软雅黑;font-size:1.00001em;font-weight:bold}
+		.st23 {fill:#2769b3;font-family:微软雅黑;font-size:0.833336em}
+		.st24 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-12" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="7.8" refX="-7.8" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.68,-2.68) "/>
+		</marker>
+		<marker id="mrkr13-18" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="8.04" refX="-8.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.68,-2.68) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>蓝白设计流程图</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape57-1" v:mID="57" v:groupContext="shape" transform="translate(950.4,-576)">
+			<title>panel_CPU</title>
+			<rect x="0" y="900" width="345.6" height="439.2" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape39-3" v:mID="39" v:groupContext="shape" transform="translate(583.2,-576)">
+			<title>panel_B</title>
+			<rect x="0" y="900" width="345.6" height="439.2" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape21-5" v:mID="21" v:groupContext="shape" transform="translate(216,-576)">
+			<title>panel_A</title>
+			<rect x="0" y="900" width="345.6" height="439.2" rx="6.48" ry="6.48" class="st1"/>
+		</g>
+		<g id="shape96-7" v:mID="96" v:groupContext="shape" transform="translate(1288.8,-213.84)">
+			<title>board_retry</title>
+			<path d="M0 1339.2 L41.76 1339.2 L41.76 1133.28 L0 1133.28 L0 1133.28" class="st2"/>
+		</g>
+		<g id="shape95-13" v:mID="95" v:groupContext="shape" transform="translate(756,-141.84)">
+			<title>program_finish</title>
+			<path d="M0 1307.52 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape92-19" v:mID="92" v:groupContext="shape" transform="translate(756,-254.16)">
+			<title>check_program</title>
+			<path d="M0 1312.92 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape86-24" v:mID="86" v:groupContext="shape" transform="translate(914.4,-318.24)">
+			<title>rtl_retry</title>
+			<path d="M0 1339.2 L453.6 1339.2 L453.6 1135.44 L374.4 1135.44 L374.4 1135.44" class="st2"/>
+		</g>
+		<g id="shape85-29" v:mID="85" v:groupContext="shape" transform="translate(756,-356.04)">
+			<title>verify_check</title>
+			<path d="M0 1315.8 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape83-34" v:mID="83" v:groupContext="shape" transform="translate(756,-460.08)">
+			<title>integration_verify</title>
+			<path d="M0 1317.6 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape74-39" v:mID="74" v:groupContext="shape" transform="translate(756,-562.32)">
+			<title>merge_CPU</title>
+			<path d="M367.2 1286.64 L367.2 1329.12 L0 1329.12 L0 1339.2 L0 1339.2" class="st5"/>
+		</g>
+		<g id="shape73-44" v:mID="73" v:groupContext="shape" transform="translate(756,-940.32)">
+			<title>branch_CPU</title>
+			<path d="M0 1217.52 L0 1241.28 L367.2 1241.28 L367.2 1339.2 L367.2 1339.2" class="st5"/>
+		</g>
+		<g id="shape72-49" v:mID="72" v:groupContext="shape" transform="translate(1123.2,-695.52)">
+			<title>CPU_next_2</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape67-54" v:mID="67" v:groupContext="shape" transform="translate(1123.2,-817.92)">
+			<title>CPU_next_1</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape56-59" v:mID="56" v:groupContext="shape" transform="translate(756,-562.32)">
+			<title>merge_B</title>
+			<path d="M0 1286.64 L0 1329.12 L0 1329.12 L0 1339.2 L0 1339.2" class="st5"/>
+		</g>
+		<g id="shape55-64" v:mID="55" v:groupContext="shape" transform="translate(756,-940.32)">
+			<title>branch_B</title>
+			<path d="M0 1217.52 L0 1241.28 L0 1241.28 L0 1339.2 L0 1339.2" class="st5"/>
+		</g>
+		<g id="shape54-69" v:mID="54" v:groupContext="shape" transform="translate(756,-695.52)">
+			<title>B_next_2</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape49-74" v:mID="49" v:groupContext="shape" transform="translate(756,-817.92)">
+			<title>B_next_1</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape38-79" v:mID="38" v:groupContext="shape" transform="translate(388.8,-562.32)">
+			<title>merge_A</title>
+			<path d="M0 1286.64 L0 1329.12 L367.2 1329.12 L367.2 1339.2 L367.2 1339.2" class="st5"/>
+		</g>
+		<g id="shape37-84" v:mID="37" v:groupContext="shape" transform="translate(388.8,-940.32)">
+			<title>branch_A</title>
+			<path d="M367.2 1217.52 L367.2 1241.28 L0 1241.28 L0 1339.2 L0 1339.2" class="st5"/>
+		</g>
+		<g id="shape36-89" v:mID="36" v:groupContext="shape" transform="translate(388.8,-695.52)">
+			<title>A_next_2</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape31-94" v:mID="31" v:groupContext="shape" transform="translate(388.8,-817.92)">
+			<title>A_next_1</title>
+			<path d="M0 1297.44 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape20-99" v:mID="20" v:groupContext="shape" transform="translate(756,-1126.8)">
+			<title>requirements_platform</title>
+			<path d="M0 1307.52 L0 1327.14" class="st4"/>
+		</g>
+		<g id="shape1-104" v:mID="1" v:groupContext="shape" transform="translate(104.4,-1272.6)">
+			<title>title</title>
+			<desc>双 FPGA 救援车 · 系统设计流程</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="648" cy="1315.8" width="1296" height="46.8"/>
+			<rect x="0" y="1292.4" width="1296" height="46.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="439.73" y="1324.5" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>双 FPGA 救援车 · 系统设计流程</text>		</g>
+		<g id="shape2-107" v:mID="2" v:groupContext="shape" transform="translate(140.4,-1243.8)">
+			<title>subtitle</title>
+			<desc>需求与架构 / 三条设计支路 / 系统集成 / 验证与迭代</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="612" cy="1326.6" width="1224" height="25.2"/>
+			<rect x="0" y="1314" width="1224" height="25.2" rx="6.48" ry="6.48" class="st6"/>
+			<text x="450.59" y="1330.5" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>需求与架构  /  三条设计支路  /  系统集成  /  验证与迭代</text>		</g>
+		<g id="shape3-110" v:mID="3" v:groupContext="shape" transform="translate(59.76,-1172.16)">
+			<title>phase_01</title>
+			<desc>01</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.44" cy="1319.76" width="38.89" height="38.88"/>
+			<ellipse cx="19.44" cy="1319.76" rx="19.44" ry="19.44" class="st9"/>
+			<text x="10.81" y="1323.96" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>01</text>		</g>
+		<g id="shape4-113" v:mID="4" v:groupContext="shape" transform="translate(12.6,-1136.16)">
+			<title>phase_title_01</title>
+			<desc>需求与架构</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1324.8" width="133.21" height="28.8"/>
+			<rect x="0" y="1310.4" width="133.2" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="29.1" y="1329.3" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>需求与架构</text>		</g>
+		<g id="shape5-116" v:mID="5" v:groupContext="shape" transform="translate(12.6,-1101.96)">
+			<title>phase_detail_01</title>
+			<desc>明确任务 划分 A / B 职责</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1323" width="133.21" height="32.4"/>
+			<rect x="0" y="1306.8" width="133.2" height="32.4" rx="6.48" ry="6.48" class="st6"/>
+			<text x="44.6" y="1319.7" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>明确任务<v:newlineChar/><tspan
+						x="28.42" dy="1.2em" class="st13">划分</tspan> A / B 职责</text>		</g>
+		<g id="shape6-120" v:mID="6" v:groupContext="shape" transform="translate(59.76,-902.16)">
+			<title>phase_02</title>
+			<desc>02</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.44" cy="1319.76" width="38.89" height="38.88"/>
+			<ellipse cx="19.44" cy="1319.76" rx="19.44" ry="19.44" class="st9"/>
+			<text x="10.81" y="1323.96" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>02</text>		</g>
+		<g id="shape7-123" v:mID="7" v:groupContext="shape" transform="translate(12.6,-866.16)">
+			<title>phase_title_02</title>
+			<desc>模块设计</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1324.8" width="133.21" height="28.8"/>
+			<rect x="0" y="1310.4" width="133.2" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="36.6" y="1329.3" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>模块设计</text>		</g>
+		<g id="shape8-126" v:mID="8" v:groupContext="shape" transform="translate(12.6,-831.96)">
+			<title>phase_detail_02</title>
+			<desc>按代码分工 并行推进</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1323" width="133.21" height="32.4"/>
+			<rect x="0" y="1306.8" width="133.2" height="32.4" rx="6.48" ry="6.48" class="st6"/>
+			<text x="39.1" y="1319.7" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>按代码分工<v:newlineChar/><tspan
+						x="44.6" dy="1.2em" class="st13">并行推进</tspan></text>		</g>
+		<g id="shape9-130" v:mID="9" v:groupContext="shape" transform="translate(59.76,-509.76)">
+			<title>phase_03</title>
+			<desc>03</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.44" cy="1319.76" width="38.89" height="38.88"/>
+			<ellipse cx="19.44" cy="1319.76" rx="19.44" ry="19.44" class="st9"/>
+			<text x="10.81" y="1323.96" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>03</text>		</g>
+		<g id="shape10-133" v:mID="10" v:groupContext="shape" transform="translate(12.6,-473.76)">
+			<title>phase_title_03</title>
+			<desc>系统集成</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1324.8" width="133.21" height="28.8"/>
+			<rect x="0" y="1310.4" width="133.2" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="36.6" y="1329.3" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>系统集成</text>		</g>
+		<g id="shape11-136" v:mID="11" v:groupContext="shape" transform="translate(12.6,-439.56)">
+			<title>phase_detail_03</title>
+			<desc>汇合感知结果 联动显示与执行</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1323" width="133.21" height="32.4"/>
+			<rect x="0" y="1306.8" width="133.2" height="32.4" rx="6.48" ry="6.48" class="st6"/>
+			<text x="33.6" y="1319.7" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>汇合感知结果<v:newlineChar/><tspan
+						x="28.1" dy="1.2em" class="st13">联动显示与执行</tspan></text>		</g>
+		<g id="shape12-140" v:mID="12" v:groupContext="shape" transform="translate(59.76,-369.36)">
+			<title>phase_04</title>
+			<desc>04</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.44" cy="1319.76" width="38.89" height="38.88"/>
+			<ellipse cx="19.44" cy="1319.76" rx="19.44" ry="19.44" class="st9"/>
+			<text x="10.81" y="1323.96" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>04</text>		</g>
+		<g id="shape13-143" v:mID="13" v:groupContext="shape" transform="translate(12.6,-333.36)">
+			<title>phase_title_04</title>
+			<desc>仿真与实现</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1324.8" width="133.21" height="28.8"/>
+			<rect x="0" y="1310.4" width="133.2" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="29.1" y="1329.3" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>仿真与实现</text>		</g>
+		<g id="shape14-146" v:mID="14" v:groupContext="shape" transform="translate(12.6,-299.16)">
+			<title>phase_detail_04</title>
+			<desc>功能验证 资源 / 时序检查</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1323" width="133.21" height="32.4"/>
+			<rect x="0" y="1306.8" width="133.2" height="32.4" rx="6.48" ry="6.48" class="st6"/>
+			<text x="44.6" y="1319.7" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>功能验证<v:newlineChar/><tspan
+						x="28" dy="1.2em" class="st13">资源</tspan> / 时序检查</text>		</g>
+		<g id="shape15-150" v:mID="15" v:groupContext="shape" transform="translate(59.76,-185.76)">
+			<title>phase_05</title>
+			<desc>05</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.44" cy="1319.76" width="38.89" height="38.88"/>
+			<ellipse cx="19.44" cy="1319.76" rx="19.44" ry="19.44" class="st9"/>
+			<text x="10.81" y="1323.96" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>05</text>		</g>
+		<g id="shape16-153" v:mID="16" v:groupContext="shape" transform="translate(12.6,-149.76)">
+			<title>phase_title_05</title>
+			<desc>部署与联调</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1324.8" width="133.21" height="28.8"/>
+			<rect x="0" y="1310.4" width="133.2" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="29.1" y="1329.3" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>部署与联调</text>		</g>
+		<g id="shape17-156" v:mID="17" v:groupContext="shape" transform="translate(12.6,-115.56)">
+			<title>phase_detail_05</title>
+			<desc>Flash 启动 实车标定与优化</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.6" cy="1323" width="133.21" height="32.4"/>
+			<rect x="0" y="1306.8" width="133.2" height="32.4" rx="6.48" ry="6.48" class="st6"/>
+			<text x="40.61" y="1319.7" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Flash 启动<v:newlineChar/><tspan
+						x="28.1" dy="1.2em" class="st13">实车标定与优化</tspan></text>		</g>
+		<g id="shape18-160" v:mID="18" v:groupContext="shape" transform="translate(223.2,-1158.48)">
+			<title>requirements</title>
+			<desc>任务分析与双 FPGA 架构划分人员识别、物资抓取、火焰消防、医疗与地图显示</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="532.8" cy="1309.68" width="1065.61" height="59.04"/>
+			<rect x="0" y="1280.16" width="1065.6" height="59.04" rx="6.48" ry="6.48" class="st14"/>
+			<text x="224.01" y="1314.78" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>任务分析与双 FPGA 架构划分：人员识别、物资抓取、火焰消防、医疗与地图显示</text>		</g>
+		<g id="shape19-163" v:mID="19" v:groupContext="shape" transform="translate(223.2,-1062)">
+			<title>platform</title>
+			<desc>搭建硬件平台与公共接口 双摄像头 / DDR / 时钟复位 / Ethernet / UART / I²C / PWM</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="532.8" cy="1306.8" width="1065.61" height="64.8"/>
+			<rect x="0" y="1274.4" width="1065.6" height="64.8" rx="6.48" ry="6.48" class="st16"/>
+			<text x="444.8" y="1302" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>搭建硬件平台与公共接口<v:newlineChar/><tspan
+						x="308.58" dy="1.2em" class="st13">双摄像头</tspan> / DDR / 时钟复位 / Ethernet / UART / I²C / PWM</text>		</g>
+		<g id="shape22-167" v:mID="22" v:groupContext="shape" transform="translate(226.8,-964.44)">
+			<title>lane_A</title>
+			<desc>A 板视频与 NPU 人员识别</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="162" cy="1319.4" width="324" height="39.6"/>
+			<rect x="0" y="1299.6" width="324" height="39.6" rx="6.48" ry="6.48" class="st9"/>
+			<text x="65.05" y="1323.9" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A 板：视频与 NPU 人员识别</text>		</g>
+		<g id="shape23-170" v:mID="23" v:groupContext="shape" transform="translate(232.56,-859.68)">
+			<title>A_card_0</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape24-172" v:mID="24" v:groupContext="shape" transform="translate(232.56,-864.36)">
+			<title>A_card_0_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape25-174" v:mID="25" v:groupContext="shape" transform="translate(241.56,-902.88)">
+			<title>A_card_0_title</title>
+			<desc>摄像头采集与图像预处理</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="59.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>摄像头采集与图像预处理</text>		</g>
+		<g id="shape26-177" v:mID="26" v:groupContext="shape" transform="translate(241.56,-868.68)">
+			<title>A_card_0_detail</title>
+			<desc>MIPI / RAW10 → ISP → DDR 图像缓存</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="39.95" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MIPI / RAW10 → ISP → DDR 图像缓存</text>		</g>
+		<g id="shape27-180" v:mID="27" v:groupContext="shape" transform="translate(232.56,-737.28)">
+			<title>A_card_1</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape28-182" v:mID="28" v:groupContext="shape" transform="translate(232.56,-741.96)">
+			<title>A_card_1_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape29-184" v:mID="29" v:groupContext="shape" transform="translate(241.56,-780.48)">
+			<title>A_card_1_title</title>
+			<desc>轻量化 NPU 与人员检测部署</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="44.22" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>轻量化 NPU 与人员检测部署</text>		</g>
+		<g id="shape30-187" v:mID="30" v:groupContext="shape" transform="translate(241.56,-746.28)">
+			<title>A_card_1_detail</title>
+			<desc>160 × 120 输入Flash 参数装载与 DDR 供权重</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="17.39" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>160 × 120 输入；Flash 参数装载与 DDR 供权重</text>		</g>
+		<g id="shape32-190" v:mID="32" v:groupContext="shape" transform="translate(232.56,-614.88)">
+			<title>A_card_2</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape33-192" v:mID="33" v:groupContext="shape" transform="translate(232.56,-619.56)">
+			<title>A_card_2_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape34-194" v:mID="34" v:groupContext="shape" transform="translate(241.56,-658.08)">
+			<title>A_card_2_title</title>
+			<desc>以太网视频与结果发送</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="67.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>以太网视频与结果发送</text>		</g>
+		<g id="shape35-197" v:mID="35" v:groupContext="shape" transform="translate(241.56,-623.88)">
+			<title>A_card_2_detail</title>
+			<desc>640 × 360 RGB565UDP 视频 + 人员框 / 帧号</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="17.04" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>640 × 360 RGB565；UDP 视频 + 人员框 / 帧号</text>		</g>
+		<g id="shape40-200" v:mID="40" v:groupContext="shape" transform="translate(594,-964.44)">
+			<title>lane_B</title>
+			<desc>B 板本地感知与救援控制</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="162" cy="1319.4" width="324" height="39.6"/>
+			<rect x="0" y="1299.6" width="324" height="39.6" rx="6.48" ry="6.48" class="st9"/>
+			<text x="72.14" y="1323.9" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B 板：本地感知与救援控制</text>		</g>
+		<g id="shape41-203" v:mID="41" v:groupContext="shape" transform="translate(599.76,-859.68)">
+			<title>B_card_0</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape42-205" v:mID="42" v:groupContext="shape" transform="translate(599.76,-864.36)">
+			<title>B_card_0_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape43-207" v:mID="43" v:groupContext="shape" transform="translate(608.76,-902.88)">
+			<title>B_card_0_title</title>
+			<desc>本地视频与传感器接入</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="67.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>本地视频与传感器接入</text>		</g>
+		<g id="shape44-210" v:mID="44" v:groupContext="shape" transform="translate(608.76,-868.68)">
+			<title>B_card_0_detail</title>
+			<desc>ISP / DDR超声波测距、心率 / 血氧采集</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="35.06" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ISP / DDR；超声波测距、心率 / 血氧采集</text>		</g>
+		<g id="shape45-213" v:mID="45" v:groupContext="shape" transform="translate(599.76,-737.28)">
+			<title>B_card_1</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape46-215" v:mID="46" v:groupContext="shape" transform="translate(599.76,-741.96)">
+			<title>B_card_1_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape47-217" v:mID="47" v:groupContext="shape" transform="translate(608.76,-780.48)">
+			<title>B_card_1_title</title>
+			<desc>黄绿目标识别与结果确认</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="59.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>黄绿目标识别与结果确认</text>		</g>
+		<g id="shape48-220" v:mID="48" v:groupContext="shape" transform="translate(608.76,-746.28)">
+			<title>B_card_1_detail</title>
+			<desc>HSV 黄色火焰 / 绿色物资去噪与目标框</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="37.19" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HSV 黄色火焰 / 绿色物资；去噪与目标框</text>		</g>
+		<g id="shape50-223" v:mID="50" v:groupContext="shape" transform="translate(599.76,-614.88)">
+			<title>B_card_2</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape51-225" v:mID="51" v:groupContext="shape" transform="translate(599.76,-619.56)">
+			<title>B_card_2_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape52-227" v:mID="52" v:groupContext="shape" transform="translate(608.76,-658.08)">
+			<title>B_card_2_title</title>
+			<desc>视觉引导的任务状态机</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="67.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>视觉引导的任务状态机</text>		</g>
+		<g id="shape53-230" v:mID="53" v:groupContext="shape" transform="translate(608.76,-623.88)">
+			<title>B_card_2_detail</title>
+			<desc>小车运动、六关节机械臂、瞄准喷水及语音</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="33.24" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>小车运动、六关节机械臂、瞄准喷水及语音</text>		</g>
+		<g id="shape58-233" v:mID="58" v:groupContext="shape" transform="translate(961.2,-964.44)">
+			<title>lane_CPU</title>
+			<desc>RISC-VLinux 与地图通信</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="162" cy="1319.4" width="324" height="39.6"/>
+			<rect x="0" y="1299.6" width="324" height="39.6" rx="6.48" ry="6.48" class="st9"/>
+			<text x="68.39" y="1323.9" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RISC-V：Linux 与地图通信</text>		</g>
+		<g id="shape59-236" v:mID="59" v:groupContext="shape" transform="translate(966.96,-859.68)">
+			<title>CPU_card_0</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape60-238" v:mID="60" v:groupContext="shape" transform="translate(966.96,-864.36)">
+			<title>CPU_card_0_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape61-240" v:mID="61" v:groupContext="shape" transform="translate(975.96,-902.88)">
+			<title>CPU_card_0_title</title>
+			<desc>VexRiscv 与 Linux 启动设计</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="42.6" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>VexRiscv 与 Linux 启动设计</text>		</g>
+		<g id="shape62-243" v:mID="62" v:groupContext="shape" transform="translate(975.96,-868.68)">
+			<title>CPU_card_0_detail</title>
+			<desc>U33 Flash → MCU / AHB → ROM Loader → DDR</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="8.38" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U33 Flash → MCU / AHB → ROM Loader → DDR</text>		</g>
+		<g id="shape63-246" v:mID="63" v:groupContext="shape" transform="translate(966.96,-737.28)">
+			<title>CPU_card_1</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape64-248" v:mID="64" v:groupContext="shape" transform="translate(966.96,-741.96)">
+			<title>CPU_card_1_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape65-250" v:mID="65" v:groupContext="shape" transform="translate(975.96,-780.48)">
+			<title>CPU_card_1_title</title>
+			<desc>雷达数据与无线通信设计</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="59.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>雷达数据与无线通信设计</text>		</g>
+		<g id="shape66-253" v:mID="66" v:groupContext="shape" transform="translate(975.96,-746.28)">
+			<title>CPU_card_1_detail</title>
+			<desc>L150 → 电脑 → Wi-Fi / ESP32 → UART / PPP</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="21.1" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L150 → 电脑 → Wi-Fi / ESP32 → UART / PPP</text>		</g>
+		<g id="shape68-256" v:mID="68" v:groupContext="shape" transform="translate(966.96,-614.88)">
+			<title>CPU_card_2</title>
+			<rect x="0" y="1258.56" width="312.48" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape69-258" v:mID="69" v:groupContext="shape" transform="translate(966.96,-619.56)">
+			<title>CPU_card_2_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape70-260" v:mID="70" v:groupContext="shape" transform="translate(975.96,-658.08)">
+			<title>CPU_card_2_title</title>
+			<desc>云图生成与显示接口</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1326.24" width="294.48" height="25.92"/>
+			<rect x="0" y="1313.28" width="294.48" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="75.24" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>云图生成与显示接口</text>		</g>
+		<g id="shape71-263" v:mID="71" v:groupContext="shape" transform="translate(975.96,-623.88)">
+			<title>CPU_card_2_detail</title>
+			<desc>Linux 接收点云地图 MMIO / 双缓冲与近似着色</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="147.24" cy="1323.72" width="294.48" height="30.96"/>
+			<rect x="0" y="1308.24" width="294.48" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="14.08" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Linux 接收点云；地图 MMIO / 双缓冲与近似着色</text>		</g>
+		<g id="shape75-266" v:mID="75" v:groupContext="shape" transform="translate(223.2,-481.68)">
+			<title>integration</title>
+			<rect x="0" y="1258.56" width="1065.6" height="80.64" rx="6.48" ry="6.48" class="st16"/>
+		</g>
+		<g id="shape76-268" v:mID="76" v:groupContext="shape" transform="translate(223.2,-486.36)">
+			<title>integration_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape77-270" v:mID="77" v:groupContext="shape" transform="translate(232.2,-524.88)">
+			<title>integration_title</title>
+			<desc>跨板系统集成与显示 / 控制联动</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1326.24" width="1047.61" height="25.92"/>
+			<rect x="0" y="1313.28" width="1047.6" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="411.25" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>跨板系统集成与显示 / 控制联动</text>		</g>
+		<g id="shape78-273" v:mID="78" v:groupContext="shape" transform="translate(232.2,-490.68)">
+			<title>integration_detail</title>
+			<desc>人员 / 黄绿目标 / 距离经 CDC 汇合B4 视频切换叠加目标框、距离、血氧和雷达云图</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1323.72" width="1047.61" height="30.96"/>
+			<rect x="0" y="1308.24" width="1047.6" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="288.36" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>人员 / 黄绿目标 / 距离经 CDC 汇合；B4 视频切换，叠加目标框、距离、血氧和雷达云图</text>		</g>
+		<g id="shape79-276" v:mID="79" v:groupContext="shape" transform="translate(223.2,-379.44)">
+			<title>verification</title>
+			<rect x="0" y="1258.56" width="1065.6" height="80.64" rx="6.48" ry="6.48" class="st19"/>
+		</g>
+		<g id="shape80-278" v:mID="80" v:groupContext="shape" transform="translate(223.2,-384.12)">
+			<title>verification_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape81-280" v:mID="81" v:groupContext="shape" transform="translate(232.2,-422.64)">
+			<title>verification_title</title>
+			<desc>RTL 功能仿真 → 综合 → 布局布线</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1326.24" width="1047.61" height="25.92"/>
+			<rect x="0" y="1313.28" width="1047.6" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="400.92" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RTL 功能仿真 → 综合 → 布局布线</text>		</g>
+		<g id="shape82-283" v:mID="82" v:groupContext="shape" transform="translate(232.2,-388.44)">
+			<title>verification_detail</title>
+			<desc>检查帧与结果一致性、任务状态机、串口 / PWM、资源占用、Setup / Hold 与约束</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1323.72" width="1047.61" height="30.96"/>
+			<rect x="0" y="1308.24" width="1047.6" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="301.63" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>检查帧与结果一致性、任务状态机、串口 / PWM、资源占用、Setup / Hold 与约束</text>		</g>
+		<g id="shape84-286" v:mID="84" v:groupContext="shape" transform="translate(597.6,-280.44)">
+			<title>check</title>
+			<desc>功能、资源与时序 是否满足设计要求</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.4" cy="1301.4" width="316.8" height="75.6"/>
+			<path d="M158.4 1263.6 L316.8 1301.4 L158.4 1339.2 L0 1301.4 L158.4 1263.6 Z" class="st21"/>
+			<text x="98.4" y="1296.9" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>功能、资源与时序<v:newlineChar/><tspan
+						x="90.9" dy="1.2em" class="st13">是否满足设计要求</tspan>？</text>		</g>
+		<g id="shape87-290" v:mID="87" v:groupContext="shape" transform="translate(1029.6,-325.44)">
+			<title>retry_label</title>
+			<desc>否定位问题修改模块与约束</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="140.4" cy="1324.8" width="280.8" height="28.8"/>
+			<rect x="0" y="1310.4" width="280.8" height="28.8" rx="6.48" ry="6.48" class="st6"/>
+			<text x="56.4" y="1328.4" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>否：定位问题，修改模块与约束</text>		</g>
+		<g id="shape88-293" v:mID="88" v:groupContext="shape" transform="translate(223.2,-173.52)">
+			<title>program</title>
+			<rect x="0" y="1258.56" width="1065.6" height="80.64" rx="6.48" ry="6.48" class="st16"/>
+		</g>
+		<g id="shape89-295" v:mID="89" v:groupContext="shape" transform="translate(223.2,-178.2)">
+			<title>program_accent</title>
+			<rect x="0" y="1267.92" width="5.04" height="71.28" rx="2.52" ry="2.52" class="st9"/>
+		</g>
+		<g id="shape90-297" v:mID="90" v:groupContext="shape" transform="translate(232.2,-216.72)">
+			<title>program_title</title>
+			<desc>生成 bit / 合成 Flash 镜像 → FPGA 上板调试</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1326.24" width="1047.61" height="25.92"/>
+			<rect x="0" y="1313.28" width="1047.6" height="25.92" rx="6.48" ry="6.48" class="st6"/>
+			<text x="359.52" y="1331.04" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>生成 bit / 合成 Flash 镜像 → FPGA 上板调试</text>		</g>
+		<g id="shape91-300" v:mID="91" v:groupContext="shape" transform="translate(232.2,-182.52)">
+			<title>program_detail</title>
+			<desc>B 板合并 FPGA 配置、Linux 包和 MCU 固件上电将 Linux 载入 DDR检查各接口与实车动作</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="523.8" cy="1323.72" width="1047.61" height="30.96"/>
+			<rect x="0" y="1308.24" width="1047.6" height="30.96" rx="6.48" ry="6.48" class="st6"/>
+			<text x="268.88" y="1327.32" class="st20" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B 板合并 FPGA 配置、Linux 包和 MCU 固件；上电将 Linux 载入 DDR，检查各接口与实车动作</text>		</g>
+		<g id="shape93-303" v:mID="93" v:groupContext="shape" transform="translate(768.6,-254.16)">
+			<title>yes_label</title>
+			<desc>是</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.4" cy="1328.4" width="46.8" height="21.6"/>
+			<rect x="0" y="1317.6" width="46.8" height="21.6" rx="6.48" ry="6.48" class="st6"/>
+			<text x="17.4" y="1332" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>是</text>		</g>
+		<g id="shape94-306" v:mID="94" v:groupContext="shape" transform="translate(223.2,-74.16)">
+			<title>finish</title>
+			<desc>整机联调与性能优化 标定抓取 / 转向 / 瞄准评估识别、视频、通信与任务完成情况</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="532.8" cy="1305.36" width="1065.61" height="67.68"/>
+			<rect x="0" y="1271.52" width="1065.6" height="67.68" rx="6.48" ry="6.48" class="st14"/>
+			<text x="456.3" y="1300.26" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>整机联调与性能优化<v:newlineChar/><tspan
+						x="293.64" dy="1.2em" class="st13">标定抓取</tspan> / 转向 / 瞄准，评估识别、视频、通信与任务完成情况</text>		</g>
+		<g id="shape97-310" v:mID="97" v:groupContext="shape" transform="translate(1288.8,-234)">
+			<title>board_retry_label</title>
+			<desc>联调问题 返回验证</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.2" cy="1321.2" width="86.4" height="36"/>
+			<rect x="0" y="1303.2" width="86.4" height="36" rx="6.48" ry="6.48" class="st6"/>
+			<text x="23.2" y="1318.2" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>联调问题<v:newlineChar/><tspan
+						x="23.2" dy="1.2em" class="st13">返回验证</tspan></text>		</g>
+		<g id="shape98-314" v:mID="98" v:groupContext="shape" transform="translate(104.4,-21.24)">
+			<title>footer</title>
+			<desc>依据当前 A / B 工程源码整理。人员识别采用 NPU黄色火焰 / 绿色物资采用 HSV图中验证与部署为流程阶段。</desc>
+			<v:textBlock v:margins="rect(1.8,4.32,1.8,4.32)" v:tabSpace="42.5197"/>
+			<v:textRect cx="648" cy="1322.28" width="1296" height="33.84"/>
+			<rect x="0" y="1305.36" width="1296" height="33.84" rx="6.48" ry="6.48" class="st6"/>
+			<text x="368.87" y="1325.58" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>依据当前 A / B 工程源码整理。人员识别采用 NPU，黄色火焰 / 绿色物资采用 HSV；图中验证与部署为流程阶段。</text>		</g>
+	</g>
+</svg>

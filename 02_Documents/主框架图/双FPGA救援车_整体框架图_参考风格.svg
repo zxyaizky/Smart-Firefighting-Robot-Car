@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 双FPGA救援车_整体框架图_参考风格.svg 整体框架图_参考风格 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="31.5709in" height="22.8858in"
+		viewBox="0 0 2273.1 1647.78" xml:space="preserve" color-interpolation-filters="sRGB" class="st33">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {marker-end:url(#mrkr13-13);marker-start:url(#mrkr13-11);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st4 {marker-end:url(#mrkr13-19);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st5 {marker-end:url(#mrkr13-19);marker-start:url(#mrkr13-11);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st6 {marker-end:url(#mrkr13-13);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st7 {marker-end:url(#mrkr13-19);stroke:#000000;stroke-dasharray:9.1,6.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st8 {marker-end:url(#mrkr13-13);stroke:#000000;stroke-dasharray:9.1,6.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st9 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#000000;font-family:宋体;font-size:2.41667em;font-weight:bold}
+		.st11 {font-family:Times New Roman;font-size:1em}
+		.st12 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st13 {fill:#000000;font-family:Times New Roman;font-size:1.58334em;font-weight:bold}
+		.st14 {fill:#000000;font-family:Times New Roman;font-size:1.75001em}
+		.st15 {fill:#000000;font-family:Times New Roman;font-size:1.58334em}
+		.st16 {font-family:宋体;font-size:1em}
+		.st17 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st18 {font-size:1em}
+		.st19 {fill:#000000;font-family:Times New Roman;font-size:1.66667em}
+		.st20 {fill:#92d050;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st21 {fill:#000000;font-family:Times New Roman;font-size:1.41666em}
+		.st22 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st23 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st24 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st25 {fill:#000000;font-family:Times New Roman;font-size:1.08334em}
+		.st26 {font-family:Cambria Math;font-size:1em}
+		.st27 {fill:#000000;font-family:宋体;font-size:1.08334em}
+		.st28 {fill:#000000;font-family:宋体;font-size:1.00001em}
+		.st29 {fill:#000000;font-family:宋体;font-size:1.66667em}
+		.st30 {fill:#000000;font-family:宋体;font-size:1.41666em}
+		.st31 {fill:#000000;font-family:Times New Roman;font-size:1.24999em}
+		.st32 {fill:#000000;font-family:Times New Roman;font-size:0.916672em}
+		.st33 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-11" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="8.53846" refX="8.5384615384615"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr13-13" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="8.53846" refX="-8.5384615384615"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr13-19" class="st3" v:arrowType="13" v:arrowSize="2" v:setback="8.81538" refX="-8.8153846153846"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>整体框架图_参考风格</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(1087.2,-417.6)">
+			<title>B_boundary</title>
+			<rect x="0" y="733.38" width="784.8" height="914.4" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(295.2,-417.6)">
+			<title>A_boundary</title>
+			<rect x="0" y="733.38" width="640.8" height="914.4" class="st1"/>
+		</g>
+		<g id="shape144-5" v:mID="144" v:groupContext="shape" transform="translate(1292.4,-482.4)">
+			<title>B_rom_flash_access</title>
+			<path d="M0 1647.78 L0 1647.78 L10.8 1647.78 L10.8 1212.18 L370.8 1212.18 L370.8 1212.18" class="st2"/>
+		</g>
+		<g id="shape142-14" v:mID="142" v:groupContext="shape" transform="translate(1746,-952.2)">
+			<title>B_linux_copy_ddr</title>
+			<path d="M0 1647.78 L0 1614.24" class="st4"/>
+		</g>
+		<g id="shape140-20" v:mID="140" v:groupContext="shape" transform="translate(1828.8,-918)">
+			<title>B_flash_read</title>
+			<path d="M100.5 1647.78 L100.14 1647.78 L11.46 1647.78" class="st5"/>
+		</g>
+		<g id="shape137-27" v:mID="137" v:groupContext="shape" transform="translate(1486.8,-540)">
+			<title>B_selected_to_osd</title>
+			<path d="M0 1192.38 L0 1222.98 L169.2 1222.98 L169.2 1647.78 L136.8 1647.78 L136.8 1647.78" class="st6"/>
+		</g>
+		<g id="shape134-32" v:mID="134" v:groupContext="shape" transform="translate(993.6,-93.6)">
+			<title>esp_linux</title>
+			<path d="M0 1647.78 L43.2 1647.78 L43.2 1258.98 L133.2 1258.98 L133.2 1258.98" class="st6"/>
+		</g>
+		<g id="shape132-37" v:mID="132" v:groupContext="shape" transform="translate(727.2,-93.6)">
+			<title>pc_esp</title>
+			<path d="M-0 1647.78 L38.94 1647.78" class="st4"/>
+		</g>
+		<g id="shape130-42" v:mID="130" v:groupContext="shape" transform="translate(363.6,-93.6)">
+			<title>radar_pc</title>
+			<path d="M-0 1647.78 L64.14 1647.78" class="st4"/>
+		</g>
+		<g id="shape125-47" v:mID="125" v:groupContext="shape" transform="translate(1623.6,-93.6)">
+			<title>B_HDMI_out_bus</title>
+			<path d="M0 1248.18 L511.2 1248.18 L511.2 1647.78 L122.4 1647.78 L122.4 1647.78" class="st6"/>
+		</g>
+		<g id="shape122-52" v:mID="122" v:groupContext="shape" transform="translate(1623.6,-302.4)">
+			<title>B_voice_out</title>
+			<path d="M0 1118.58 L277.2 1118.58 L277.2 1622.58 L226.8 1622.58 L226.8 1647.78 L226.8 1647.78" class="st6"/>
+		</g>
+		<g id="shape120-57" v:mID="120" v:groupContext="shape" transform="translate(1512,-302.4)">
+			<title>B_fire_out</title>
+			<path d="M111.6 1208.58 L126 1208.58 L126 1600.98 L0 1600.98 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape118-62" v:mID="118" v:groupContext="shape" transform="translate(1180.8,-302.4)">
+			<title>B_arm_out</title>
+			<path d="M216 1221.18 L216 1374.18 L158.4 1374.18 L158.4 1600.98 L0 1600.98 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape116-67" v:mID="116" v:groupContext="shape" transform="translate(806.4,-302.4)">
+			<title>B_car_out</title>
+			<path d="M543.6 1183.38 L511.2 1183.38 L511.2 1575.78 L0 1575.78 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape114-72" v:mID="114" v:groupContext="shape" transform="translate(414,-298.8)">
+			<title>A_local_out_bus</title>
+			<path d="M0 1483.98 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape108-77" v:mID="108" v:groupContext="shape" transform="translate(1209.6,-516.6)">
+			<title>B_person_linux</title>
+			<path d="M0 1584.78 L0 1636.32" class="st7"/>
+		</g>
+		<g id="shape106-82" v:mID="106" v:groupContext="shape" transform="translate(1105.2,-482.4)">
+			<title>B_color_linux</title>
+			<path d="M21.6 1122.18 L0 1122.18 L0 1647.78 L21.6 1647.78 L21.6 1647.78" class="st8"/>
+		</g>
+		<g id="shape104-87" v:mID="104" v:groupContext="shape" transform="translate(1292.4,-482.4)">
+			<title>B_map_to_osd</title>
+			<path d="M0 1647.78 L28.8 1647.78 L28.8 1618.98 L57.6 1618.98 L57.6 1618.98" class="st6"/>
+		</g>
+		<g id="shape100-92" v:mID="100" v:groupContext="shape" transform="translate(1292.4,-619.2)">
+			<title>B_network_video</title>
+			<path d="M0 1647.78 L32.4 1647.78 L32.4 1230.18 L57.6 1230.18 L57.6 1230.18" class="st6"/>
+		</g>
+		<g id="shape98-97" v:mID="98" v:groupContext="shape" transform="translate(1209.6,-658.8)">
+			<title>B_person</title>
+			<path d="M0 1647.78 L0 1571.04" class="st4"/>
+		</g>
+		<g id="shape96-102" v:mID="96" v:groupContext="shape" transform="translate(882,-590.4)">
+			<title>AB_ethernet</title>
+			<path d="M0 1647.78 L126 1647.78 L126 1618.98 L244.8 1618.98 L244.8 1618.98" class="st6"/>
+		</g>
+		<g id="shape94-107" v:mID="94" v:groupContext="shape" transform="translate(1623.6,-511.2)">
+			<title>B_vitals_osd</title>
+			<path d="M122.4 1575.78 L122.4 1647.78 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape92-112" v:mID="92" v:groupContext="shape" transform="translate(1828.8,-619.2)">
+			<title>B_vitals_i2c</title>
+			<path d="M11.1 1647.78 L11.46 1647.78 L100.14 1647.78" class="st5"/>
+		</g>
+		<g id="shape90-119" v:mID="90" v:groupContext="shape" transform="translate(1209.6,-792)">
+			<title>B_range_mailbox</title>
+			<path d="M453.6 1647.78 L432 1647.78 L432 1546.98 L0 1546.98 L0 1609.98 L0 1609.98" class="st6"/>
+		</g>
+		<g id="shape88-124" v:mID="88" v:groupContext="shape" transform="translate(1828.8,-770.4)">
+			<title>B_range_echo</title>
+			<path d="M111.6 1647.78 L11.46 1647.78" class="st4"/>
+		</g>
+		<g id="shape86-129" v:mID="86" v:groupContext="shape" transform="translate(1828.8,-813.6)">
+			<title>B_range_trig</title>
+			<path d="M0 1647.78 L100.14 1647.78" class="st4"/>
+		</g>
+		<g id="shape84-134" v:mID="84" v:groupContext="shape" transform="translate(1292.4,-788.4)">
+			<title>B_sensors_control</title>
+			<path d="M-0 1647.78 L46.14 1647.78" class="st4"/>
+		</g>
+		<g id="shape82-139" v:mID="82" v:groupContext="shape" transform="translate(1209.6,-829.8)">
+			<title>B_HSV_results</title>
+			<path d="M0 1523.58 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape80-144" v:mID="80" v:groupContext="shape" transform="translate(1209.6,-1062)">
+			<title>B_read_hsv</title>
+			<path d="M453.6 1604.58 L0 1604.58 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape78-149" v:mID="78" v:groupContext="shape" transform="translate(1623.6,-1036.8)">
+			<title>B_read_source</title>
+			<path d="M39.6 1647.78 L11.46 1647.78" class="st4"/>
+		</g>
+		<g id="shape76-154" v:mID="76" v:groupContext="shape" transform="translate(1828.8,-1065.6)">
+			<title>B_ddr_bus</title>
+			<path d="M11.1 1647.78 L11.46 1647.78 L100.14 1647.78" class="st5"/>
+		</g>
+		<g id="shape74-161" v:mID="74" v:groupContext="shape" transform="translate(1569.6,-1134)">
+			<title>B_ISP_DDR</title>
+			<path d="M0 1586.58 L0 1626.18 L176.4 1626.18 L176.4 1647.78 L176.4 1647.78" class="st6"/>
+		</g>
+		<g id="shape72-166" v:mID="72" v:groupContext="shape" transform="translate(1623.6,-1231.2)">
+			<title>B_domain_clock</title>
+			<path d="M39.6 1647.78 L11.46 1647.78" class="st4"/>
+		</g>
+		<g id="shape70-171" v:mID="70" v:groupContext="shape" transform="translate(1828.8,-1231.2)">
+			<title>B_clock_in.70</title>
+			<path d="M111.6 1647.78 L11.46 1647.78" class="st4"/>
+		</g>
+		<g id="shape68-176" v:mID="68" v:groupContext="shape" transform="translate(1292.4,-1231.2)">
+			<title>B_init</title>
+			<path d="M-0 1647.78 L46.14 1647.78" class="st4"/>
+		</g>
+		<g id="shape66-181" v:mID="66" v:groupContext="shape" transform="translate(1486.8,-1267.2)">
+			<title>B_mipi</title>
+			<path d="M0 1482.18 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape64-186" v:mID="64" v:groupContext="shape" transform="translate(1209.6,-1267.2)">
+			<title>B_i2c</title>
+			<path d="M0 1636.68 L0 1636.32 L0 1493.64" class="st5"/>
+		</g>
+		<g id="shape50-193" v:mID="50" v:groupContext="shape" transform="translate(496.8,-493.2)">
+			<title>A_local_voice</title>
+			<path d="M68.4 1327.38 L14.4 1327.38 L14.4 1647.78 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape49-198" v:mID="49" v:groupContext="shape" transform="translate(313.2,-493.2)">
+			<title>A_local_video</title>
+			<path d="M18 1168.98 L0 1168.98 L0 1647.78 L18 1647.78 L18 1647.78" class="st6"/>
+		</g>
+		<g id="shape47-203" v:mID="47" v:groupContext="shape" transform="translate(723.6,-648)">
+			<title>A_bbox_to_eth</title>
+			<path d="M0 1503.78 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape45-208" v:mID="45" v:groupContext="shape" transform="translate(882,-622.8)">
+			<title>A_clean_sample</title>
+			<path d="M0 1226.58 L28.8 1226.58 L28.8 1647.78 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape43-213" v:mID="43" v:groupContext="shape" transform="translate(496.8,-842.4)">
+			<title>A_weight</title>
+			<path d="M0 1546.98 L28.8 1546.98 L28.8 1647.78 L68.4 1647.78 L68.4 1647.78" class="st6"/>
+		</g>
+		<g id="shape41-218" v:mID="41" v:groupContext="shape" transform="translate(414,-738)">
+			<title>A_param_ddr</title>
+			<path d="M0 1647.78 L0 1475.64" class="st4"/>
+		</g>
+		<g id="shape39-223" v:mID="39" v:groupContext="shape" transform="translate(212.4,-676.8)">
+			<title>A_flash_load</title>
+			<path d="M-0 1647.78 L107.34 1647.78" class="st4"/>
+		</g>
+		<g id="shape37-228" v:mID="37" v:groupContext="shape" transform="translate(723.6,-892.8)">
+			<title>A_npu_input</title>
+			<path d="M0 1539.78 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape35-233" v:mID="35" v:groupContext="shape" transform="translate(496.8,-1044)">
+			<title>A_video_read</title>
+			<path d="M-0 1647.78 L56.94 1647.78" class="st4"/>
+		</g>
+		<g id="shape33-238" v:mID="33" v:groupContext="shape" transform="translate(212.4,-1022.4)">
+			<title>A_ddr_bus</title>
+			<path d="M11.1 1647.78 L11.46 1647.78 L107.34 1647.78" class="st5"/>
+		</g>
+		<g id="shape31-245" v:mID="31" v:groupContext="shape" transform="translate(414,-1123.2)">
+			<title>A_capture_write</title>
+			<path d="M176.4 1575.78 L176.4 1626.18 L0 1626.18 L0 1647.78 L0 1647.78" class="st6"/>
+		</g>
+		<g id="shape29-250" v:mID="29" v:groupContext="shape" transform="translate(496.8,-1231.2)">
+			<title>A_cfg_done</title>
+			<path d="M-0 1647.78 L56.94 1647.78" class="st4"/>
+		</g>
+		<g id="shape27-255" v:mID="27" v:groupContext="shape" transform="translate(212.4,-1231.2)">
+			<title>A_clock</title>
+			<path d="M-0 1647.78 L107.34 1647.78" class="st4"/>
+		</g>
+		<g id="shape25-260" v:mID="25" v:groupContext="shape" transform="translate(723.6,-1267.2)">
+			<title>A_mipi</title>
+			<path d="M0 1482.18 L0 1636.32" class="st4"/>
+		</g>
+		<g id="shape23-265" v:mID="23" v:groupContext="shape" transform="translate(414,-1267.2)">
+			<title>A_i2c</title>
+			<path d="M0 1636.68 L0 1636.32 L0 1493.64" class="st5"/>
+		</g>
+		<g id="shape1-272" v:mID="1" v:groupContext="shape" transform="translate(72,-1530)">
+			<title>title</title>
+			<desc>双 FPGA 履带式消防医疗救援车整体框架图</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="1008" cy="1626.18" width="2016" height="43.2"/>
+			<rect x="0" y="1604.58" width="2016" height="43.2" class="st9"/>
+			<text x="728.38" y="1635.76" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>双<tspan
+						class="st11"> </tspan><tspan class="st11">FPGA </tspan>履带式消防医疗救援车整体框架图</text>		</g>
+		<g id="shape4-277" v:mID="4" v:groupContext="shape" transform="translate(460.8,-1316.88)">
+			<title>A_board_title</title>
+			<desc>FPGA A / PH1P35</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="1632.66" width="230.4" height="30.24"/>
+			<rect x="0" y="1617.54" width="230.4" height="30.24" class="st12"/>
+			<text x="34.72" y="1638.36" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FPGA A  /  PH1P35</text>		</g>
+		<g id="shape5-280" v:mID="5" v:groupContext="shape" transform="translate(1227.6,-1316.88)">
+			<title>B_board_title</title>
+			<desc>FPGA B / PH1P35</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="1632.66" width="230.4" height="30.24"/>
+			<rect x="0" y="1617.54" width="230.4" height="30.24" class="st12"/>
+			<text x="35.25" y="1638.36" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FPGA B  /  PH1P35</text>		</g>
+		<g id="shape6-283" v:mID="6" v:groupContext="shape" transform="translate(345.6,-1432.8)">
+			<title>A_camera</title>
+			<desc>SC500 CMOS Camera A (MIPI CSI-2)</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="259.2" cy="1618.98" width="518.4" height="57.6"/>
+			<rect x="0" y="1590.18" width="518.4" height="57.6" class="st1"/>
+			<text x="90.61" y="1625.28" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SC500 CMOS Camera A  (MIPI CSI-2)</text>		</g>
+		<g id="shape7-286" v:mID="7" v:groupContext="shape" transform="translate(1123.2,-1432.8)">
+			<title>B_camera</title>
+			<desc>SC500 CMOS Camera B (MIPI CSI-2)</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="259.2" cy="1618.98" width="518.4" height="57.6"/>
+			<rect x="0" y="1590.18" width="518.4" height="57.6" class="st1"/>
+			<text x="91.19" y="1625.28" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SC500 CMOS Camera B  (MIPI CSI-2)</text>		</g>
+		<g id="shape8-289" v:mID="8" v:groupContext="shape" transform="translate(32.4,-932.4)">
+			<title>A_DDR</title>
+			<desc>DDR 图像 / NPU 参数</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1557.78" width="180" height="180"/>
+			<rect x="0" y="1467.78" width="180" height="180" class="st1"/>
+			<text x="69.94" y="1550.98" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DDR<v:newlineChar/><tspan
+						x="23.23" dy="1.287em" class="st16">图像</tspan> / NPU <tspan class="st16">参数</tspan></text>		</g>
+		<g id="shape9-294" v:mID="9" v:groupContext="shape" transform="translate(32.4,-630)">
+			<title>A_flash</title>
+			<desc>U33 Flash NPU 模型参数</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1600.98" width="180" height="93.6"/>
+			<rect x="0" y="1554.18" width="180" height="93.6" class="st1"/>
+			<text x="52.75" y="1594.53" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U33 Flash<v:newlineChar/><tspan
+						x="33.75" dy="1.287em" class="st18">NPU </tspan><tspan class="st16">模型参数</tspan></text>		</g>
+		<g id="shape10-299" v:mID="10" v:groupContext="shape" transform="translate(32.4,-1195.2)">
+			<title>A_clock_in</title>
+			<desc>50 MHz 系统复位</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1611.78" width="180" height="72"/>
+			<rect x="0" y="1575.78" width="180" height="72" class="st1"/>
+			<text x="60.25" y="1605.33" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>50 MHz<v:newlineChar/><tspan
+						x="54" dy="1.287em" class="st16">系统复位</tspan></text>		</g>
+		<g id="shape11-303" v:mID="11" v:groupContext="shape" transform="translate(1940.4,-986.4)">
+			<title>B_DDR</title>
+			<desc>DDR 视频 / Linux</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1568.58" width="180" height="158.4"/>
+			<rect x="0" y="1489.38" width="180" height="158.4" class="st1"/>
+			<text x="68.89" y="1561.42" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DDR<v:newlineChar/><tspan
+						x="38.33" dy="1.287em" class="st16">视频</tspan> / Linux</text>		</g>
+		<g id="shape12-307" v:mID="12" v:groupContext="shape" transform="translate(1940.4,-1195.2)">
+			<title>B_clock_in</title>
+			<desc>50 MHz 系统复位</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1611.78" width="180" height="72"/>
+			<rect x="0" y="1575.78" width="180" height="72" class="st1"/>
+			<text x="60.25" y="1605.33" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>50 MHz<v:newlineChar/><tspan
+						x="54" dy="1.287em" class="st16">系统复位</tspan></text>		</g>
+		<g id="shape13-311" v:mID="13" v:groupContext="shape" transform="translate(1940.4,-745.2)">
+			<title>HC_SR04</title>
+			<desc>HC-SR04 超声波测距</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1600.98" width="180" height="93.6"/>
+			<rect x="0" y="1554.18" width="180" height="93.6" class="st1"/>
+			<text x="52.52" y="1594.18" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HC-SR04<v:newlineChar/><tspan
+						x="42.5" dy="1.287em" class="st16">超声波测距</tspan></text>		</g>
+		<g id="shape14-315" v:mID="14" v:groupContext="shape" transform="translate(1940.4,-572.4)">
+			<title>MAX30102</title>
+			<desc>MAX30102 心率 / 血氧</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1600.98" width="180" height="93.6"/>
+			<rect x="0" y="1554.18" width="180" height="93.6" class="st1"/>
+			<text x="44.08" y="1594.18" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MAX30102<v:newlineChar/><tspan
+						x="44.61" dy="1.287em" class="st16">心率</tspan> / <tspan class="st16">血氧</tspan></text>		</g>
+		<g id="shape15-320" v:mID="15" v:groupContext="shape" transform="translate(331.2,-1195.2)">
+			<title>A_cfg</title>
+			<desc>Clock / Reset 相机 I²C 配置</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1611.78" width="165.6" height="72"/>
+			<rect x="0" y="1575.78" width="165.6" height="72" class="st20"/>
+			<text x="37" y="1605.69" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Clock / Reset<v:newlineChar/><tspan
+						x="33.5" dy="1.287em" class="st16">相机</tspan> I²C <tspan class="st16">配置</tspan></text>		</g>
+		<g id="shape16-325" v:mID="16" v:groupContext="shape" transform="translate(565.2,-1195.2)">
+			<title>A_capture</title>
+			<desc>MIPI CSI-2 / RAW10 解包 ISP 图像处理</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.4" cy="1611.78" width="316.8" height="72"/>
+			<rect x="0" y="1575.78" width="316.8" height="72" class="st20"/>
+			<text x="58.4" y="1605.86" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MIPI CSI-2 / RAW10 <tspan
+						class="st16">解包<v:newlineChar/></tspan><tspan x="107.14" dy="1.316em" class="st18">ISP </tspan><tspan
+						class="st16">图像处理</tspan></text>		</g>
+		<g id="shape17-331" v:mID="17" v:groupContext="shape" transform="translate(331.2,-921.6)">
+			<title>A_mem</title>
+			<desc>DDR Control 视频写入 / 读取 参数访问仲裁</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1546.98" width="165.6" height="201.6"/>
+			<rect x="0" y="1446.18" width="165.6" height="201.6" class="st20"/>
+			<text x="36.76" y="1529.71" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DDR Control<v:newlineChar/><tspan
+						x="25.19" dy="1.287em" class="st16">视频写入</tspan> / <tspan class="st16">读取<v:newlineChar/></tspan><tspan
+						x="31.8" dy="1.316em" class="st16">参数访问仲裁</tspan></text>		</g>
+		<g id="shape18-337" v:mID="18" v:groupContext="shape" transform="translate(565.2,-1000.8)">
+			<title>A_video</title>
+			<desc>Video Read / Input Sampling 1280 × 720 RGB → 推理 / 网络支路</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.4" cy="1604.58" width="316.8" height="86.4"/>
+			<rect x="0" y="1561.38" width="316.8" height="86.4" class="st20"/>
+			<text x="58.77" y="1598.49" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Video Read / Input Sampling<v:newlineChar/><tspan
+						x="29.64" dy="1.287em" class="st18">1280 × 720 RGB </tspan><tspan class="st16">→</tspan> <tspan
+						class="st16">推理</tspan> / <tspan class="st16">网络支路</tspan></text>		</g>
+		<g id="shape19-344" v:mID="19" v:groupContext="shape" transform="translate(565.2,-792)">
+			<title>A_npu</title>
+			<desc>NPU (person_detect) 160 × 120 输入 / 人员推理 BBox + Source / Resul...</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.4" cy="1597.38" width="316.8" height="100.8"/>
+			<rect x="0" y="1546.98" width="316.8" height="100.8" class="st20"/>
+			<text x="82.17" y="1580.13" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NPU (person_detect)<v:newlineChar/><tspan
+						x="58.57" dy="1.287em" class="st18">160 × 120 </tspan><tspan class="st16">输入</tspan> / <tspan class="st16">人员推理<v:newlineChar/></tspan><tspan
+						x="61.08" dy="1.229em" class="st18">BBox + Source / Result ID</tspan></text>		</g>
+		<g id="shape20-351" v:mID="20" v:groupContext="shape" transform="translate(331.2,-615.6)">
+			<title>A_boot</title>
+			<desc>MCU / Flash Bridge NPU 参数装载 DDR 权重供给</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1586.58" width="165.6" height="122.4"/>
+			<rect x="0" y="1525.38" width="165.6" height="122.4" class="st20"/>
+			<text x="17.24" y="1570.32" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MCU / Flash Bridge<v:newlineChar/><tspan
+						x="32.8" dy="1.287em" class="st18">NPU </tspan><tspan class="st16">参数装载<v:newlineChar/></tspan><tspan
+						x="31.91" dy="1.316em" class="st18">DDR </tspan><tspan class="st16">权重供给</tspan></text>		</g>
+		<g id="shape21-358" v:mID="21" v:groupContext="shape" transform="translate(565.2,-532.8)">
+			<title>A_ethernet</title>
+			<desc>Ethernet / UDP v3 TX 640 × 360 RGB565 + BBox RGMII / PHY</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="158.4" cy="1590.18" width="316.8" height="115.2"/>
+			<rect x="0" y="1532.58" width="316.8" height="115.2" class="st20"/>
+			<text x="72.91" y="1573.08" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ethernet / UDP v3 TX<v:newlineChar/><tspan
+						x="51.35" dy="1.2em" class="st18">640 × 360 RGB565 + BBox<v:newlineChar/></tspan><tspan x="104.03"
+						dy="1.2em" class="st18">RGMII / PHY</tspan></text>		</g>
+		<g id="shape22-363" v:mID="22" v:groupContext="shape" transform="translate(331.2,-462.6)">
+			<title>A_local</title>
+			<desc>HDMI / OSD Voice UART</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1617.18" width="165.6" height="61.2"/>
+			<rect x="0" y="1586.58" width="165.6" height="61.2" class="st20"/>
+			<text x="39.24" y="1612.38" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HDMI / OSD<v:newlineChar/><tspan
+						x="39.92" dy="1.2em" class="st18">Voice UART</tspan></text>		</g>
+		<g id="shape24-367" v:mID="24" v:groupContext="shape" transform="translate(-1246.74,360.78) rotate(-90)">
+			<title>A_i2c_label</title>
+			<desc>O_cam_scl / IO_cam_sda</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.8" cy="1639.14" width="147.6" height="17.28"/>
+			<rect x="0" y="1630.5" width="147.6" height="17.28" class="st9"/>
+			<text x="11.82" y="1642.74" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_cam_scl / IO_cam_sda</text>		</g>
+		<g id="shape26-370" v:mID="26" v:groupContext="shape" transform="translate(-886.38,358.98) rotate(-90)">
+			<title>A_mipi_label</title>
+			<desc>MIPI clk / data ±</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="1635.18" width="129.6" height="25.2"/>
+			<rect x="0" y="1622.58" width="129.6" height="25.2" class="st9"/>
+			<text x="17.02" y="1639.38" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MIPI clk / data ±</text>		</g>
+		<g id="shape28-373" v:mID="28" v:groupContext="shape" transform="translate(208.8,-1249.2)">
+			<title>A_clock_label</title>
+			<desc>I_sys_clk I_rst_n</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.2" cy="1633.38" width="122.4" height="28.8"/>
+			<rect x="0" y="1618.98" width="122.4" height="28.8" class="st9"/>
+			<text x="38.2" y="1629.78" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>I_sys_clk<v:newlineChar/><tspan
+						x="44.2" dy="1.2em" class="st18">I_rst_n</tspan></text>		</g>
+		<g id="shape30-377" v:mID="30" v:groupContext="shape" transform="translate(496.44,-1242)">
+			<title>A_cfg_done_label</title>
+			<desc>cfg_done</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.2" cy="1636.98" width="68.4" height="21.6"/>
+			<rect x="0" y="1626.18" width="68.4" height="21.6" class="st9"/>
+			<text x="11.88" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>cfg_done</text>		</g>
+		<g id="shape32-380" v:mID="32" v:groupContext="shape" transform="translate(367.2,-1149.84)">
+			<title>A_isp_label</title>
+			<desc>ISP RGB / frame_start</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.8" cy="1636.98" width="201.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="201.6" height="21.6" class="st9"/>
+			<text x="46.3" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ISP RGB / frame_start</text>		</g>
+		<g id="shape34-383" v:mID="34" v:groupContext="shape" transform="translate(210.6,-1044)">
+			<title>A_ddr_label</title>
+			<desc>ddr_dq / dqs addr / ba ras / cas / we</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.4" cy="1622.58" width="118.8" height="50.4"/>
+			<rect x="0" y="1597.38" width="118.8" height="50.4" class="st9"/>
+			<text x="29.4" y="1611.78" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ddr_dq / dqs<v:newlineChar/><tspan
+						x="38.41" dy="1.2em" class="st18">addr / ba<v:newlineChar/></tspan><tspan x="28.41" dy="1.2em" class="st18">ras / cas / we</tspan></text>		</g>
+		<g id="shape36-388" v:mID="36" v:groupContext="shape" transform="translate(492.84,-1058.4)">
+			<title>A_video_read_label</title>
+			<desc>RGB888</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="37.8" cy="1636.98" width="75.61" height="21.6"/>
+			<rect x="0" y="1626.18" width="75.6" height="21.6" class="st9"/>
+			<text x="16.46" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RGB888</text>		</g>
+		<g id="shape38-391" v:mID="38" v:groupContext="shape" transform="translate(-882.78,752.1) rotate(-90)">
+			<title>A_npu_input_label</title>
+			<desc>frame / byte</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.68" cy="1635.18" width="99.36" height="25.2"/>
+			<rect x="0" y="1622.58" width="99.36" height="25.2" class="st9"/>
+			<text x="18.28" y="1639.08" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>frame / byte</text>		</g>
+		<g id="shape40-394" v:mID="40" v:groupContext="shape" transform="translate(210.6,-696.6)">
+			<title>A_flash_label</title>
+			<desc>Flash / AHB</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.4" cy="1635.18" width="118.8" height="25.2"/>
+			<rect x="0" y="1622.58" width="118.8" height="25.2" class="st9"/>
+			<text x="26.53" y="1639.08" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Flash / AHB</text>		</g>
+		<g id="shape42-397" v:mID="42" v:groupContext="shape" transform="translate(-1248.18,886.74) rotate(-90)">
+			<title>A_param_ddr_label</title>
+			<desc>param / weight</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="68.4" cy="1636.98" width="136.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="136.8" height="21.6" class="st9"/>
+			<text x="29.41" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>param / weight</text>		</g>
+		<g id="shape44-400" v:mID="44" v:groupContext="shape" transform="translate(-1100.58,803.58) rotate(-90)">
+			<title>A_weight_label</title>
+			<desc>weight</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45" cy="1636.98" width="90" height="21.6"/>
+			<rect x="0" y="1626.18" width="90" height="21.6" class="st9"/>
+			<text x="28.67" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>weight</text>		</g>
+		<g id="shape46-403" v:mID="46" v:groupContext="shape" transform="translate(-742.74,942.18) rotate(-90)">
+			<title>A_clean_sample_label</title>
+			<desc>clean RGB / frame metadata</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="1636.98" width="230.4" height="21.6"/>
+			<rect x="0" y="1626.18" width="230.4" height="21.6" class="st9"/>
+			<text x="41.21" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clean RGB / frame metadata</text>		</g>
+		<g id="shape48-406" v:mID="48" v:groupContext="shape" transform="translate(-884.22,992.58) rotate(-90)">
+			<title>A_bbox_label</title>
+			<desc>BBox / result_id</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="1635.18" width="129.6" height="25.2"/>
+			<rect x="0" y="1622.58" width="129.6" height="25.2" class="st9"/>
+			<text x="21.83" y="1639.08" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>BBox / result_id</text>		</g>
+		<g id="shape51-409" v:mID="51" v:groupContext="shape" transform="translate(1126.8,-1195.2)">
+			<title>B_cfg</title>
+			<desc>CMOS Init I²C 配置</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1611.78" width="165.6" height="72"/>
+			<rect x="0" y="1575.78" width="165.6" height="72" class="st20"/>
+			<text x="44.78" y="1605.69" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CMOS Init<v:newlineChar/><tspan
+						x="52.63" dy="1.287em" class="st18">I</tspan>²C <tspan class="st16">配置</tspan></text>		</g>
+		<g id="shape52-414" v:mID="52" v:groupContext="shape" transform="translate(1350,-1195.2)">
+			<title>B_capture</title>
+			<desc>MIPI / RAW10 / ISP Video In / Out</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1611.78" width="273.6" height="72"/>
+			<rect x="0" y="1575.78" width="273.6" height="72" class="st20"/>
+			<text x="60.79" y="1606.38" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MIPI / RAW10 / ISP<v:newlineChar/><tspan
+						x="84.56" dy="1.2em" class="st18">Video In / Out</tspan></text>		</g>
+		<g id="shape53-418" v:mID="53" v:groupContext="shape" transform="translate(1663.2,-1195.2)">
+			<title>B_clock</title>
+			<desc>Clock And Reset PLL / CDC</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1611.78" width="165.6" height="72"/>
+			<rect x="0" y="1575.78" width="165.6" height="72" class="st20"/>
+			<text x="24.72" y="1606.68" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Clock And Reset<v:newlineChar/><tspan
+						x="43.6" dy="1.2em" class="st18">PLL / CDC</tspan></text>		</g>
+		<g id="shape54-422" v:mID="54" v:groupContext="shape" transform="translate(1663.2,-997.2)">
+			<title>B_mem</title>
+			<desc>DDR Control 本地 / 网络视频 CPU 访问仲裁</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1579.38" width="165.6" height="136.8"/>
+			<rect x="0" y="1510.98" width="165.6" height="136.8" class="st20"/>
+			<text x="39.46" y="1563.12" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DDR Control<v:newlineChar/><tspan
+						x="28.58" dy="1.287em" class="st16">本地</tspan> / <tspan class="st16">网络视频<v:newlineChar/></tspan><tspan
+						x="33.24" dy="1.316em" class="st18">CPU </tspan><tspan class="st16">访问仲裁</tspan></text>		</g>
+		<g id="shape55-429" v:mID="55" v:groupContext="shape" transform="translate(1350,-995.4)">
+			<title>B_source</title>
+			<desc>Video Source Select (B4) B 本地 / A 网络2×</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1606.38" width="273.6" height="82.8"/>
+			<rect x="0" y="1564.98" width="273.6" height="82.8" class="st20"/>
+			<text x="44.58" y="1599.93" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Video Source Select (B4)<v:newlineChar/><tspan
+						x="49.22" dy="1.287em" class="st18">B </tspan><tspan class="st16">本地</tspan> / A <tspan class="st16">网络</tspan><tspan
+						class="st16">（</tspan>2×<tspan class="st16">）</tspan></text>		</g>
+		<g id="shape56-437" v:mID="56" v:groupContext="shape" transform="translate(1126.8,-954)">
+			<title>B_color</title>
+			<desc>HSV Color Detect Yellow → 火焰 Green → 物资 去噪 / 框确认</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1593.78" width="165.6" height="108"/>
+			<rect x="0" y="1539.78" width="165.6" height="108" class="st20"/>
+			<text x="23.7" y="1566.99" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HSV Color Detect<v:newlineChar/><tspan
+						x="31.25" dy="1.287em" class="st18">Yellow </tspan><tspan class="st16">→</tspan> <tspan class="st16">火焰<v:newlineChar/></tspan><tspan
+						x="35.26" dy="1.316em" class="st18">Green </tspan><tspan class="st16">→</tspan> <tspan class="st16">物资<v:newlineChar/></tspan><tspan
+						x="36.58" dy="1.316em" class="st16">去噪</tspan> / <tspan class="st16">框确认</tspan></text>		</g>
+		<g id="shape57-448" v:mID="57" v:groupContext="shape" transform="translate(1126.8,-747)">
+			<title>B_sensors</title>
+			<desc>Sensor Mailbox 人员 / 黄绿 / 距离 CDC / 新鲜度</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1606.38" width="165.6" height="82.8"/>
+			<rect x="0" y="1564.98" width="165.6" height="82.8" class="st20"/>
+			<text x="31.91" y="1590.12" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Sensor Mailbox<v:newlineChar/><tspan
+						x="22.35" dy="1.287em" class="st16">人员</tspan> / <tspan class="st16">黄绿</tspan> / <tspan class="st16">距离<v:newlineChar/></tspan><tspan
+						x="36.13" dy="1.316em" class="st18">CDC / </tspan><tspan class="st16">新鲜度</tspan></text>		</g>
+		<g id="shape58-456" v:mID="58" v:groupContext="shape" transform="translate(1350,-729)">
+			<title>B_control</title>
+			<desc>Rescue Control 绿色任务 → 人员近距停车 → 黄色消防 → 常规前进 Arm / Fire / Car /...</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1588.38" width="273.6" height="118.8"/>
+			<rect x="0" y="1528.98" width="273.6" height="118.8" class="st20"/>
+			<text x="81.06" y="1559.29" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Rescue Control<v:newlineChar/><tspan
+						x="33.3" dy="1.287em" class="st16">绿色任务</tspan> <tspan class="st16">→</tspan> <tspan class="st16">人员近距停车<v:newlineChar/></tspan><tspan
+						x="40.05" dy="1.316em" class="st16">→</tspan> <tspan class="st16">黄色消防</tspan> <tspan class="st16">→</tspan> <tspan
+						class="st16">常规前进<v:newlineChar/></tspan><tspan x="50.32" dy="1.229em" class="st18">Arm / Fire / Car / Voice</tspan></text>		</g>
+		<g id="shape59-467" v:mID="59" v:groupContext="shape" transform="translate(1663.2,-756)">
+			<title>B_range</title>
+			<desc>HC-SR04 Ranging 距离 / 有效标志</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1611.78" width="165.6" height="72"/>
+			<rect x="0" y="1575.78" width="165.6" height="72" class="st20"/>
+			<text x="22.13" y="1606.05" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HC-SR04 Ranging<v:newlineChar/><tspan
+						x="28.58" dy="1.287em" class="st16">距离</tspan> / <tspan class="st16">有效标志</tspan></text>		</g>
+		<g id="shape60-472" v:mID="60" v:groupContext="shape" transform="translate(1663.2,-583.2)">
+			<title>B_vitals</title>
+			<desc>MAX30102 / I²C 心率 / SpO₂</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1611.78" width="165.6" height="72"/>
+			<rect x="0" y="1575.78" width="165.6" height="72" class="st20"/>
+			<text x="24.05" y="1605.69" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MAX30102 / I²C<v:newlineChar/><tspan
+						x="40.61" dy="1.287em" class="st16">心率</tspan> / SpO<tspan class="st26">₂</tspan></text>		</g>
+		<g id="shape61-477" v:mID="61" v:groupContext="shape" transform="translate(1126.8,-579.6)">
+			<title>B_rx</title>
+			<desc>Ethernet / UDP RX 视频 DDR 双缓存 BBox / Frame ID</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1608.18" width="165.6" height="79.2"/>
+			<rect x="0" y="1568.58" width="165.6" height="79.2" class="st20"/>
+			<text x="20.36" y="1592.85" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ethernet / UDP RX<v:newlineChar/><tspan
+						x="21.91" dy="1.287em" class="st16">视频</tspan> DDR <tspan class="st16">双缓存<v:newlineChar/></tspan><tspan
+						x="27.03" dy="1.229em" class="st18">BBox / Frame ID</tspan></text>		</g>
+		<g id="shape62-483" v:mID="62" v:groupContext="shape" transform="translate(1126.8,-448.2)">
+			<title>B_linux</title>
+			<desc>VexRiscv / Linux DDR 执行 / 点云 MMIO</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1613.58" width="165.6" height="68.4"/>
+			<rect x="0" y="1579.38" width="165.6" height="68.4" class="st20"/>
+			<text x="25.92" y="1598.25" class="st22" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>VexRiscv / Linux<v:newlineChar/><tspan
+						x="25.69" dy="1.287em" class="st18">DDR </tspan><tspan class="st16">执行</tspan> / <tspan class="st16">点云</tspan> <tspan
+						x="60.13" dy="1.229em" class="st18">MMIO</tspan></text>		</g>
+		<g id="shape63-490" v:mID="63" v:groupContext="shape" transform="translate(1350,-471.6)">
+			<title>B_display</title>
+			<desc>Video Effects / OSD / HDMI 目标框 / 距离 / 血氧 / 云图</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1608.18" width="273.6" height="79.2"/>
+			<rect x="0" y="1568.58" width="273.6" height="79.2" class="st20"/>
+			<text x="36.94" y="1602.09" class="st21" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Video Effects / OSD / HDMI<v:newlineChar/><tspan
+						x="40.47" dy="1.287em" class="st16">目标框</tspan> / <tspan class="st16">距离</tspan> / <tspan class="st16">血氧</tspan> / <tspan
+						class="st16">云图</tspan></text>		</g>
+		<g id="shape65-497" v:mID="65" v:groupContext="shape" transform="translate(-451.86,358.98) rotate(-90)">
+			<title>B_i2c_label</title>
+			<desc>O_cam_scl / IO_cam_sda</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="1636.98" width="129.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="129.6" height="21.6" class="st9"/>
+			<text x="34.64" y="1633.38" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_cam_scl / <tspan
+						x="34.48" dy="1.2em" class="st18">IO_cam_sda</tspan></text>		</g>
+		<g id="shape67-501" v:mID="67" v:groupContext="shape" transform="translate(-124.98,358.98) rotate(-90)">
+			<title>B_mipi_label</title>
+			<desc>MIPI clk / data ±</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="1636.98" width="129.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="129.6" height="21.6" class="st9"/>
+			<text x="17.02" y="1641.18" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MIPI clk / data ±</text>		</g>
+		<g id="shape69-504" v:mID="69" v:groupContext="shape" transform="translate(1292.4,-1242)">
+			<title>B_init_label</title>
+			<desc>cfg_done</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.8" cy="1636.98" width="57.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="57.6" height="21.6" class="st9"/>
+			<text x="6.48" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>cfg_done</text>		</g>
+		<g id="shape71-507" v:mID="71" v:groupContext="shape" transform="translate(1828.44,-1249.2)">
+			<title>B_clock_label</title>
+			<desc>I_sys_clk I_rst_n</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.8" cy="1629.78" width="111.6" height="36"/>
+			<rect x="0" y="1611.78" width="111.6" height="36" class="st9"/>
+			<text x="32.8" y="1626.18" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>I_sys_clk<v:newlineChar/><tspan
+						x="38.8" dy="1.2em" class="st18">I_rst_n</tspan></text>		</g>
+		<g id="shape73-511" v:mID="73" v:groupContext="shape" transform="translate(1614.96,-1245.6)">
+			<title>B_domain_label</title>
+			<desc>clk rst_n</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.8" cy="1629.78" width="57.6" height="36"/>
+			<rect x="0" y="1611.78" width="57.6" height="36" class="st9"/>
+			<text x="21.47" y="1626.18" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk<v:newlineChar/><tspan
+						x="16.8" dy="1.2em" class="st18">rst_n</tspan></text>		</g>
+		<g id="shape75-515" v:mID="75" v:groupContext="shape" transform="translate(1566,-1161.36)">
+			<title>B_ISP_DDR_label</title>
+			<desc>128-bit video write</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="93.6" cy="1636.98" width="187.2" height="21.6"/>
+			<rect x="0" y="1626.18" width="187.2" height="21.6" class="st9"/>
+			<text x="47.61" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>128-bit video write</text>		</g>
+		<g id="shape77-518" v:mID="77" v:groupContext="shape" transform="translate(1830.96,-1089)">
+			<title>B_ddr_label</title>
+			<desc>ddr_dq / dqs addr / ctrl</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="54" cy="1624.38" width="108" height="46.8"/>
+			<rect x="0" y="1600.98" width="108" height="46.8" class="st9"/>
+			<text x="24" y="1620.78" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ddr_dq / dqs<v:newlineChar/><tspan
+						x="30.68" dy="1.2em" class="st18">addr / ctrl</tspan></text>		</g>
+		<g id="shape79-522" v:mID="79" v:groupContext="shape" transform="translate(1621.08,-1051.2)">
+			<title>B_source_rgb</title>
+			<desc>RGB</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.4" cy="1633.38" width="46.8" height="28.8"/>
+			<rect x="0" y="1618.98" width="46.8" height="28.8" class="st9"/>
+			<text x="11.06" y="1636.98" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RGB</text>		</g>
+		<g id="shape81-525" v:mID="81" v:groupContext="shape" transform="translate(1267.2,-1110.96)">
+			<title>B_read_hsv_label</title>
+			<desc>本地原始 RGB / 像素坐标</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="118.8" cy="1636.98" width="237.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="237.6" height="21.6" class="st9"/>
+			<text x="46.75" y="1641.26" class="st27" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>本地原始<tspan
+						class="st11"> </tspan><tspan class="st11">RGB / </tspan>像素坐标</text>		</g>
+		<g id="shape83-530" v:mID="83" v:groupContext="shape" transform="translate(-456.18,817.98) rotate(-90)">
+			<title>B_HSV_label</title>
+			<desc>yellow / green</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.4" cy="1636.98" width="118.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="118.8" height="21.6" class="st9"/>
+			<text x="22.22" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>yellow / green</text>		</g>
+		<g id="shape85-533" v:mID="85" v:groupContext="shape" transform="translate(1274.4,-804.24)">
+			<title>B_sensors_control_label</title>
+			<desc>flags range_mm</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.8" cy="1629.78" width="93.6" height="36"/>
+			<rect x="0" y="1611.78" width="93.6" height="36" class="st9"/>
+			<text x="35.14" y="1626.18" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>flags<v:newlineChar/><tspan
+						x="21.14" dy="1.2em" class="st18">range_mm</tspan></text>		</g>
+		<g id="shape87-537" v:mID="87" v:groupContext="shape" transform="translate(1829.16,-822.24)">
+			<title>B_trig_label</title>
+			<desc>hcsr04_trig_out</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.8" cy="1636.98" width="111.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="111.6" height="21.6" class="st9"/>
+			<text x="17.8" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>hcsr04_trig_out</text>		</g>
+		<g id="shape89-540" v:mID="89" v:groupContext="shape" transform="translate(1829.16,-740.16)">
+			<title>B_echo_label</title>
+			<desc>hcsr04_echo_in</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.8" cy="1636.98" width="111.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="111.6" height="21.6" class="st9"/>
+			<text x="17.81" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>hcsr04_echo_in</text>		</g>
+		<g id="shape91-543" v:mID="91" v:groupContext="shape" transform="translate(1332,-900)">
+			<title>B_range_bus_label</title>
+			<desc>distance_mm / valid</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="1636.98" width="216" height="21.6"/>
+			<rect x="0" y="1626.18" width="216" height="21.6" class="st9"/>
+			<text x="55.29" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>distance_mm / valid</text>		</g>
+		<g id="shape93-546" v:mID="93" v:groupContext="shape" transform="translate(1829.16,-635.04)">
+			<title>B_vitals_i2c_label</title>
+			<desc>max30102 scl / sda</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.8" cy="1629.78" width="111.6" height="36"/>
+			<rect x="0" y="1611.78" width="111.6" height="36" class="st9"/>
+			<text x="30.47" y="1626.18" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>max30102<v:newlineChar/><tspan
+						x="36.47" dy="1.2em" class="st18">scl / sda</tspan></text>		</g>
+		<g id="shape95-550" v:mID="95" v:groupContext="shape" transform="translate(1729.44,-533.52)">
+			<title>B_vitals_osd_label</title>
+			<desc>HR / SpO₂</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50.4" cy="1636.98" width="100.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="100.8" height="21.6" class="st9"/>
+			<text x="22.11" y="1640.94" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HR / SpO<tspan
+						class="st26">₂</tspan></text>		</g>
+		<g id="shape97-554" v:mID="97" v:groupContext="shape" transform="translate(907.2,-644.4)">
+			<title>AB_ethernet_label</title>
+			<desc>RGMII / PHY Ethernet UDP RGB565 + BBox</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="93.6" cy="1622.58" width="187.2" height="50.4"/>
+			<rect x="0" y="1597.38" width="187.2" height="50.4" class="st9"/>
+			<text x="53.54" y="1609.98" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>RGMII / PHY<v:newlineChar/><tspan
+						x="54.14" dy="1.2em" class="st18">Ethernet UDP<v:newlineChar/></tspan><tspan x="44.92" dy="1.2em"
+						class="st18">RGB565 + BBox</tspan></text>		</g>
+		<g id="shape99-559" v:mID="99" v:groupContext="shape" transform="translate(-400.02,983.22) rotate(-90)">
+			<title>B_person_label</title>
+			<desc>person</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.6" cy="1636.98" width="79.2" height="21.6"/>
+			<rect x="0" y="1626.18" width="79.2" height="21.6" class="st9"/>
+			<text x="22.27" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>person</text>		</g>
+		<g id="shape101-562" v:mID="101" v:groupContext="shape" transform="translate(-332.34,747.78) rotate(-90)">
+			<title>B_network_video_label</title>
+			<desc>network RGB</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="46.8" cy="1636.98" width="93.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="93.6" height="21.6" class="st9"/>
+			<text x="13.3" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>network RGB</text>		</g>
+		<g id="shape105-565" v:mID="105" v:groupContext="shape" transform="translate(1263.6,-534.6)">
+			<title>B_map_to_osd_label</title>
+			<desc>MMIO / Map 201 × 201</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="61.2" cy="1627.98" width="122.4" height="39.6"/>
+			<rect x="0" y="1608.18" width="122.4" height="39.6" class="st9"/>
+			<text x="28.53" y="1624.38" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MMIO / Map<v:newlineChar/><tspan
+						x="36.82" dy="1.2em" class="st18">201 × 201</tspan></text>		</g>
+		<g id="shape107-569" v:mID="107" v:groupContext="shape" transform="translate(1098.36,-540)">
+			<title>B_color_linux_label</title>
+			<desc>目标元数据</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="52.2" cy="1636.98" width="104.4" height="21.6"/>
+			<rect x="0" y="1626.18" width="104.4" height="21.6" class="st9"/>
+			<text x="22.2" y="1640.93" class="st28" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>目标元数据</text>		</g>
+		<g id="shape109-572" v:mID="109" v:groupContext="shape" transform="translate(288,-226.8)">
+			<title>A_local_out</title>
+			<desc>A 板本地 HDMI 语音模块</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="126" cy="1611.78" width="252" height="72"/>
+			<rect x="0" y="1575.78" width="252" height="72" class="st1"/>
+			<text x="57.11" y="1605.2" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A <tspan
+						class="st16">板本地</tspan> HDMI<v:newlineChar/><tspan x="86" dy="1.316em" class="st16">语音模块</tspan></text>		</g>
+		<g id="shape110-577" v:mID="110" v:groupContext="shape" transform="translate(669.6,-223.2)">
+			<title>car_out</title>
+			<desc>STM32 → 履带底盘 前进 / 后退 / 转向 / 停车</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1608.18" width="273.6" height="79.2"/>
+			<rect x="0" y="1568.58" width="273.6" height="79.2" class="st1"/>
+			<text x="55.52" y="1601.93" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>STM32 <tspan
+						class="st16">→</tspan> <tspan class="st16">履带底盘<v:newlineChar/></tspan><tspan x="38.63" dy="1.316em"
+						class="st16">前进</tspan> / <tspan class="st16">后退</tspan> / <tspan class="st16">转向</tspan> / <tspan
+						class="st16">停车</tspan></text>		</g>
+		<g id="shape111-586" v:mID="111" v:groupContext="shape" transform="translate(1054.8,-223.2)">
+			<title>arm_out</title>
+			<desc>六关节机械臂 抓取 / 搬运 / 回位</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="126" cy="1608.18" width="252" height="79.2"/>
+			<rect x="0" y="1568.58" width="252" height="79.2" class="st1"/>
+			<text x="66" y="1601.6" class="st29" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>六关节机械臂<v:newlineChar/><tspan
+						x="50.44" dy="1.316em" class="st18">抓取</tspan><tspan class="st11"> </tspan><tspan class="st11">/ </tspan>搬运<tspan
+						class="st11"> </tspan><tspan class="st11">/ </tspan>回位</text>		</g>
+		<g id="shape112-594" v:mID="112" v:groupContext="shape" transform="translate(1386,-223.2)">
+			<title>fire_out</title>
+			<desc>瞄准舵机 / 水泵驱动 黄色火焰消防</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="126" cy="1608.18" width="252" height="79.2"/>
+			<rect x="0" y="1568.58" width="252" height="79.2" class="st1"/>
+			<text x="38.22" y="1601.6" class="st29" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>瞄准舵机<tspan
+						class="st11"> </tspan><tspan class="st11">/ </tspan>水泵驱动<v:newlineChar/><tspan x="66" dy="1.316em"
+						class="st18">黄色火焰消防</tspan></text>		</g>
+		<g id="shape113-600" v:mID="113" v:groupContext="shape" transform="translate(1749.6,-223.2)">
+			<title>voice_out</title>
+			<desc>语音播报模块 火焰 / 物资 / 人员</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="100.8" cy="1608.18" width="201.6" height="79.2"/>
+			<rect x="0" y="1568.58" width="201.6" height="79.2" class="st1"/>
+			<text x="49.8" y="1602.59" class="st30" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>语音播报模块<v:newlineChar/><tspan
+						x="36.58" dy="1.316em" class="st18">火焰</tspan><tspan class="st11"> </tspan><tspan class="st11">/ </tspan>物资<tspan
+						class="st11"> </tspan><tspan class="st11">/ </tspan>人员</text>		</g>
+		<g id="shape115-608" v:mID="115" v:groupContext="shape" transform="translate(-1197.78,1340.34) rotate(-90)">
+			<title>A_local_out_label</title>
+			<desc>TMDS / UART TX</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="68.4" cy="1636.98" width="136.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="136.8" height="21.6" class="st9"/>
+			<text x="17.3" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>TMDS / UART TX</text>		</g>
+		<g id="shape117-611" v:mID="117" v:groupContext="shape" transform="translate(756,-381.6)">
+			<title>B_car_out_label</title>
+			<desc>O_car_uart_tx (9600 8N1)</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="140.4" cy="1636.98" width="280.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="280.8" height="21.6" class="st9"/>
+			<text x="64.01" y="1641.18" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_car_uart_tx  (9600 8N1)</text>		</g>
+		<g id="shape119-614" v:mID="119" v:groupContext="shape" transform="translate(1076.4,-316.8)">
+			<title>B_arm_out_label</title>
+			<desc>O_arm_pwm[5:0]</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="104.4" cy="1636.98" width="208.8" height="21.6"/>
+			<rect x="0" y="1626.18" width="208.8" height="21.6" class="st9"/>
+			<text x="53.86" y="1641.18" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_arm_pwm[5:0]</text>		</g>
+		<g id="shape121-617" v:mID="121" v:groupContext="shape" transform="translate(1375.2,-316.8)">
+			<title>B_fire_out_label</title>
+			<desc>servo_pwm_out / pump_ctrl_out</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="1636.98" width="273.6" height="21.6"/>
+			<rect x="0" y="1626.18" width="273.6" height="21.6" class="st9"/>
+			<text x="58.14" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>servo_pwm_out / pump_ctrl_out</text>		</g>
+		<g id="shape123-620" v:mID="123" v:groupContext="shape" transform="translate(1774.8,-356.76)">
+			<title>B_voice_out_label</title>
+			<desc>O_voice_uart_tx 9600 8N1</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="86.4" cy="1631.58" width="172.8" height="32.4"/>
+			<rect x="0" y="1615.38" width="172.8" height="32.4" class="st9"/>
+			<text x="42.72" y="1627.68" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_voice_uart_tx<v:newlineChar/><tspan
+						x="60.58" dy="1.2em" class="st18">9600 8N1</tspan></text>		</g>
+		<g id="shape124-624" v:mID="124" v:groupContext="shape" transform="translate(1422,-59.4)">
+			<title>B_HDMI_out</title>
+			<desc>HDMI 综合显示 (1280 × 720)</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="162" cy="1613.58" width="324" height="68.4"/>
+			<rect x="0" y="1579.38" width="324" height="68.4" class="st1"/>
+			<text x="31.84" y="1620.49" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HDMI <tspan
+						class="st16">综合显示</tspan> (1280 × 720)</text>		</g>
+		<g id="shape126-628" v:mID="126" v:groupContext="shape" transform="translate(1994.76,-356.4)">
+			<title>B_HDMI_out_label</title>
+			<desc>O_tmds_ch[0:2]_p O_tmds_clk_p</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.4" cy="1622.58" width="154.8" height="50.4"/>
+			<rect x="0" y="1597.38" width="154.8" height="50.4" class="st9"/>
+			<text x="24.52" y="1618.38" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O_tmds_ch[0:2]_p<v:newlineChar/><tspan
+						x="36.18" dy="1.2em" class="st18">O_tmds_clk_p</tspan></text>		</g>
+		<g id="shape127-632" v:mID="127" v:groupContext="shape" transform="translate(39.6,-59.4)">
+			<title>radar_in</title>
+			<desc>L150 / STM32 / JDY-33 雷达蓝牙串口</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="162" cy="1613.58" width="324" height="68.4"/>
+			<rect x="0" y="1579.38" width="324" height="68.4" class="st1"/>
+			<text x="73" y="1607.13" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L150 / STM32 / JDY-33<v:newlineChar/><tspan
+						x="108" dy="1.287em" class="st16">雷达蓝牙串口</tspan></text>		</g>
+		<g id="shape128-636" v:mID="128" v:groupContext="shape" transform="translate(439.2,-59.4)">
+			<title>pc_forward</title>
+			<desc>PC / Windows 串口采集与 send_map.py</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="144" cy="1613.58" width="288" height="68.4"/>
+			<rect x="0" y="1579.38" width="288" height="68.4" class="st1"/>
+			<text x="86.99" y="1607.13" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>PC  /  Windows<v:newlineChar/><tspan
+						x="49.01" dy="1.287em" class="st16">串口采集与</tspan> send_map.py</text>		</g>
+		<g id="shape129-640" v:mID="129" v:groupContext="shape" transform="translate(777.6,-59.4)">
+			<title>esp_link</title>
+			<desc>ESP32 Wi-Fi / UART PPP</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="1613.58" width="216" height="68.4"/>
+			<rect x="0" y="1579.38" width="216" height="68.4" class="st1"/>
+			<text x="83.49" y="1608.18" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ESP32<v:newlineChar/><tspan
+						x="37.74" dy="1.2em" class="st18">Wi</tspan>-Fi / UART PPP</text>		</g>
+		<g id="shape131-644" v:mID="131" v:groupContext="shape" transform="translate(362.16,-107.28)">
+			<title>radar_pc_label</title>
+			<desc>Serial</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.6" cy="1636.98" width="79.2" height="21.6"/>
+			<rect x="0" y="1626.18" width="79.2" height="21.6" class="st9"/>
+			<text x="25.6" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Serial</text>		</g>
+		<g id="shape133-647" v:mID="133" v:groupContext="shape" transform="translate(712.8,-110.16)">
+			<title>pc_esp_label</title>
+			<desc>Wi-Fi</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.6" cy="1636.98" width="79.2" height="21.6"/>
+			<rect x="0" y="1626.18" width="79.2" height="21.6" class="st9"/>
+			<text x="25.27" y="1640.58" class="st23" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Wi-Fi</text>		</g>
+		<g id="shape135-650" v:mID="135" v:groupContext="shape" transform="translate(-574.98,1413.78) rotate(-90)">
+			<title>esp_linux_label</title>
+			<desc>UART / PPP / SSH</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72" cy="1636.98" width="144" height="21.6"/>
+			<rect x="0" y="1626.18" width="144" height="21.6" class="st9"/>
+			<text x="21.42" y="1640.88" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>UART / PPP / SSH</text>		</g>
+		<g id="shape138-653" v:mID="138" v:groupContext="shape" transform="translate(1940.4,-883.8)">
+			<title>B_flash</title>
+			<desc>U33 Flash合成镜像 FPGA + Linux + MCU</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90" cy="1613.58" width="180" height="68.4"/>
+			<rect x="0" y="1579.38" width="180" height="68.4" class="st1"/>
+			<text x="13.96" y="1609.51" class="st31" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U33 Flash<tspan
+						class="st16">（</tspan><tspan class="st16">合成镜像</tspan><tspan class="st16">）<v:newlineChar/></tspan><tspan
+						x="19.86" dy="1.229em" class="st18">FPGA + Linux + MCU</tspan></text>		</g>
+		<g id="shape139-660" v:mID="139" v:groupContext="shape" transform="translate(1663.2,-883.8)">
+			<title>B_flash_loader</title>
+			<desc>MCU / AHB Bridge CPU ROM Loader</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.8" cy="1613.58" width="165.6" height="68.4"/>
+			<rect x="0" y="1579.38" width="165.6" height="68.4" class="st20"/>
+			<text x="21.76" y="1609.08" class="st31" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>MCU / AHB Bridge<v:newlineChar/><tspan
+						x="26.14" dy="1.2em" class="st18">CPU ROM Loader</tspan></text>		</g>
+		<g id="shape141-664" v:mID="141" v:groupContext="shape" transform="translate(1829.16,-947.52)">
+			<title>B_flash_read_label</title>
+			<desc>Flash Read / AHB</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="55.8" cy="1637.7" width="111.6" height="20.16"/>
+			<rect x="0" y="1627.62" width="111.6" height="20.16" class="st9"/>
+			<text x="15.31" y="1641" class="st32" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Flash Read / AHB</text>		</g>
+		<g id="shape143-667" v:mID="143" v:groupContext="shape" transform="translate(1749.6,-964.08)">
+			<title>B_linux_copy_label</title>
+			<desc>CPU copy / CRC32</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="1637.7" width="129.6" height="20.16"/>
+			<rect x="0" y="1627.62" width="129.6" height="20.16" class="st9"/>
+			<text x="21.25" y="1641" class="st32" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CPU copy / CRC32</text>		</g>
+		<g id="shape145-670" v:mID="145" v:groupContext="shape" transform="translate(1335.6,-927.36)">
+			<title>B_rom_flash_access_label</title>
+			<desc>ROM Loader: Flash → DDR</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="118.8" cy="1637.7" width="237.6" height="20.16"/>
+			<rect x="0" y="1627.62" width="237.6" height="20.16" class="st9"/>
+			<text x="54.64" y="1641.32" class="st32" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ROM Loader: Flash <tspan
+						class="st16">→</tspan> DDR</text>		</g>
+		<g id="shape146-674" v:mID="146" v:groupContext="shape" transform="translate(54,-151.2)">
+			<title>B_boot_chain</title>
+			<desc>B 板启动合成镜像写入 U33 Flash MCU / AHB 桥 → CPU ROM Loader → DDR → SB...</desc>
+			<v:textBlock v:margins="rect(2.16,3.6,2.16,3.6)" v:tabSpace="42.5197"/>
+			<v:textRect cx="450" cy="1626.18" width="900" height="43.2"/>
+			<rect x="0" y="1604.58" width="900" height="43.2" class="st9"/>
+			<text x="342.86" y="1621.57" class="st24" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B <tspan
+						class="st16">板启动</tspan><tspan class="st16">：</tspan><tspan class="st16">合成镜像写入</tspan> U33 Flash<v:newlineChar/><tspan
+						x="272.86" dy="1.316em" class="st18">MCU / AHB </tspan><tspan class="st16">桥</tspan> <tspan class="st16">→</tspan> CPU ROM Loader <tspan
+						class="st16">→</tspan> DDR <tspan class="st16">→</tspan> SBI / Linux</text>		</g>
+	</g>
+</svg>

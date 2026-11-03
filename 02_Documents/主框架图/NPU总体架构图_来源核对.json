@@ -1,0 +1,22 @@
+{
+  "file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\主框架图_20261031\\NPU总体架构图_蓝橙配色.vsdx",
+  "shape_count": 117,
+  "source_sha256": {
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_network_top.v": "6d473e3ba25c1691a6d5e53e059ae257da7eafd7590904bea4aeede9c48bb003",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_top_with_sdram_dma.v": "9e38dbd9102910e446a9f5aca23eed97d49fd877801b140255dba4e615f4bf92",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_core_top.v": "a47c9e82795188f801d8899ca012cd449bcf33006a06f58ec7830b6cad8e594f",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_sequencer.v": "0148703b0381fd6ac5a42898dc02fdda92f0c0a79d320027b60cd769537728fc",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\conv_engine_top.v": "3af7d47d06cea2ca1af3345e3e59adf2ba9b8bef5c8c2ea78c364cad7088db2c",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\pe_array.v": "4a89d4dd39fb3fb642a86d6e97f3e170d48a4696741a33505ebe5a9a503466da",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_model_config.vh": "b5aaaf9b57025fd9722383ec407efbddf95a6feedb9fc563819f6210e6b52d1e",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_video_input.v": "e9d5c64caa44a45e7335f0f545565a58e10f5cc3f2f2f92daeec203751390881",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_rgb_input.v": "6d017924fba74c2dea4eb2b44bb4f61722e96ebb3ce2936bd96e6f2eeae074f8",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\lbp_to_ping_packer.v": "53d2da47b949d253783b7ba1560289436e68b2d440c2a05890510e02ead32c14",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_ddr_subsystem.v": "19a04b98853ae1b2bff5fd056915cda3dc13f18dac575dd6b6a153bdfddaffd8",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\weight_sdram_dma.v": "08398f36ff29111cc8df1694cbb08bed510c125dde8e05bbcd850fbc9b0924a3",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\import\\npu_bbox_overlay_160x120.v": "677b054b58d17677cc2693941eaed8d4e876d34d7229616246f0cd619c9ba9fa"
+  },
+  "source_instance_checks": "PASS",
+  "vsdx_package_check": "PASS",
+  "scope": "Architecture drawing only; no RTL modification, synthesis or board tests"
+}

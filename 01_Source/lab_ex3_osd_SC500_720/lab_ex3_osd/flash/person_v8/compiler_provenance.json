@@ -1,0 +1,6 @@
+{
+  "source": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v5\\scripts\\compiler_person_v5.py",
+  "source_sha256": "af4448ae3d35b4763d4a39f1399a0c11008fb40fd70c592bdec7f6423bca04fa",
+  "adapted": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v8\\scripts\\compiler_person_v8.py",
+  "changes": "V8 source paths, correct 128/128 gate metadata and exact compiler provenance; packing/quantization unchanged"
+}

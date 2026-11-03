@@ -1,0 +1,54 @@
+# Local caches and generated outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+*_Runs/
+*.log
+*.logw
+*.wlf
+*.vcd
+*.obj
+*.o
+*.a
+*.bit
+*.exe
+captures/
+.lock.f
+
+# Firmware build products may embed device credentials.
+# Keep source, RTL, memory initialization and project descriptors needed by TD.
+**/firmware/**/build/**
+!**/firmware/**/build/**/
+!**/firmware/**/build/**/*.v
+!**/firmware/**/build/**/*.sv
+!**/firmware/**/build/**/*.vh
+!**/firmware/**/build/**/*.hex
+!**/firmware/**/build/**/*.mem
+!**/firmware/**/build/**/*.coe
+!**/firmware/**/build/**/*.mif
+!**/firmware/**/build/**/*.xml
+!**/firmware/**/build/**/*.adc
+!**/firmware/**/build/**/*.sdc
+!**/firmware/**/build/**/*.tcl
+!**/firmware/**/build/**/*.f
+!**/firmware/**/build/**/*.c
+!**/firmware/**/build/**/*.h
+!**/firmware/**/build/**/*.S
+!**/firmware/**/build/**/*.ld
+!**/firmware/**/build/**/*.mk
+!**/firmware/**/build/**/Makefile
+
+# Machine and device authentication files stay local.
+.env
+.env.*
+!.env.example
+*.openssh
+**/client_key*
+**/host_key*
+**/known_hosts*
+**/id_rsa
+**/id_ed25519
+**/id_ecdsa
+**/credentials.json

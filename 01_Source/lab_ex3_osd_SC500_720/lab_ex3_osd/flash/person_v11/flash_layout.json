@@ -1,0 +1,31 @@
+{
+  "model": "Person V11 QAT",
+  "parameter_file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\npu_params.bin",
+  "parameter_sha256": "e423fc5327ac94488efae26d029a7a1163cf203eede1685557e1fe7da3239dc1",
+  "parameter_size_bytes": 327680,
+  "crc32": "0905be5a",
+  "flash_device": "U33",
+  "parameter_offset": "0x200000",
+  "parameter_end_exclusive": "0x250000",
+  "fpga_bitstream_offset": "0x000000",
+  "fpga_config_reserved_end_exclusive": "0x200000",
+  "mcu_firmware_file": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\flash\\person_v11\\u33_boot_fw.bin",
+  "mcu_firmware_offset": "0xe00000",
+  "mcu_firmware_sha256": "f347a854f88361652aba9c80c1bead0ed651d98b4b0e23e88087c5b965f1a33c",
+  "td_project": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display.al",
+  "gate_bytes": [
+    128,
+    128
+  ],
+  "active_rtl_modified": true,
+  "requires_applying_rtl_update_before_bitstream": false,
+  "descriptor_is_compiled_rom": true,
+  "descriptor_flash_address": null,
+  "rtl_simulation_run": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "bitstream_generated": false,
+  "combined_flash_image_generated": false,
+  "physical_board_verified": false,
+  "new_fpga_bitstream_required": true
+}

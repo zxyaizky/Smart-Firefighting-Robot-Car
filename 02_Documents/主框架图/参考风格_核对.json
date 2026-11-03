@@ -1,0 +1,52 @@
+{
+  "page": "系统主框架图",
+  "size_inches": [
+    24,
+    15
+  ],
+  "nodes": 50,
+  "edges": 47,
+  "sources": {
+    "A_project": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\td_project\\camera_to_dsi_display.al",
+      "sha256": "608480603c8e9225497781c9a29de41b9668c35e87833776a7282b891ec3c4e3"
+    },
+    "B_project": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\td_project\\camera_to_dsi_display_lidar.al",
+      "sha256": "d3987ce79e015b4aace46a308bf339fc11e42dfef37b2e5a1765a303829addf0"
+    },
+    "A_top": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\user_source\\hdl_source\\design_top_wrapper.v",
+      "sha256": "b4bba180cc5c11ff2641e4bc1e653f0723a2c5d9793530df936ac0111b4ce341"
+    },
+    "B_top": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\rtl\\design_top_wrapper.v",
+      "sha256": "acf74fc850e4bed82b09cc72aefbe3b0bccb01f81a2b988ac0abe89aa0e3469e"
+    },
+    "B_control": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\rtl\\rescue\\rescue_control.v",
+      "sha256": "b7c1def7be9dfcb692ea598fa4b9d12d9a7a70c2379c01f2f5edd8b9436d9890"
+    },
+    "map_sender": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\send_map.py",
+      "sha256": "0b26f3bc1a5325f241e4b12e8994a07bc6a048e09dbbc03fb8318a91242883c2"
+    },
+    "map_overlay": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\rtl\\lidar_map_overlay.v",
+      "sha256": "c083272fa8490aac58db5d7167aed506112a23aa87b2e3ef6e28c901da5a0b4b"
+    },
+    "linux_flash_pack": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\pack_flash.py",
+      "sha256": "e9a4e55fbaacc29e5e0da5dfabf64a52262d715c8198ce37acc9e778f16cf3fa"
+    },
+    "linux_rom_generator": {
+      "path": "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi_flash\\build.py",
+      "sha256": "f65b1a6059193353d2c1d4dea58b9befb010f00a66b4fadeace9ba8d287a5af0"
+    }
+  },
+  "vsdx_package_check": "PASS",
+  "style": "user reference: white / black / green engineering blocks",
+  "shapes": 144,
+  "native_vsdx_check": "PASS",
+  "linux_boot_path": "merged image -> U33 Flash -> MCU/AHB read bridge -> CPU ROM Loader -> DDR -> SBI/Linux"
+}

@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\lab_ex3_osd_SC500_720\\lab_ex3_osd\\user_source\\hdl_source\\design_top_wrapper.v": "b4bba180cc5c11ff2641e4bc1e653f0723a2c5d9793530df936ac0111b4ce341",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\rtl\\design_top_wrapper.v": "adcccd0e620e89190caa953004149f5b46eb400dd51e694eab30e6818d0030ba",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\rtl\\rescue\\rescue_control.v": "b7c1def7be9dfcb692ea598fa4b9d12d9a7a70c2379c01f2f5edd8b9436d9890",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\pack_flash.py": "e9a4e55fbaacc29e5e0da5dfabf64a52262d715c8198ce37acc9e778f16cf3fa",
+    "C:\\Users\\lx292\\Desktop\\qiansai_last\\test\\b_vexriscv_main_20261013\\work_B\\firmware\\linux_wifi\\lidar_hdmi\\test_rescue.py": "62a196c7062824a6f5ca7f302b39257f2e1f43a8c16db9780698b0bee6200cdc"
+  },
+  "shape_count": 98,
+  "connectors": 19,
+  "lanes": 3,
+  "validation": "PASS: owning code instances, bounds and VSDX structure",
+  "meaning": "Design workflow; no claim of completed synthesis or hardware validation"
+}

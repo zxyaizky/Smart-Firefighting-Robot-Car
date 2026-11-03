@@ -1,0 +1,9 @@
+{
+  "device": "U30 N25Q128",
+  "base_address": "0x000000",
+  "image_file": "u30_npu_params.bin",
+  "size_bytes": 327680,
+  "crc32": "054268c4",
+  "sha256": "37d2b207112e8ba787b60e21ab9a980f5e7d20962a9255ea06235ad338f3ddba",
+  "erased_tail_required": false
+}
